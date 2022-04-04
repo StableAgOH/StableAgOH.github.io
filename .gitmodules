@@ -1,0 +1,3 @@
+[submodule "themes/arknights"]
+	path = themes/arknights
+	url = git@github.com:StableAgOH/hexo-theme-arknights.git
