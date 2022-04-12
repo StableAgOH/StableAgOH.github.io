@@ -16,7 +16,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F1.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F1.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 双阶乘
@@ -27,7 +27,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F2.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F2.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 格点
@@ -38,7 +38,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F3.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F3.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 整数分解
@@ -64,7 +64,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F4.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F4.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 城邦
@@ -75,7 +75,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F5.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F5.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 游戏
@@ -93,7 +93,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F6.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F6.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 特殊年份
@@ -104,7 +104,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F7.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F7.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 小平方
@@ -113,7 +113,7 @@ category: 题解
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F8.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F8.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 完全平方数
@@ -132,7 +132,7 @@ $$A={p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}$$
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F9.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F9.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 负载均衡
@@ -143,7 +143,7 @@ $$A={p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}$$
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F10.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F10.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 国际象棋
@@ -153,15 +153,15 @@ $$A={p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}$$
 状压 DP，把每行棋子放法用 01 串来表示，放了马为 1，没放为 0：
 
 * 状态设计：$dp[i][p][q][j]$ 代表当前放到第 $i$ 行，放法为 $p$，上一行放法为 $q$，已经放了 $j$ 个马的方案数
-* 初始状态：$dp[1][p][0][popcount(p)] = 1~,p \in [0, 2^n-1]$ （同一行的马不会互相攻击所以可以随便放）
-* 转移方程：$$dp[i][p][q][j] = \sum_{a} dp[i-1][q][a][j-popcount(p)]~,j \in [popcount(p), k],~(q,p),(a,p) \text{不冲突}$$
+* 初始状态：$dp[1][p][0][popcount(p)] = 1,p \in [0, 2^n-1]$ （同一行的马不会互相攻击所以可以随便放）
+* 转移方程：$$dp[i][p][q][j] = \sum_{a} dp[i-1][q][a][j-popcount(p)],j \in [popcount(p),k],(q,p) \And (a,p) \text{不冲突}$$
 * 所求结果：$$\sum_{p=0}^{2^n-1} \sum_{q=0}^{2^n-1} dp[m][p][q][k]$$
 
 注意数据范围 $n<=6,~m<=100$，即 $2^m >> 2^n$，故我们把 $m$ 当做行来处理可以极大地缩小空间时间复杂度，最终时间复杂度：$O(m \times 2^n \times 2^n \times 2^n \times k) = O(8^nmk)$
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F11.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F11.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 完美序列
@@ -214,5 +214,5 @@ $$\cfrac{2^{len-1}-1 \times \frac{1}{2}}{1-\frac{1}{2}}=2^{len}-1$$
 
 <details>
 <summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F12.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F12.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
