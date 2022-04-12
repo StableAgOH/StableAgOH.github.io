@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>第十二届蓝桥杯省赛第一场 C/C++ 组题解 | AgOH's Coffeehouse</title><script>var config = {"hostname":"https://agoh.xyz","root":"/","preload":false,"path":""}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><script>document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+      ],
+      throwOnError : false
+    });
+});</script><link rel="stylesheet" href="/css/arknights.css"><link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"><style>@font-face {
+ font-family: BenderLight;
+ src: local('Bender'), url("/font/BenderLight.ttf");
+}
+@font-face {
+ font-family: 'JetBrains Mono';
+ src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}</style><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十二届蓝桥杯省赛第一场 C/C++ 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-12T06:44:34.000Z" id="date"> 2022-04-12</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-12T07:58:54.729Z" id="updated"> 2022-04-12</time></span></span></div></div><hr><div id="post-content">
+
+	<div class="row">
+    <embed src="/pdf/LQ12province1_CA.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+
+	<div class="row">
+    <embed src="/pdf/LQ12province1_CB.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+
+<h2 id="空间"><a href="#空间" class="headerlink" title="空间"></a>空间</h2><p>常识题，1MB&#x3D;1024KB, 1KB&#x3D;1024Bytes, 1Byte&#x3D;8bits</p>
+<p>故 256MB 可以存储 $256 \times 1024 \times 1024 \times 8 \div 32&#x3D;67108864$ 个 32 位二进制整数。</p>
+<p>答案：$67108864$</p>
+<h2 id="卡片"><a href="#卡片" class="headerlink" title="卡片"></a>卡片</h2><p>模拟即可，首先开一个数组 $a$，记录 $0 \sim 9$ 的卡片各有 $2021$ 张</p>
+<p>$i$ 从 $1$ 开始递增，对于每个 $i$，遍历其所有数位的数字，于数组 $a$ 中使卡片数量减 $1$，若发现无法减了（值为 $0$），则说明 $i$ 拼不出来，那么答案就是 $i-1$。</p>
+<p>答案：$3181$</p>
+<details>
+<summary>Code</summary>
+</details>
+
+<h2 id="直线"><a href="#直线" class="headerlink" title="直线"></a>直线</h2><p>我们只需要遍历所有点对，对于每对点对求出其所成直线的一般式（为什么是一般式？因为斜截式这种涉及到浮点数的方式，会因精度问题导致答案错误），然后装进 <code>std::set</code> 去重（$Ax+By+C&#x3D;0$ 只需要装 $(A,B,C)$ 即可），最后输出 <code>std::set</code> 的大小即可</p>
+<p>当然，因为一条直线有无限个一般式，所以不要忘记约分</p>
+<p>答案：$40257$</p>
+<h2 id="货物摆放"><a href="#货物摆放" class="headerlink" title="货物摆放"></a>货物摆放</h2><h3 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h3><p>直接暴力遍历 $L$ 和 $W$，$H$ 随之确定即可</p>
+<p>注意不是直接 $O(n^2)$ 暴力，$n&#x3D;2021041820210418$，这属于作死</p>
+<p>容易发现，其实 $L$、$W$、$H$ 的组合只需要得出一次即可，因为三个数的其他组合可以靠组合数学解决：</p>
+<ul>
+<li>若三个数互相不同，共有 $6$ 种排列方式</li>
+<li>若只有两个数相同，共有 $3$ 种排列方式</li>
+<li>若三个数相等，共有 $1$ 种排列方式</li>
+</ul>
+<p>所以说 $L$ 只需要遍历到 $\sqrt[3]{n}$，$W$ 只需要遍历到 $\sqrt{\frac{n}{L}}$ 即可</p>
+<h3 id="质因数分解"><a href="#质因数分解" class="headerlink" title="质因数分解"></a>质因数分解</h3><p>首先找出 $2021041820210418$ 的质因子：</p>
+<p>$$2,3,3,3,17,131,2857,5882353$$</p>
+<p>然后问题就变成了把这 $8$ 个数分到三个集合（乘积分别作为 $L,W,H$）内且允许出现空集（视为 $1$）有几种方法。</p>
+<p>于是 $3^5 \times (1+3+6) &#x3D; 2430$</p>
+<p>答案：$2430$</p>
+<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><p>最短路裸题，因为没有负权边所以 Bellman-Ford，Dijkstra，甚至 Floyd 都行（反正是提答题）。</p>
+<p>答案：$10266837$</p>
+<h2 id="回路计数"><a href="#回路计数" class="headerlink" title="回路计数"></a>回路计数</h2><p>dfs 爆搜时间复杂度过于巨大，显然不行。需要用状压 dp 来优化</p>
+<ul>
+<li>状态设计：$dp[set][u]$ 代表当前到达点 $u$ 处且已经到达了 $set$ 中所有点的方案数（$u \in set$）</li>
+<li>初始状态：$dp[{1}][1]&#x3D;1$</li>
+<li>转移方程：$$dp[set][u]&#x3D;\sum_{v \in set,(u,v) \in E}dp[set-u][v]$$</li>
+<li>所求答案：$$\sum_{u \in V,(1,u) \in E}dp[V][u]$$</li>
+</ul>
+<p>$set$ 为可用一二进制数 $s$ 表示（状态压缩），$s$ 的第 $i$ 位为 $1$ 代表 $i$ 结点已到达过</p>
+<p>答案：$881012367360$</p>
+<h2 id="时间显示"><a href="#时间显示" class="headerlink" title="时间显示"></a>时间显示</h2><p>题目给的输入即为毫秒级的 UNIX 时间戳，直接调库即可，注意需要输出 GMT 时间而不是 UTC 时间。</p>
+<ul>
+<li><code>C/C++</code>：先把毫秒转化为秒，然后用 <code>gmtime</code> 转 <code>tm</code> 后再用 <code>strftime</code> 格式化输出。</li>
+<li><code>Java</code>：<code>Date</code> 可以直接用毫秒时间戳构造，用 <code>SimpleDateFormat</code> 设置 GMT 时区后格式化输出。</li>
+<li><code>Python</code>：先把毫秒转化为秒，<code>time.gmtime</code> 后 <code>time.strftime</code> 格式化输出。</li>
+</ul>
+<p>当然不会调库的话也可以不调，因为只需要输出时分秒，所以把毫秒转换为秒后再对 $60 \times 60 \times 24&#x3D;86400$ 取模，然后再转换出时分秒即可。</p>
+<h2 id="砝码称重"><a href="#砝码称重" class="headerlink" title="砝码称重"></a>砝码称重</h2><p>天平问题是经典的背包问题</p>
+<ul>
+<li>状态设计：$dp[i][j]$ 表示选到第 $i$ 个砝码时重量 $j$ 能否称出来</li>
+<li>初始状态：$dp[i][w_i]&#x3D;true$</li>
+<li>状态转移方程：$$dp[i][j]&#x3D;dp[i-1][j] \lor dp[i-1][|j-w_i|] \lor dp[i-1][j+w[i]]$$</li>
+<li>所求答案：$$\sum_{j&#x3D;1}^{\sum w_i}[dp[n][j]&#x3D;true]$$</li>
+</ul>
+<p>第一维的转移只跟上一维有关，可以把式子拆开后使用滚动数组优化，不过在实现时要注意 $j$ 遍历的顺序</p>
+<p>$$dp[j]&#x3D;dp[j] \lor dp[j-w_i],~dp[j]&#x3D;dp[j] \lor dp[j+w_i]$$</p>
+<h2 id="杨辉三角形"><a href="#杨辉三角形" class="headerlink" title="杨辉三角形"></a>杨辉三角形</h2><p>首先，本题一定有解，因为 $\dbinom{n}{1}&#x3D;n$</p>
+<p>直接递推杨辉三角只能拿20分，空间及时间复杂度都太大了——都是 $O(n^2)$，我们需要分析一下</p>
+<p>显然杨辉三角形的右半部分是没用的，直接去掉即可</p>
+<p>对于杨辉三角中的任意一个数字，可以发现其必定大于其左上方的所有数字，也就是说我们可以把杨辉三角分成若干从右上到左下的斜列</p>
+<p>我们简单一些考虑，能递推出来的就暴力递推，不能递推出来的找规律算出来就是了：</p>
+<ul>
+<li>假设 $N$ 在第二斜列，那么显然最坏需要推 $N$ 层，不能承受，但显然第二斜列上数字对应行数，$N$ 即为数列的第 $\frac{N(N+1)}{2}+2$ 项</li>
+<li>假设 $N$ 在第三斜列，那么最坏需要推 $\dbinom{r}{3} \leq {10}^9$ 解得 $r&lt;&#x3D;44722$ 层，还是不能承受。但我们发现第三斜列上的数字是逐行 $+4,+5,\cdots$ 的，所以一个循环遍历一下就好了</li>
+<li>假设 $N$ 在第四斜列，那么最坏需要推 $\dbinom{r}{4} \leq {10}^9$ 解得 $r&lt;&#x3D;1819$ 层，这个是可以承受的，可以直接递推。另外显然第四斜列之后的斜列需要推的层数更少</li>
+</ul>
+<p>所以我们的解题步骤即：首先递推出前 $1819$ 层，若发现 $N$ 则直接输出其位置。若没发现则遍历第三斜列。若还是没发现则答案为 $\frac{N(N+1)}{2}+2$。</p>
+<h2 id="双向排序"><a href="#双向排序" class="headerlink" title="双向排序"></a>双向排序</h2><p>直接暴力排序的时间复杂度为 $O(mn\log{n})$ 的，只能得到 $60$ 分。</p>
+<h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><p>我们可以发现，对于连续的几条同一种操作，显然覆盖范围最广的会覆盖掉其它操作，所以首先我们使用一个栈来维护操作，使得两种操作在栈内交替出现</p>
+<p>然后，对于每个操作：</p>
+<ul>
+<li>若该操作与上一条操作的覆盖范围不相交，则该操作无效</li>
+<li>若该操作与上一条操作的覆盖范围相交，那么：<ul>
+<li>若相交的范围在上一对操作的相交范围之内，则对相交部分进行翻转即可</li>
+<li>若相交的范围不在上一对操作的相交范围之内，则上一对操作无效</li>
+</ul>
+</li>
+</ul>
+<p>可以发现我们需要做的事情只有不停的翻转某区间，而且需要翻转的区间是在不停变小的，所以说范围外的值一旦确定就不会更改，直接填数就好了</p>
+<p>时间复杂度 $O(n+m)$</p>
+<h3 id="线段树分裂合并"><a href="#线段树分裂合并" class="headerlink" title="线段树分裂合并"></a>线段树分裂合并</h3><p>本题为 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P2824">[HEOI2016&#x2F;TJOI2016]排序</a> 的弱化版，故解决方法相同：线段树分裂合并。</p>
+<p>因为值域线段树上的数是有序的，故对于排序操作即通过线段树的分裂合并操作使用一个值域线段树维护操作区间即可。</p>
+<p>时间复杂度 $O(m\log{n})$</p>
+<h2 id="异或数列"><a href="#异或数列" class="headerlink" title="异或数列"></a>异或数列</h2><p>因为是最后剩下的数字比较大的一方获胜，所以我们只需要从高到低考虑每个二进制位即可：如果某个二进制位上已经可以决出胜负，则结束；如果每一位都是平局则平局</p>
+<p>对于所有数字的某位：</p>
+<ul>
+<li>若 $1$ 的数量为偶数（包括 $0$ 个），因为所有的 $1$ 都要用上，所以必定平局；</li>
+<li>若 $1$ 的数量为奇数且没有 $0$，因为当 $1$ 的数量为偶数时必定平局，所以当 $1$ 的数量为奇数时因为该先手方进行操作故先手方只需要给自己异或 $1$ 即可必胜。</li>
+<li>若有 $0$ 的存在，因为 $0$ 异或一个数结果还是这个数所以选择用 $0$ 异或相当于换手<ul>
+<li>若 $0$ 的数量为偶数，因为所有 $0$ 都要用上，所以相当于没有 $0$（换手再换手等于没换）</li>
+<li>若 $0$ 的数量为奇数，相当于只有 $1$ 个 $0$<ul>
+<li>若 $1$ 的数量为 $1$，先手方只需要给自己异或上 $1$ 即可胜出</li>
+<li>若 $1$ 的数量为 $3,5,7,\cdots$，因为 $0$ 的存在导致后手方可以变为先手，所以本来的先手必胜变成了后手必胜</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>为什么当 $0$ 的数量为奇数 $1$ 的数量为 $1$ 时同样是奇数却是先手必胜呢？因为后手方利用换手获胜的必要条件是换手后还有 $1$ 进行操作，而 $1$ 的数量为 $1$ 时先手方给自己异或上 $1$ 后导致没有剩余的 $1$ 进行操作了，后手方的换手就变成了无用之举</p>
+<h2 id="左孩子右兄弟"><a href="#左孩子右兄弟" class="headerlink" title="左孩子右兄弟"></a>左孩子右兄弟</h2><p>显然对于一个结点我们只需要贪心地把其高度最高的子树尽量往下挂即可，极为简单的一道树上 DP</p>
+<ul>
+<li>状态设计：$dp[u]$ 代表 $u$ 结点对高度的最大贡献</li>
+<li>初始状态：$dp[leaf]&#x3D;0$</li>
+<li>状态转移：$$dp[u]&#x3D;son[u].length + \max_{v \in son[u]}dp[v]$$</li>
+<li>所求答案：$dp[rt]$</li>
+</ul>
+<h2 id="括号序列"><a href="#括号序列" class="headerlink" title="括号序列"></a>括号序列</h2><p>因为尽可能添加少的括号，所以添加的左、右括号不会出现如同 <code>()</code> 的形式，所以左括号与右括号添加的位置方案是相互独立的，不会相互影响。故总的方案数等于左括号的方案数 $\times$ 右括号的方案数。继续转换成只需要添加左括号：当需要添加右括号时将整个括号序列对称翻转，就转化为只需要添加左括号了</p>
+<p>若以右括号为分割点将整个序列进行分割，因为分割后的子串中均为左括号，添加任意数目的左括号方案数均为一种，那么此时我们仅需考虑添加不同数量的左括号的方案数即可。采用 DP：</p>
+<p>设 $n$ 为右括号数，$x$ 为共需添加多少个左括号，$b$ 代表当前至少需添加多少个左括号</p>
+<ul>
+<li>状态设计：$dp[i][j]$ 代表只考虑前 $i$ 个右括号，需要添加 $j$ 个左括号的方案数</li>
+<li>初始状态：$dp[1][~]&#x3D;1$</li>
+<li>状态转移：$$dp[i][j]&#x3D;\sum_{k&#x3D;b}^{x}dp[i-1][k]$$</li>
+<li>所求结果：$dp[n][x]$</li>
+</ul>
+<h2 id="分果果"><a href="#分果果" class="headerlink" title="分果果"></a>分果果</h2><p>待填坑……</p>
+<div id="paginator"></div></div><div id="post-footer"><div id="pages"><div id="footer-link" style="left: 50%;order: 0;border-left: 1px solid #fe2;padding-right: unset;max-width: calc(50% - 5px);"><a href="/2022/04/11/LQ12province2-C/">第十二届蓝桥杯省赛第二场 C/C++ 组题解 Prev →</a></div></div></div><details id="reward"><summary>打赏</summary><div id="alipay"><span>支付宝 | Alipay</span><br><img src="/img/Alipay.png"></div><div id="wechat"><span>微信 | WeChat</span><br><img src="/img/WeChat.png"></div></details></div><div id="bottom-btn"><a id="to-top" onClick="index.scrolltop();" title="to top" style="opacity: 0; display: none;">∧</a></div></article><div class="aside-box"><aside><div id="aside-top"><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a target="_blank" rel="noopener" href="https://space.bilibili.com/120174936">AgOH</a></h1><div id="description"><p>苛性银的咖啡屋</p></div><!--if page.published === undefined--><section id="total"><a id="total-archives" href="/archives"><span class="total-title">Archives Total:</span><span class="total-number">2</span></a><div id="total-tags"><span class="total-title">Tags:</span><span class="total-number">1</span></div><div id="total-categories"><span class="total-title">Categories:</span><span class="total-number">1</span></div></section></div><div id="aside-block"><div id="toc-div"><h1>INDEX</h1><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A9%BA%E9%97%B4"><span class="toc-number">1.</span> <span class="toc-text">空间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%A1%E7%89%87"><span class="toc-number">2.</span> <span class="toc-text">卡片</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B4%E7%BA%BF"><span class="toc-number">3.</span> <span class="toc-text">直线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%A7%E7%89%A9%E6%91%86%E6%94%BE"><span class="toc-number">4.</span> <span class="toc-text">货物摆放</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%9A%E4%B8%BE"><span class="toc-number">4.1.</span> <span class="toc-text">枚举</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B4%A8%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3"><span class="toc-number">4.2.</span> <span class="toc-text">质因数分解</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%AF%E5%BE%84"><span class="toc-number">5.</span> <span class="toc-text">路径</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9E%E8%B7%AF%E8%AE%A1%E6%95%B0"><span class="toc-number">6.</span> <span class="toc-text">回路计数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E6%98%BE%E7%A4%BA"><span class="toc-number">7.</span> <span class="toc-text">时间显示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%9D%E7%A0%81%E7%A7%B0%E9%87%8D"><span class="toc-number">8.</span> <span class="toc-text">砝码称重</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E5%BD%A2"><span class="toc-number">9.</span> <span class="toc-text">杨辉三角形</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E5%90%91%E6%8E%92%E5%BA%8F"><span class="toc-number">10.</span> <span class="toc-text">双向排序</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%88"><span class="toc-number">10.1.</span> <span class="toc-text">栈</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E6%AE%B5%E6%A0%91%E5%88%86%E8%A3%82%E5%90%88%E5%B9%B6"><span class="toc-number">10.2.</span> <span class="toc-text">线段树分裂合并</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%82%E6%88%96%E6%95%B0%E5%88%97"><span class="toc-number">11.</span> <span class="toc-text">异或数列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B7%A6%E5%AD%A9%E5%AD%90%E5%8F%B3%E5%85%84%E5%BC%9F"><span class="toc-number">12.</span> <span class="toc-text">左孩子右兄弟</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%AC%E5%8F%B7%E5%BA%8F%E5%88%97"><span class="toc-number">13.</span> <span class="toc-text">括号序列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%9E%9C%E6%9E%9C"><span class="toc-number">14.</span> <span class="toc-text">分果果</span></a></li></ol></div></div></div><footer><nobr><span class="text-title">Dr.</span><span class="text-content">不分解的 AgOH</span></nobr><br><nobr><span class="text-title">ID</span><span class="text-content">951391786</span></nobr><br><text>published with <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></text><text> Theme <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknight</a></text><wbr><text>by <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></text></footer></aside></div></main><canvas id="canvas-dust"></canvas><script src="/js/search.js"></script><script>const reset=_=>{}</script><script src="//unpkg.com/@highlightjs/cdn-assets@11.4.0/highlight.min.js"></script><script src="/js/arknights.js"></script><script>document.addEventListener("load",reset())</script></body></html>
