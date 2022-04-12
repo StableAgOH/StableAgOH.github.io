@@ -2,6 +2,7 @@
 title: 第十二届蓝桥杯省赛第二场 C/C++ 组题解
 date: 2022-04-11 20:13:18
 tags: 蓝桥杯
+category: 题解
 ---
 
 {% pdf /pdf/LQ12province2_CA.pdf %}
