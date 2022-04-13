@@ -3,7 +3,11 @@ aside:
   dr: https://space.bilibili.com/120174936
   copyright:
     Dr.: 不分解的 AgOH
-    ID: 951391786
+    官服ID: 951391786
+
+post:
+  word_count: true
+  reading_time: true
 
 katex:
   enable: true

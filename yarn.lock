@@ -1186,6 +1186,11 @@ hexo-util@^2.0.0, hexo-util@^2.5.0, hexo-util@^2.6.0:
     prismjs "^1.17.1"
     strip-indent "^3.0.0"
 
+hexo-wordcount@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz#5a60efc9d3c8e421956f2fd6683ca94a8a795264"
+  integrity sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew==
+
 hexo@^6.0.0:
   version "6.1.0"
   resolved "https://registry.npmmirror.com/hexo/-/hexo-6.1.0.tgz"
