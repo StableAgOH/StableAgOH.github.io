@@ -176,7 +176,7 @@ body {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "JetBrains Mono", 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
+  font-family: "Consolas", 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
   overflow-y: overlay;
   overflow-x: hidden;
 }
@@ -239,7 +239,7 @@ time {
 }
 code,
 pre {
-  font-family: "JetBrains Mono";
+  font-family: "Consolas";
 }
 code {
   margin: 0 !important;
@@ -256,7 +256,7 @@ kbd {
   margin: 0 2px;
   border-radius: 2px;
   padding: 0 3px;
-  font-family: "JetBrains Mono";
+  font-family: "Consolas";
 }
 em {
   font-family: Times, "Times New Roman", 'FangSong', 'SimSun', serif;
@@ -267,7 +267,7 @@ em {
 }
 strong em,
 em strong {
-  font-family: "JetBrains Mono", 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
+  font-family: "Consolas", 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
   color: #c0392b;
 }
 blockquote {
@@ -843,7 +843,7 @@ nav .navContent .navItem .navItemTitle {
   width: 100%;
 }
 .search-popup #search-result .recent-post {
-  font-family: 'JetBrains Mono';
+  font-family: 'Consolas';
   margin: 0;
   padding: 8px;
   border: none;
