@@ -104,3 +104,9 @@ theme: arknights
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+search:
+  enable: true
+  preload: true
+  path: search.json
+  format: striptags
