@@ -5,8 +5,7 @@ tags: 蓝桥杯
 category: 题解
 ---
 
-{% pdf /pdf/LQ12province2_CA.pdf %}
-{% pdf /pdf/LQ12province2_CB.pdf %}
+<script> embedpdf("题面", ["LQ12province2_CA", "LQ12province2_CB"]) </script>
 
 ## 求余
 
