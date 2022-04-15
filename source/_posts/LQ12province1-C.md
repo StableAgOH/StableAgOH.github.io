@@ -109,8 +109,18 @@ $set$ 为可用一二进制数 $s$ 表示（状态压缩），$s$ 的第 $i$ 位
 当然不会调库的话也可以不调，因为只需要输出时分秒，所以把毫秒转换为秒后再对 $60 \times 60 \times 24=86400$ 取模，然后再转换出时分秒即可。
 
 <details>
-<summary>Code</summary>
+<summary>C++</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
+
+<details>
+<summary>Java</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.java&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
+
+<details>
+<summary>Python</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.py&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 ## 砝码称重
