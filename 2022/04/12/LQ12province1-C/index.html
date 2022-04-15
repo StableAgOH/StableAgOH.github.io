@@ -9,7 +9,7 @@
 });</script><link rel="stylesheet" href="/css/arknights.css"><link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"><style>@font-face {
  font-family: BenderLight;
  src: local('Bender'), url("/font/BenderLight.ttf");
-}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十二届蓝桥杯省赛第一场 C/C++ 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-12T06:44:34.000Z" id="date"> 2022-04-12</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-13T11:35:36.999Z" id="updated"> 2022-04-13</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.6k</span></span><br><span>Read Time:<span class="control">&nbsp;9min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ12province1_CA", "LQ12province1_CB"]) </script>
+}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十二届蓝桥杯省赛第一场 C/C++ 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-12T06:44:34.000Z" id="date"> 2022-04-12</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-15T10:52:55.802Z" id="updated"> 2022-04-15</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.6k</span></span><br><span>Read Time:<span class="control">&nbsp;9min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ12province1_CA", "LQ12province1_CB"]) </script>
 
 <h2 id="空间"><a href="#空间" class="headerlink" title="空间"></a>空间</h2><p>常识题，1MB&#x3D;1024KB, 1KB&#x3D;1024Bytes, 1Byte&#x3D;8bits</p>
 <p>故 256MB 可以存储 $256 \times 1024 \times 1024 \times 8 \div 32&#x3D;67108864$ 个 32 位二进制整数。</p>
@@ -73,8 +73,18 @@
 </ul>
 <p>当然不会调库的话也可以不调，因为只需要输出时分秒，所以把毫秒转换为秒后再对 $60 \times 60 \times 24&#x3D;86400$ 取模，然后再转换出时分秒即可。</p>
 <details>
-<summary>Code</summary>
+<summary>C++</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
+
+<details>
+<summary>Java</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.java&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
+
+<details>
+<summary>Python</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.py&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 
 <h2 id="砝码称重"><a href="#砝码称重" class="headerlink" title="砝码称重"></a>砝码称重</h2><p>天平问题是经典的背包问题</p>
