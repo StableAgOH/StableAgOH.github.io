@@ -28,7 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Setup Pandoc
-        run: apt install pandoc
+        run: sudo apt install -qq pandoc
       - name: Build
         run: yarn install && yarn build
       - name: Deploy
