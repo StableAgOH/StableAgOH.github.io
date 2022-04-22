@@ -130,7 +130,7 @@ $$
 #### 朴素递推
 
 * 状态设计：$dp[i]$ 代表前 $i$ 列都被填满时的方案数
-* 初始状态：$dp[1] = 1$
+* 初始状态：$dp[0] = 1$
 * 转移方程：
   * 若最后一个放的是竖条
     * $dp[i-1]+$ 第 $i$ 列放一个竖条 $=dp[i]$
@@ -141,6 +141,16 @@ $$
     * $dp[i-5]+$ 两个 L 条两个横条 $=dp[i]$
     * $dp[i-6]+$ 两个 L 条三个横条 $=dp[i]$
     * $\vdots$
+
+  即：
+  
+  $$
+      \begin{aligned}
+          dp[i] &= dp[i-1]+dp[i-2]+2\sum_{j=0}^{i-3}dp[j] \\
+                &= dp[i-1]+\left( dp[i-2]+dp[i-3]+2\sum_{j=0}^{i-4}dp[j] \right)+dp[i-3] \\
+                &= 2dp[i-1] + dp[i-3]
+      \end{aligned}
+  $$
 * 所求结果：$dp[n]$
 
 #### 矩阵加速
@@ -149,9 +159,9 @@ $$
 
 $$
     \begin{cases}
-            2 \times dp[i-1] + 0 \times dp[i-2] + 1 \times dp[i-3] = dp[i] \\
-            1 \times dp[i-1] + 0 \times dp[i-2] + 0 \times dp[i-3] = dp[i-1] \\
-            0 \times dp[i-1] + 1 \times dp[i-2] + 0 \times dp[i-3] = dp[i-2]
+        2 \times dp[i-1] + 0 \times dp[i-2] + 1 \times dp[i-3] = dp[i] \\
+        1 \times dp[i-1] + 0 \times dp[i-2] + 0 \times dp[i-3] = dp[i-1] \\
+        0 \times dp[i-1] + 1 \times dp[i-2] + 0 \times dp[i-3] = dp[i-2]
     \end{cases}
     \Rightarrow
     \begin{bmatrix}
