@@ -9,137 +9,141 @@
 });</script><link rel="stylesheet" href="/css/arknights.css"><link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"><style>@font-face {
  font-family: BenderLight;
  src: local('Bender'), url("/font/BenderLight.ttf");
-}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十二届蓝桥杯省赛第二场 C/C++ 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-11T12:13:18.000Z" id="date"> 2022-04-11</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-21T11:53:56.361Z" id="updated"> 2022-04-21</time></span></span><br><span>Word Count:<span class="control">&nbsp;2k</span></span><br><span>Read Time:<span class="control">&nbsp;7min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ12province2_CA", "LQ12province2_CB"]) </script>
-
-<h2 id="求余"><a href="#求余" class="headerlink" title="求余"></a>求余</h2><p>送分题</p>
-<p>答案：$1$</p>
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F1.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
-
-<h2 id="双阶乘"><a href="#双阶乘" class="headerlink" title="双阶乘"></a>双阶乘</h2><p>只需要维护最后 $5$ 位即可，于是一个 <code>for</code> 搞定，边乘边对 ${10}^5$ 取模</p>
-<p>答案：$59375$</p>
+}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十二届蓝桥杯省赛第二场 C/C++ 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-11T12:13:18.000Z" id="date"> 2022-04-11</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-22T10:11:00.599Z" id="updated"> 2022-04-22</time></span></span><br><span>Word Count:<span class="control">&nbsp;1.9k</span></span><br><span>Read Time:<span class="control">&nbsp;7min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ12province2_CA", "LQ12province2_CB"]) </script>
+<h2 id="求余">求余</h2>
+<p>送分题</p>
+<p>答案：<span class="math inline">\(1\)</span></p>
+<h2 id="双阶乘">双阶乘</h2>
+<p>只需要维护最后 <span class="math inline">\(5\)</span> 位即可，于是一个 <code>for</code> 搞定，边乘边对 <span class="math inline">\({10}^5\)</span> 取模</p>
+<p>答案：<span class="math inline">\(59375\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F2.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="格点"><a href="#格点" class="headerlink" title="格点"></a>格点</h2><p>两重 <code>for</code> 遍历 $x,y$ 值然后加一个判断计数即可</p>
-<p>答案：$15698$</p>
+<h2 id="格点">格点</h2>
+<p>两重 <code>for</code> 遍历 <span class="math inline">\(x,y\)</span> 值然后加一个判断计数即可</p>
+<p>答案：<span class="math inline">\(15698\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F3.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="整数分解"><a href="#整数分解" class="headerlink" title="整数分解"></a>整数分解</h2><p>注意到所求为方案数，求方案数常见两种方法：组合数学或动态规划</p>
+<h2 id="整数分解">整数分解</h2>
+<p>注意到所求为方案数，求方案数常见两种方法：组合数学或动态规划</p>
 <p>本题两种方法均可</p>
-<h3 id="组合数学"><a href="#组合数学" class="headerlink" title="组合数学"></a>组合数学</h3><p>显然题目即为在 $2021$ 个 $1$ 的 $2020$ 个空隙中插入 $4$ 个隔板的方案数</p>
-<p>故答案为：$\binom{2020}{4}&#x3D;691677274345$</p>
-<h3 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h3><ul>
-<li>状态设计：$dp[i][j]$ 表示 $i$ 分成 $j$ 个正整数之和的方案数</li>
-<li>初始状态：$dp[i][1] &#x3D; 1$</li>
-<li>转移方程：$$dp[i][j] &#x3D; \sum_{k&#x3D;1}^{i-1} dp[k][j-1]$$</li>
-<li>所求结果：$dp[2021][5] &#x3D; 691677274345$</li>
+<h3 id="组合数学">组合数学</h3>
+<p>显然题目即为在 <span class="math inline">\(2021\)</span> 个 <span class="math inline">\(1\)</span> 的 <span class="math inline">\(2020\)</span> 个空隙中插入 <span class="math inline">\(4\)</span> 个隔板的方案数</p>
+<p>故答案为：<span class="math inline">\(\binom{2020}{4}=691677274345\)</span></p>
+<h3 id="动态规划">动态规划</h3>
+<ul>
+<li>状态设计：<span class="math inline">\(dp[i][j]\)</span> 表示 <span class="math inline">\(i\)</span> 分成 <span class="math inline">\(j\)</span> 个正整数之和的方案数</li>
+<li>初始状态：<span class="math inline">\(dp[i][1] = 1\)</span></li>
+<li>转移方程：<span class="math display">\[dp[i][j] = \sum_{k=1}^{i-1} dp[k][j-1]\]</span></li>
+<li>所求结果：<span class="math inline">\(dp[2021][5] = 691677274345\)</span></li>
 </ul>
-<p>答案：$691677274345$</p>
+<p>答案：<span class="math inline">\(691677274345\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F4.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="城邦"><a href="#城邦" class="headerlink" title="城邦"></a>城邦</h2><p>显然最小生成树裸题，下一道</p>
-<p>答案：$4046$</p>
+<h2 id="城邦">城邦</h2>
+<p>显然最小生成树裸题，下一道</p>
+<p>答案：<span class="math inline">\(4046\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F5.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>又是求方案数，发现这回不能用组合数学了，于是思路转向 DP</p>
+<h2 id="游戏">游戏</h2>
+<p>又是求方案数，发现这回不能用组合数学了，于是思路转向 DP</p>
 <ul>
-<li>状态设计：$dp[i]$ 表示从 $i$ 开始写的方案数</li>
-<li>初始状态：$dp[1] &#x3D; 1$</li>
-<li>转移方程：$$dp[i] &#x3D; \sum_{d|i} dp[d]$$</li>
-<li>所求结果：$$\sum_{i&#x3D;1}^{n} dp[i]$$</li>
+<li>状态设计：<span class="math inline">\(dp[i]\)</span> 表示从 <span class="math inline">\(i\)</span> 开始写的方案数</li>
+<li>初始状态：<span class="math inline">\(dp[1] = 1\)</span></li>
+<li>转移方程：<span class="math display">\[dp[i] = \sum_{d|i} dp[d]\]</span></li>
+<li>所求结果：<span class="math display">\[\sum_{i=1}^{n} dp[i]\]</span></li>
 </ul>
-<p>发现直接递推的话，对于每个数都需要 $O(\sqrt n)$ 找约数，时间复杂度是 $O(n \sqrt n)$ 的，有些慢。于是我们采用刷表法优化，用前向状态去更新后继状态，即用每个数的 DP 值去更新其倍数的 DP 值。时间复杂度 $O(n \log n)$</p>
-<p>答案：$1352184317599$</p>
+<p>发现直接递推的话，对于每个数都需要 <span class="math inline">\(O(\sqrt n)\)</span> 找约数，时间复杂度是 <span class="math inline">\(O(n \sqrt n)\)</span> 的，有些慢。于是我们采用刷表法优化，用前向状态去更新后继状态，即用每个数的 DP 值去更新其倍数的 DP 值。时间复杂度 <span class="math inline">\(O(n \log n)\)</span></p>
+<p>答案：<span class="math inline">\(1352184317599\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F6.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="特殊年份"><a href="#特殊年份" class="headerlink" title="特殊年份"></a>特殊年份</h2><p>模拟即可</p>
+<h2 id="特殊年份">特殊年份</h2>
+<p>模拟即可</p>
 <p>使用 <code>std::string</code> 可以非常简单地写出程序</p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F7.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="小平方"><a href="#小平方" class="headerlink" title="小平方"></a>小平方</h2><p>模拟……开个 <code>for</code> 循环即可</p>
+<h2 id="小平方">小平方</h2>
+<p>模拟……开个 <code>for</code> 循环即可</p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F8.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="完全平方数"><a href="#完全平方数" class="headerlink" title="完全平方数"></a>完全平方数</h2><p>设 $A$ 为完全平方数，有：$A&#x3D;x \times x$</p>
-<p>设 $x$ 的标准质因数分解式为：</p>
-<p>$$x&#x3D;{p_1}^{\alpha_1}{p_2}^{\alpha_2} \cdots {p_s}^{\alpha_s}$$</p>
-<p>则 $A$ 的标准质因数分解式为：</p>
-<p>$$A&#x3D;{p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}$$</p>
-<p>即 $A$ 的所有质因数都一定出现偶数次，故我们只需要对 $n$ 进行质因数分解，然后将所有出现了奇数次方的质因数乘在一起即为答案（将奇数补成偶数）。时间复杂度：$O(\sqrt n)$</p>
+<h2 id="完全平方数">完全平方数</h2>
+<p>设 <span class="math inline">\(A\)</span> 为完全平方数，有：<span class="math inline">\(A=x \times x\)</span></p>
+<p>设 <span class="math inline">\(x\)</span> 的标准质因数分解式为：</p>
+<p><span class="math display">\[x={p_1}^{\alpha_1}{p_2}^{\alpha_2} \cdots {p_s}^{\alpha_s}\]</span></p>
+<p>则 <span class="math inline">\(A\)</span> 的标准质因数分解式为：</p>
+<p><span class="math display">\[A={p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}\]</span></p>
+<p>即 <span class="math inline">\(A\)</span> 的所有质因数都一定出现偶数次，故我们只需要对 <span class="math inline">\(n\)</span> 进行质因数分解，然后将所有出现了奇数次方的质因数乘在一起即为答案（将奇数补成偶数）。时间复杂度：<span class="math inline">\(O(\sqrt n)\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F9.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h2><p>可以把分配任务想象成向计算机借了一些算力，时间到了后再还回去</p>
-<p>于是我们开一个堆来维护要还回去的算力，对于每次操作先把时间到了的需要还回去的算力还回去，再判断此次能否借来算力，若能借来算力，把计算机的算力扣除了借走的算力后，在堆中打一个欠条。重复此流程即可，时间复杂度：$O(n \log n)$</p>
+<h2 id="负载均衡">负载均衡</h2>
+<p>可以把分配任务想象成向计算机借了一些算力，时间到了后再还回去</p>
+<p>于是我们开一个堆来维护要还回去的算力，对于每次操作先把时间到了的需要还回去的算力还回去，再判断此次能否借来算力，若能借来算力，把计算机的算力扣除了借走的算力后，在堆中打一个欠条。重复此流程即可，时间复杂度：<span class="math inline">\(O(n \log n)\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F10.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="国际象棋"><a href="#国际象棋" class="headerlink" title="国际象棋"></a>国际象棋</h2><p>发现此题即 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1896">[SCOI2005] 互不侵犯</a> 的加强版。把王换成马，即会跟上两行有关系罢了</p>
+<h2 id="国际象棋">国际象棋</h2>
+<p>发现此题即 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1896">[SCOI2005] 互不侵犯</a> 的加强版。把王换成马，即会跟上两行有关系罢了</p>
 <p>状压 DP，把每行棋子放法用 01 串来表示，放了马为 1，没放为 0：</p>
 <ul>
-<li>状态设计：$dp[i][p][q][j]$ 代表当前放到第 $i$ 行，放法为 $p$，上一行放法为 $q$，已经放了 $j$ 个马的方案数</li>
-<li>初始状态：$dp[1][p][0][popcount(p)] &#x3D; 1,p \in [0, 2^n-1]$ （同一行的马不会互相攻击所以可以随便放）</li>
-<li>转移方程：$$dp[i][p][q][j] &#x3D; \sum_{a} dp[i-1][q][a][j-popcount(p)],j \in [popcount(p),k],(q,p) \And (a,p) \text{不冲突}$$</li>
-<li>所求结果：$$\sum_{p&#x3D;0}^{2^n-1} \sum_{q&#x3D;0}^{2^n-1} dp[m][p][q][k]$$</li>
+<li>状态设计：<span class="math inline">\(dp[i][p][q][j]\)</span> 代表当前放到第 <span class="math inline">\(i\)</span> 行，放法为 <span class="math inline">\(p\)</span>，上一行放法为 <span class="math inline">\(q\)</span>，已经放了 <span class="math inline">\(j\)</span> 个马的方案数</li>
+<li>初始状态：<span class="math inline">\(dp[1][p][0][popcount(p)] = 1,p \in [0, 2^n-1]\)</span> （同一行的马不会互相攻击所以可以随便放）</li>
+<li>转移方程：<span class="math display">\[dp[i][p][q][j] = \sum_{a} dp[i-1][q][a][j-popcount(p)],j \in [popcount(p),k],(q,p) \And (a,p) \text{不冲突}\]</span></li>
+<li>所求结果：<span class="math display">\[\sum_{p=0}^{2^n-1} \sum_{q=0}^{2^n-1} dp[m][p][q][k]\]</span></li>
 </ul>
-<p>注意数据范围 $n&lt;&#x3D;6,~m&lt;&#x3D;100$，即 $2^m &gt;&gt; 2^n$，故我们把 $m$ 当做行来处理可以极大地缩小空间时间复杂度，最终时间复杂度：$O(m \times 2^n \times 2^n \times 2^n \times k) &#x3D; O(8^nmk)$</p>
+<p>注意数据范围 <span class="math inline">\(n&lt;=6,~m&lt;=100\)</span>，即 <span class="math inline">\(2^m &gt;&gt; 2^n\)</span>，故我们把 <span class="math inline">\(m\)</span> 当做行来处理可以极大地缩小空间时间复杂度，最终时间复杂度：<span class="math inline">\(O(m \times 2^n \times 2^n \times 2^n \times k) = O(8^nmk)\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F11.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-
-<h2 id="完美序列"><a href="#完美序列" class="headerlink" title="完美序列"></a>完美序列</h2><p><strong>鸣谢：感谢 <a target="_blank" rel="noopener" href="https://tifa-233.xyz/">@Tifa</a> 大佬提供的主要思路</strong></p>
-<p>读完题目，我们可以轻松获取如下三个结论（以下简称“$1$ 至 $n$ 的所有排列中长度正好为 $n$ 阶最大完美长度的最长完美子序列”为“最长完美子序列”：</p>
-<ol>
-<li>$n$ 阶最大完美长度为 $\lfloor \log_2 n \rfloor + 1$</li>
-<li>每个“最长完美子序列”一定以 $1$ 为结尾</li>
-<li>每个“最长完美子序列”中一定只存在前一个数是后一个数的 $2$ 倍或 $3$ 倍，且 $3$ 倍只出现一次</li>
+<h2 id="完美序列">完美序列</h2>
+<p><strong>鸣谢：感谢 <span class="citation" data-cites="Tifa">[@Tifa]</span>(https://tifa-233.xyz/) 大佬提供的主要思路</strong></p>
+<p>读完题目，我们可以轻松获取如下三个结论（以下简称“<span class="math inline">\(1\)</span> 至 <span class="math inline">\(n\)</span> 的所有排列中长度正好为 <span class="math inline">\(n\)</span> 阶最大完美长度的最长完美子序列”为“最长完美子序列”：</p>
+<ol type="1">
+<li><span class="math inline">\(n\)</span> 阶最大完美长度为 <span class="math inline">\(\lfloor \log_2 n \rfloor + 1\)</span></li>
+<li>每个“最长完美子序列”一定以 <span class="math inline">\(1\)</span> 为结尾</li>
+<li>每个“最长完美子序列”中一定只存在前一个数是后一个数的 <span class="math inline">\(2\)</span> 倍或 <span class="math inline">\(3\)</span> 倍，且 <span class="math inline">\(3\)</span> 倍只出现一次</li>
 </ol>
-<p>第一个结论是显然的，因为下降最慢的完美序列为等比数列 $2^k,2^{k-1},\cdots,1$，故一个最大值为 $n$ 的完美序列的最大长度为 $\lfloor \log_2 n \rfloor + 1$</p>
-<p>第二个结论采取反证法：若存在一个“最长完美子序列” $P$ 不以 $1$ 为结尾，那么一定存在一个完美子序列 $Q&#x3D;(P,1)$ 比 $P$ 长，那么 $P$ 必然不是最长的，矛盾</p>
-<p>第三个结论采取反证法：首先，若出现了 $3$ 倍以上，即以长度 $2$ 出现了 $3$ 倍以上（例：$5,1$），但我们至少可以用长度 $3$ 来出现 $4$ 倍（$4,2,1$），也就说说若出现了 $3$ 倍以上，那么此“最长完美子序列”必然不是最长的，矛盾；其次，若出现了两个 $3$ 倍，即以长度 $3$ 出现了 $9$ 倍（例：$9,3,1$），但我们可以用长度 $4$ 来出现 $8$ 倍（$8,4,2,1$），也就是说若出现了 $9$ 倍，那么此“最长完美子序列”必然不是最长的，矛盾</p>
-<p>有了如上三个结论，我们就可以开始考虑如何解决这个问题了。设 $n$ 阶最大完美长度为 $len&#x3D;\lfloor \log_2 n \rfloor + 1$，我们分情况讨论：</p>
-<h3 id="“最长完美子序列”中不存在-3-倍，即“最长完美子序列”为：-2-len-1-rightarrow-1"><a href="#“最长完美子序列”中不存在-3-倍，即“最长完美子序列”为：-2-len-1-rightarrow-1" class="headerlink" title="“最长完美子序列”中不存在 $3$ 倍，即“最长完美子序列”为：$2^{len-1} \rightarrow 1$"></a>“最长完美子序列”中不存在 $3$ 倍，即“最长完美子序列”为：$2^{len-1} \rightarrow 1$</h3><p>此时“最长完美子序列”为等比数列 $2^{len-1},2^{len-2},\cdots,1$，由等比数列求和公式 $S_n&#x3D;\cfrac{a_1-a_{n}q}{1-q}$，此情况下“最长完美子序列”的和为：</p>
-<p>$$\cfrac{2^{len-1}-1 \times \frac{1}{2}}{1-\frac{1}{2}}&#x3D;2^{len}-1$$</p>
-<h3 id="“最长完美子序列”中存在-3-倍，即“最长完美子序列”为：-3-cdot-2-len-2-rightarrow-1"><a href="#“最长完美子序列”中存在-3-倍，即“最长完美子序列”为：-3-cdot-2-len-2-rightarrow-1" class="headerlink" title="“最长完美子序列”中存在 $3$ 倍，即“最长完美子序列”为：$3 \cdot 2^{len-2} \rightarrow 1$"></a>“最长完美子序列”中存在 $3$ 倍，即“最长完美子序列”为：$3 \cdot 2^{len-2} \rightarrow 1$</h3><p>注意：只有当 $n \geq 3 \cdot 2^{len-2}$ 时才会出现此情况</p>
-<p>设 $S_{len}$ 为存在 $3$ 倍情况下所有长度为 $len$ 的“最长完美子序列”的和，则有：</p>
-<p><img src="/images/LQ12province2-C/1.png" alt="1"></p>
-<p>递推预处理即可。以 $len&#x3D;5$ 为例，上式的各部分如下：</p>
-<p><img src="/images/LQ12province2-C/2.png" alt="2"></p>
-<p>当然，也可以使用此递推式的通项公式 $S_{len}&#x3D;2^{len-1}(3len-4) - len + 2$ 直接算出结果</p>
-<p>于是对于一个给定的 $n$，我们只需要判断一下是否可能出现第二种情况，根据上文所述即可获取所有“最长完美子序列”的和</p>
-<p>注意“最长完美子序列”是 $1$ 至 $n$ 的所有排列的子序列，也就是说每个“最长完美子序列”会出现多次，其出现次数为 $\cfrac{A_n^n}{A_{len}^{len}}&#x3D;\cfrac{n!}{len!}$，在计算答案时需要乘进去</p>
-<p>为什么是 $\cfrac{A_n^n}{A_{len}^{len}}$ 呢？$1$ 至 $n$ 的所有排列共有 $A_n^n$ 个，而其中“最长完美子序列”的相对位置是不变的，所以除掉“最长完美子序列”的排列数 $A_{len}^{len}$</p>
-<p>注意到出现了有理数取余，需要预处理阶乘及其逆元 $\left[ \cfrac{n!}{len!} \equiv n! \times (len!)^{-1} \pmod p \right]$。数据规模 $n \leq {10}^6$ 不是很大，采用 $O(n + \log p)$ 或者 $O(n \log n)$ 求逆元都可以。</p>
-<p>若采用 $O(n \log n)$ 求逆元则总时间复杂度为 $O(n \log n + T)$；若采用 $O(n + \log p)$ 求逆元则总时间复杂度为 $O(n + \log p + T)$</p>
+<p>第一个结论是显然的，因为下降最慢的完美序列为等比数列 <span class="math inline">\(2^k,2^{k-1},\cdots,1\)</span>，故一个最大值为 <span class="math inline">\(n\)</span> 的完美序列的最大长度为 <span class="math inline">\(\lfloor \log_2 n \rfloor + 1\)</span></p>
+<p>第二个结论采取反证法：若存在一个“最长完美子序列” <span class="math inline">\(P\)</span> 不以 <span class="math inline">\(1\)</span> 为结尾，那么一定存在一个完美子序列 <span class="math inline">\(Q=(P,1)\)</span> 比 <span class="math inline">\(P\)</span> 长，那么 <span class="math inline">\(P\)</span> 必然不是最长的，矛盾</p>
+<p>第三个结论采取反证法：首先，若出现了 <span class="math inline">\(3\)</span> 倍以上，即以长度 <span class="math inline">\(2\)</span> 出现了 <span class="math inline">\(3\)</span> 倍以上（例：<span class="math inline">\(5,1\)</span>），但我们至少可以用长度 <span class="math inline">\(3\)</span> 来出现 <span class="math inline">\(4\)</span> 倍（<span class="math inline">\(4,2,1\)</span>），也就说说若出现了 <span class="math inline">\(3\)</span> 倍以上，那么此“最长完美子序列”必然不是最长的，矛盾；其次，若出现了两个 <span class="math inline">\(3\)</span> 倍，即以长度 <span class="math inline">\(3\)</span> 出现了 <span class="math inline">\(9\)</span> 倍（例：<span class="math inline">\(9,3,1\)</span>），但我们可以用长度 <span class="math inline">\(4\)</span> 来出现 <span class="math inline">\(8\)</span> 倍（<span class="math inline">\(8,4,2,1\)</span>），也就是说若出现了 <span class="math inline">\(9\)</span> 倍，那么此“最长完美子序列”必然不是最长的，矛盾</p>
+<p>有了如上三个结论，我们就可以开始考虑如何解决这个问题了。设 <span class="math inline">\(n\)</span> 阶最大完美长度为 <span class="math inline">\(len=\lfloor \log_2 n \rfloor + 1\)</span>，我们分情况讨论：</p>
+<h3 id="最长完美子序列中不存在-3-倍即最长完美子序列为2len-1-rightarrow-1">“最长完美子序列”中不存在 <span class="math inline">\(3\)</span> 倍，即“最长完美子序列”为：<span class="math inline">\(2^{len-1} \rightarrow 1\)</span></h3>
+<p>此时“最长完美子序列”为等比数列 <span class="math inline">\(2^{len-1},2^{len-2},\cdots,1\)</span>，由等比数列求和公式 <span class="math inline">\(S_n=\cfrac{a_1-a_{n}q}{1-q}\)</span>，此情况下“最长完美子序列”的和为：</p>
+<p><span class="math display">\[\cfrac{2^{len-1}-1 \times \frac{1}{2}}{1-\frac{1}{2}}=2^{len}-1\]</span></p>
+<h3 id="最长完美子序列中存在-3-倍即最长完美子序列为3-cdot-2len-2-rightarrow-1">“最长完美子序列”中存在 <span class="math inline">\(3\)</span> 倍，即“最长完美子序列”为：<span class="math inline">\(3 \cdot 2^{len-2} \rightarrow 1\)</span></h3>
+<p>注意：只有当 <span class="math inline">\(n \geq 3 \cdot 2^{len-2}\)</span> 时才会出现此情况</p>
+<p>设 <span class="math inline">\(S_{len}\)</span> 为存在 <span class="math inline">\(3\)</span> 倍情况下所有长度为 <span class="math inline">\(len\)</span> 的“最长完美子序列”的和，则有：</p>
+<figure>
+<img src="/images/LQ12province2-C/1.png" alt="1" /><figcaption>1</figcaption>
+</figure>
+<p>递推预处理即可。以 <span class="math inline">\(len=5\)</span> 为例，上式的各部分如下：</p>
+<figure>
+<img src="/images/LQ12province2-C/2.png" alt="2" /><figcaption>2</figcaption>
+</figure>
+<p>当然，也可以使用此递推式的通项公式 <span class="math inline">\(S_{len}=2^{len-1}(3len-4) - len + 2\)</span> 直接算出结果</p>
+<p>于是对于一个给定的 <span class="math inline">\(n\)</span>，我们只需要判断一下是否可能出现第二种情况，根据上文所述即可获取所有“最长完美子序列”的和</p>
+<p>注意“最长完美子序列”是 <span class="math inline">\(1\)</span> 至 <span class="math inline">\(n\)</span> 的所有排列的子序列，也就是说每个“最长完美子序列”会出现多次，其出现次数为 <span class="math inline">\(\cfrac{A_n^n}{A_{len}^{len}}=\cfrac{n!}{len!}\)</span>，在计算答案时需要乘进去</p>
+<p>为什么是 <span class="math inline">\(\cfrac{A_n^n}{A_{len}^{len}}\)</span> 呢？<span class="math inline">\(1\)</span> 至 <span class="math inline">\(n\)</span> 的所有排列共有 <span class="math inline">\(A_n^n\)</span> 个，而其中“最长完美子序列”的相对位置是不变的，所以除掉“最长完美子序列”的排列数 <span class="math inline">\(A_{len}^{len}\)</span></p>
+<p>注意到出现了有理数取余，需要预处理阶乘及其逆元 <span class="math inline">\(\left[ \cfrac{n!}{len!} \equiv n! \times (len!)^{-1} \pmod p \right]\)</span>。数据规模 <span class="math inline">\(n \leq {10}^6\)</span> 不是很大，采用 <span class="math inline">\(O(n + \log p)\)</span> 或者 <span class="math inline">\(O(n \log n)\)</span> 求逆元都可以。</p>
+<p>若采用 <span class="math inline">\(O(n \log n)\)</span> 求逆元则总时间复杂度为 <span class="math inline">\(O(n \log n + T)\)</span>；若采用 <span class="math inline">\(O(n + \log p)\)</span> 求逆元则总时间复杂度为 <span class="math inline">\(O(n + \log p + T)\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F12.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
-<div id="paginator"></div></div><div id="post-footer"><div id="pages"><div id="footer-link" style="right: calc(50% - 1px);order: 1;border-right: 1px solid #fe2;padding-left: unset;max-width: calc(50% - 4px);"><a href="/2022/04/12/LQ12province1-C/">← Next 第十二届蓝桥杯省赛第一场 C/C++ 组题解</a></div></div></div><details id="reward"><summary>打赏</summary><div id="alipay"><span>支付宝 | Alipay</span><br><img src="/img/Alipay.png"></div><div id="wechat"><span>微信 | WeChat</span><br><img src="/img/WeChat.png"></div></details></div><div id="bottom-btn"><a id="to-top" onClick="index.scrolltop();" title="to top" style="opacity: 0; display: none;">∧</a></div></article><div class="aside-box"><aside><div id="aside-top"><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a target="_blank" rel="noopener" href="https://space.bilibili.com/120174936">AgOH</a></h1><div id="description"><p>苛性银的咖啡屋</p></div><!--if page.published === undefined--><section id="total"><a id="total-archives" href="/archives"><span class="total-title">Archives Total:</span><span class="total-number">2</span></a><div id="total-tags"><span class="total-title">Tags:</span><span class="total-number">1</span></div><div id="total-categories"><span class="total-title">Categories:</span><span class="total-number">1</span></div></section></div><div id="aside-block"><div id="toc-div"><h1>INDEX</h1><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B1%82%E4%BD%99"><span class="toc-number">1.</span> <span class="toc-text">求余</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E9%98%B6%E4%B9%98"><span class="toc-number">2.</span> <span class="toc-text">双阶乘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%BC%E7%82%B9"><span class="toc-number">3.</span> <span class="toc-text">格点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%E5%88%86%E8%A7%A3"><span class="toc-number">4.</span> <span class="toc-text">整数分解</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6"><span class="toc-number">4.1.</span> <span class="toc-text">组合数学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="toc-number">4.2.</span> <span class="toc-text">动态规划</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%8E%E9%82%A6"><span class="toc-number">5.</span> <span class="toc-text">城邦</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F"><span class="toc-number">6.</span> <span class="toc-text">游戏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E5%B9%B4%E4%BB%BD"><span class="toc-number">7.</span> <span class="toc-text">特殊年份</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E5%B9%B3%E6%96%B9"><span class="toc-number">8.</span> <span class="toc-text">小平方</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0"><span class="toc-number">9.</span> <span class="toc-text">完全平方数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1"><span class="toc-number">10.</span> <span class="toc-text">负载均衡</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B"><span class="toc-number">11.</span> <span class="toc-text">国际象棋</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E7%BE%8E%E5%BA%8F%E5%88%97"><span class="toc-number">12.</span> <span class="toc-text">完美序列</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%80%9C%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E2%80%9D%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8-3-%E5%80%8D%EF%BC%8C%E5%8D%B3%E2%80%9C%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E2%80%9D%E4%B8%BA%EF%BC%9A-2-len-1-rightarrow-1"><span class="toc-number">12.1.</span> <span class="toc-text">“最长完美子序列”中不存在 $3$ 倍，即“最长完美子序列”为：$2^{len-1} \rightarrow 1$</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%80%9C%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E2%80%9D%E4%B8%AD%E5%AD%98%E5%9C%A8-3-%E5%80%8D%EF%BC%8C%E5%8D%B3%E2%80%9C%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E2%80%9D%E4%B8%BA%EF%BC%9A-3-cdot-2-len-2-rightarrow-1"><span class="toc-number">12.2.</span> <span class="toc-text">“最长完美子序列”中存在 $3$ 倍，即“最长完美子序列”为：$3 \cdot 2^{len-2} \rightarrow 1$</span></a></li></ol></li></ol></div></div></div><footer><nobr><span class="text-title">Dr.</span><span class="text-content">不分解的 AgOH</span></nobr><br><nobr><span class="text-title">官服ID</span><span class="text-content">951391786</span></nobr><br><text>published with <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></text><text> Theme <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknight</a></text><wbr><text>by <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></text></footer></aside></div></main><canvas id="canvas-dust"></canvas><script src="/js/search.js"></script><script>const reset=_=>{}</script><script src="//unpkg.com/@highlightjs/cdn-assets@11.4.0/highlight.min.js"></script><script src="/js/arknights.js"></script><script>document.addEventListener("load",reset())</script></body></html>
+<div id="paginator"></div></div><div id="post-footer"><div id="pages"><div id="footer-link" style="right: calc(50% - 1px);order: 1;border-right: 1px solid #fe2;padding-left: unset;max-width: calc(50% - 4px);"><a href="/2022/04/12/LQ12province1-C/">← Next 第十二届蓝桥杯省赛第一场 C/C++ 组题解</a></div></div></div><details id="reward"><summary>打赏</summary><div id="alipay"><span>支付宝 | Alipay</span><br><img src="/img/Alipay.png"></div><div id="wechat"><span>微信 | WeChat</span><br><img src="/img/WeChat.png"></div></details></div><div id="bottom-btn"><a id="to-top" onClick="index.scrolltop();" title="to top" style="opacity: 0; display: none;">∧</a></div></article><div class="aside-box"><aside><div id="aside-top"><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a target="_blank" rel="noopener" href="https://space.bilibili.com/120174936">AgOH</a></h1><div id="description"><p>苛性银的咖啡屋</p></div><!--if page.published === undefined--><section id="total"><a id="total-archives" href="/archives"><span class="total-title">Archives Total:</span><span class="total-number">2</span></a><div id="total-tags"><span class="total-title">Tags:</span><span class="total-number">1</span></div><div id="total-categories"><span class="total-title">Categories:</span><span class="total-number">1</span></div></section></div><div id="aside-block"><div id="toc-div"><h1>INDEX</h1><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B1%82%E4%BD%99"><span class="toc-number">1.</span> <span class="toc-text">求余</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8C%E9%98%B6%E4%B9%98"><span class="toc-number">2.</span> <span class="toc-text">双阶乘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%BC%E7%82%B9"><span class="toc-number">3.</span> <span class="toc-text">格点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%E5%88%86%E8%A7%A3"><span class="toc-number">4.</span> <span class="toc-text">整数分解</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6"><span class="toc-number">4.1.</span> <span class="toc-text">组合数学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92"><span class="toc-number">4.2.</span> <span class="toc-text">动态规划</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%8E%E9%82%A6"><span class="toc-number">5.</span> <span class="toc-text">城邦</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F"><span class="toc-number">6.</span> <span class="toc-text">游戏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E5%B9%B4%E4%BB%BD"><span class="toc-number">7.</span> <span class="toc-text">特殊年份</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E5%B9%B3%E6%96%B9"><span class="toc-number">8.</span> <span class="toc-text">小平方</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0"><span class="toc-number">9.</span> <span class="toc-text">完全平方数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1"><span class="toc-number">10.</span> <span class="toc-text">负载均衡</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BD%E9%99%85%E8%B1%A1%E6%A3%8B"><span class="toc-number">11.</span> <span class="toc-text">国际象棋</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E7%BE%8E%E5%BA%8F%E5%88%97"><span class="toc-number">12.</span> <span class="toc-text">完美序列</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E4%B8%AD%E4%B8%8D%E5%AD%98%E5%9C%A8-3-%E5%80%8D%E5%8D%B3%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E4%B8%BA2len-1-rightarrow-1"><span class="toc-number">12.1.</span> <span class="toc-text">“最长完美子序列”中不存在 \(3\) 倍，即“最长完美子序列”为：\(2^{len-1} \rightarrow 1\)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E4%B8%AD%E5%AD%98%E5%9C%A8-3-%E5%80%8D%E5%8D%B3%E6%9C%80%E9%95%BF%E5%AE%8C%E7%BE%8E%E5%AD%90%E5%BA%8F%E5%88%97%E4%B8%BA3-cdot-2len-2-rightarrow-1"><span class="toc-number">12.2.</span> <span class="toc-text">“最长完美子序列”中存在 \(3\) 倍，即“最长完美子序列”为：\(3 \cdot 2^{len-2} \rightarrow 1\)</span></a></li></ol></li></ol></div></div></div><footer><nobr><span class="text-title">Dr.</span><span class="text-content">不分解的 AgOH</span></nobr><br><nobr><span class="text-title">官服ID</span><span class="text-content">951391786</span></nobr><br><text>published with <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></text><text> Theme <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknight</a></text><wbr><text>by <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></text></footer></aside></div></main><canvas id="canvas-dust"></canvas><script src="/js/search.js"></script><script>const reset=_=>{}</script><script src="//unpkg.com/@highlightjs/cdn-assets@11.4.0/highlight.min.js"></script><script src="/js/arknights.js"></script><script>document.addEventListener("load",reset())</script></body></html>
