@@ -13,11 +13,6 @@ category: 题解
 
 答案：$1$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F1.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
-
 ## 双阶乘
 
 只需要维护最后 $5$ 位即可，于是一个 `for` 搞定，边乘边对 ${10}^5$ 取模
