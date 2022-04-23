@@ -134,12 +134,21 @@ $$
 * 转移方程：
   * 若最后一个放的是竖条
     * $dp[i-1]+$ 第 $i$ 列放一个竖条 $=dp[i]$
+
+      ![1-1](/images/G-1-1.png)
     * $dp[i-2]+$ 第 $i-1$ 与 第 $i$ 列放两个横条 $=dp[i]$
+
+      ![1-2](/images/G-1-2.png)
   * 若最后一个放的是 L 条，最后一个放的 L 条有两种放法，故答案乘 $2$
     * $dp[i-3]+$ 放两个 L 条 $=dp[i]$
+
+      ![1-3](/images/G-1-3.png)
     * $dp[i-4]+$ 两个 L 条一个横条 $=dp[i]$
+
+      ![1-4](/images/G-1-4.png)
     * $dp[i-5]+$ 两个 L 条两个横条 $=dp[i]$
-    * $dp[i-6]+$ 两个 L 条三个横条 $=dp[i]$
+
+      ![1-5](/images/G-1-5.png)
     * $\vdots$
 
   即：
@@ -152,6 +161,8 @@ $$
       \end{aligned}
   $$
 * 所求结果：$dp[n]$
+
+可以滚动数组优化
 
 #### 矩阵加速
 
@@ -223,23 +234,79 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
 * 转移方程：
   若第 $i$ 列没被填满，我们**向第 $i$ 列上放置积木**将其填满，而在这个填充的过程中可能会影响到第 $i+1$ 列：
   * $dp[i][0][0] \rightarrow dp[i+1][0][0]$
+
     ![2-1](/images/LQ13province-CB/G-2-1.png)
   * $dp[i][0][0] \rightarrow dp[i+1][1][1]$
+
     ![2-2](/images/LQ13province-CB/G-2-2.png)
   * $dp[i][0][0] \rightarrow dp[i+1][0][1]$
+
     ![2-3](/images/LQ13province-CB/G-2-3.png)
   * $dp[i][0][0] \rightarrow dp[i+1][1][0]$
+
     ![2-4](/images/LQ13province-CB/G-2-4.png)
   * $dp[i][0][1] \rightarrow dp[i+1][1][0]$
+
     ![2-5](/images/LQ13province-CB/G-2-5.png)
   * $dp[i][0][1] \rightarrow dp[i+1][1][1]$
+
     ![2-6](/images/LQ13province-CB/G-2-6.png)
   * $dp[i][1][0] \rightarrow dp[i+1][0][1]$
+
     ![2-7](/images/LQ13province-CB/G-2-7.png)
   * $dp[i][1][0] \rightarrow dp[i+1][1][1]$
+
     ![2-8](/images/LQ13province-CB/G-2-8.png)
   * $dp[i][1][1] \rightarrow dp[i+1][0][0]$
+
     ![2-9](/images/LQ13province-CB/G-2-9.png)
 * 所求结果：$dp[n+1][0][0]$
 
 每列状态只与上一列有关，故可以滚动数组优化
+
+<details>
+<summary>Code</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FG.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
+
+## 扫雷
+
+乍一看很像 [[NOIP2017 提高组] 奶酪](https://www.luogu.com.cn/problem/P3958)，但一看数据范围发现 $O(n^2)$ 的时间复杂度过 $5 \times {10}^4$ 有点悬
+
+但是注意到 $r$ 最大只有 $10$，故对于一个结点我们可以枚举 $r$ 来获取其能炸到的位置
+
+所以这题其实还是奶酪，并查集或搜索都可以，需要注意的是 $x,y \leq {10}^9$，我们不能用二维数组存地图，需要使用哈希表 `std::unorder_map`。另外，`std::pair` 没有哈希，需要我们自己写一个哈希函数，方法是特化仿函数 `std::hash`
+
+<details>
+<summary>Code</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FH.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
+
+## 李白打酒加强版
+
+又是求方案数，一看又不太可能是组合数学，于是 DP：
+
+* 状态设计：$dp[i][j][k]$ 代表李白遇到了 $i$ 个单位，其中 $j$ 个是店，手上还剩 $k$ 壶酒的方案数
+* 初始状态：$dp[0][0][2] = 1$
+* 转移方程：
+  * $dp[i][j][k] \rightarrow dp[i+1][j+1][k*2]$
+
+    注意这里的 $k*2$ 可能会越界，但我们发现若 $k$ 这一维度的值大于了所剩花的数量时，因为每碰到一个花只会喝掉一壶酒，所以这个状态已经不可能转移到 $k=0$ 了。故对于所有 $k>m$ 的状态我们都随便处理即可（以下代码将其存于 $dp[i][j][k+1]$ 内）
+  * $dp[i][j][k] \rightarrow dp[i+1][j][k-1]$
+* 所求结果：$dp[n+m-1][n][1]$
+  
+  注意不是 $dp[n+m][n][0]$，因为这样就包含了最后一个单位是店的状态，与题目要求矛盾
+
+<details>
+<summary>Code</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FI.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
+
+## 砍竹子
+
+其实就是 [[NOIP2018 提高组] 铺设道路](https://www.luogu.com.cn/problem/P5019) 的加强版而已
+
+<details>
+<summary>Code</summary>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FJ.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+</details>
