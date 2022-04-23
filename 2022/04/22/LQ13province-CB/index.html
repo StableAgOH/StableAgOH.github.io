@@ -9,7 +9,7 @@
 });</script><link rel="stylesheet" href="/css/arknights.css"><link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"><style>@font-face {
  font-family: BenderLight;
  src: local('Bender'), url("/font/BenderLight.ttf");
-}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十三届蓝桥杯省赛 C/C++ B 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-22T06:04:53.000Z" id="date"> 2022-04-22</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-23T14:09:04.287Z" id="updated"> 2022-04-23</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.6k</span></span><br><span>Read Time:<span class="control">&nbsp;10min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ13province_CB"]) </script>
+}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十三届蓝桥杯省赛 C/C++ B 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-22T06:04:53.000Z" id="date"> 2022-04-22</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-23T16:53:30.699Z" id="updated"> 2022-04-24</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.6k</span></span><br><span>Read Time:<span class="control">&nbsp;10min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ13province_CB"]) </script>
 <h2 id="九进制转十进制">九进制转十进制</h2>
 <p>送分题，推荐使用 <code>std::stoi</code> 函数，自带进制转换</p>
 <details>
@@ -218,18 +218,19 @@
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FH.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 </details>
 <h2 id="李白打酒加强版">李白打酒加强版</h2>
-<p>又是求方案数，一看又不太可能是组合数学，于是 DP：</p>
+<p>又是求方案数，一看又不太可能是组合数学，于是 DP。总共就三个变量：店、花、酒的数量，状态设计很简单：</p>
 <ul>
-<li>状态设计：<span class="math inline">\(dp[i][j][k]\)</span> 代表李白遇到了 <span class="math inline">\(i\)</span> 个单位，其中 <span class="math inline">\(j\)</span> 个是店，手上还剩 <span class="math inline">\(k\)</span> 壶酒的方案数</li>
+<li>状态设计：<span class="math inline">\(dp[i][j][k]\)</span> 代表李白遇到了 <span class="math inline">\(i\)</span> 个店，<span class="math inline">\(j\)</span> 个花，手上还剩 <span class="math inline">\(k\)</span> 壶酒的方案数</li>
 <li>初始状态：<span class="math inline">\(dp[0][0][2] = 1\)</span></li>
-<li>转移方程：
-<ul>
-<li><p><span class="math inline">\(dp[i][j][k] \rightarrow dp[i+1][j+1][k*2]\)</span></p>
-注意这里的 <span class="math inline">\(k*2\)</span> 可能会越界，但我们发现若 <span class="math inline">\(k\)</span> 这一维度的值大于了所剩花的数量时，因为每碰到一个花只会喝掉一壶酒，所以这个状态已经不可能转移到 <span class="math inline">\(k=0\)</span> 了。故对于所有 <span class="math inline">\(k&gt;m\)</span> 的状态我们都随便处理即可（以下代码将其存于 <span class="math inline">\(dp[i][j][k+1]\)</span> 内）</li>
-<li><span class="math inline">\(dp[i][j][k] \rightarrow dp[i+1][j][k-1]\)</span></li>
-</ul></li>
-<li><p>所求结果：<span class="math inline">\(dp[n+m-1][n][1]\)</span></p>
-<p>注意不是 <span class="math inline">\(dp[n+m][n][0]\)</span>，因为这样就包含了最后一个单位是店的状态，与题目要求矛盾</p></li>
+<li><p>转移方程：<span class="math display">\[dp[i][j][k] = dp[i-1][j][k/2]+dp[i][j-1][k+1]\]</span></p>
+<p>注意：</p>
+<ol type="1">
+<li>只有 <span class="math inline">\(i \neq 0\)</span> 且 $<span class="math inline">\(2|k\)</span> 时才计算 <span class="math inline">\(dp[i-1][j][k/2]\)</span> 这个状态</li>
+<li>只有 <span class="math inline">\(j \neq 0\)</span> 时才计算 <span class="math inline">\(dp[i][j-1][k+1]\)</span> 这个状态</li>
+<li><span class="math inline">\(k\)</span> 这一维度只需要遍历到 <span class="math inline">\(m-j\)</span> 就足够了，因为每遇到一个花只会喝掉一壶酒，若当前酒的数量大于剩余花的数量则即使之后遇到的都是花酒都喝不完，对最后的答案没有贡献</li>
+</ol></li>
+<li><p>所求结果：<span class="math inline">\(dp[n][m-1][1]\)</span></p>
+<p>注意不是 <span class="math inline">\(dp[n][m][0]\)</span>，因为这样就包含了最后一个单位是店的状态，与题目要求矛盾</p></li>
 </ul>
 <details>
 <summary>Code</summary>
