@@ -135,20 +135,20 @@ $$
   * 若最后一个放的是竖条
     * $dp[i-1]+$ 第 $i$ 列放一个竖条 $=dp[i]$
 
-      ![1-1](/images/G-1-1.png)
+      ![1-1](/images/LQ13province-CB/G-1-1.png)
     * $dp[i-2]+$ 第 $i-1$ 与 第 $i$ 列放两个横条 $=dp[i]$
 
-      ![1-2](/images/G-1-2.png)
+      ![1-2](/images/LQ13province-CB/G-1-2.png)
   * 若最后一个放的是 L 条，最后一个放的 L 条有两种放法，故答案乘 $2$
     * $dp[i-3]+$ 放两个 L 条 $=dp[i]$
 
-      ![1-3](/images/G-1-3.png)
+      ![1-3](/images/LQ13province-CB/G-1-3.png)
     * $dp[i-4]+$ 两个 L 条一个横条 $=dp[i]$
 
-      ![1-4](/images/G-1-4.png)
+      ![1-4](/images/LQ13province-CB/G-1-4.png)
     * $dp[i-5]+$ 两个 L 条两个横条 $=dp[i]$
 
-      ![1-5](/images/G-1-5.png)
+      ![1-5](/images/LQ13province-CB/G-1-5.png)
     * $\vdots$
 
   即：
