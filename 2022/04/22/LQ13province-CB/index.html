@@ -9,7 +9,7 @@
 });</script><link rel="stylesheet" href="/css/arknights.css"><link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"><style>@font-face {
  font-family: BenderLight;
  src: local('Bender'), url("/font/BenderLight.ttf");
-}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十三届蓝桥杯省赛 C/C++ B 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-22T06:04:53.000Z" id="date"> 2022-04-22</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-23T12:43:47.914Z" id="updated"> 2022-04-23</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.1k</span></span><br><span>Read Time:<span class="control">&nbsp;9min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ13province_CB"]) </script>
+}</style><script src="/js/embedpdf.js"> </script><meta name="generator" content="Hexo 6.1.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><div id="cursor-container"><div id="cursor-outer"></div><div id="cursor-effect"></div></div><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十三届蓝桥杯省赛 C/C++ B 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-22T06:04:53.000Z" id="date"> 2022-04-22</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-04-23T13:33:16.686Z" id="updated"> 2022-04-23</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.5k</span></span><br><span>Read Time:<span class="control">&nbsp;10min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ13province_CB"]) </script>
 <h2 id="九进制转十进制">九进制转十进制</h2>
 <p>送分题，推荐使用 <code>std::stoi</code> 函数，自带进制转换</p>
 <details>
@@ -237,6 +237,13 @@
 </details>
 <h2 id="砍竹子">砍竹子</h2>
 <p>其实就是 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5019">[NOIP2018 提高组] 铺设道路</a> 的加强版而已</p>
+<p>回想一下铺设道路的做法：对于除了第一个坑的每一个坑来说，若坑深度大于前一个坑的深度，那么其对答案的贡献就是两坑高度之差，最终答案就是第一个坑的深度加上每个坑对于答案的贡献</p>
+<p>为什么这样做是对的呢？因为在填一下小坑的时候势必会连带着填一下大坑，而小坑填满后大坑剩余的高度就是两坑高度之差了</p>
+<p>我们把这个想法反过来想，也就是：先把大坑填到与小坑一样的高度，然后大小坑一起填</p>
+<p>注意，为什么两个一样深的坑可以一起填？因为每次填土后两坑的高度还是一样的，也就是两坑填充过程中有一个公共的后缀</p>
+<p>回到本题，对于某根竹子来说，若其高度大于前一根竹子的高度且两竹子在砍的过程中的高度有一个公共的后缀的话，那么不就跟填坑是一样的道理嘛</p>
+<p>故某根竹子对于答案的贡献即为其被砍过程中与前一根竹子的公共后缀之外的部分的高度的数量</p>
+<p>故 <span class="math inline">\(O(kn)\)</span> 扫一遍即可，<span class="math inline">\(k\)</span> 为砍竹子的复杂度，高度最大为 <span class="math inline">\({10}^{18}\)</span>，最多砍 <span class="math inline">\(6\)</span> 刀就砍到 <span class="math inline">\(1\)</span> 了，故 <span class="math inline">\(k\)</span> 最大为 <span class="math inline">\(6\)</span></p>
 <details>
 <summary>Code</summary>
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FJ.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
