@@ -62,7 +62,7 @@ category: 题解
 
 首先我们解释一下题面里的 $321$ 转换后为什么是 $65$
 
-设每位的进制为 $x_1,x_2,\cdots,x_n$，一个 $X$ 进制数字 $P$ 每位的数字为 $p_1,p_2,\cdots,p_n$，即 $P = \overline{p_{1}p_{2} \cdots p_{n}}$
+设一个 $X$ 进制数字 $P$ 每位的数字为 $p_1,p_2,\cdots,p_n$，即 $P = \overline{p_{1}p_{2} \cdots p_{n}}$，每位的进制为 $x_1,x_2,\cdots,x_n$
 
 则其十进制值为 $p_1(x_{2}x_{3} \cdots x_{n}) + p_2(x_{3}x_{4} \cdots x_{n}) + \cdots + p_n$
 
@@ -74,11 +74,11 @@ $$P = \sum_{i=1}^{n} \left( p_i \prod_{j=i+1}^{n}x_j \right)$$
 
 ### 解题
 
-设每位的进制为 $x_1,x_2,\cdots,x_n$，$A$ 每位的数字为 $a_1,a_2,\cdots,a_n$，$B$ 每位的数字为 $b_1,b_2,\cdots,b_m~(m \leq n)$。
+设 $A$ 每位的数字为 $a_1,a_2,\cdots,a_n$，$B$ 每位的数字为 $b_1,b_2,\cdots,b_m~(m \leq n)$。
 
 若 $m<n$，为了方便，我们在 $B$ 数字前面补前导 $0$，使得其长度与 $A$ 一样。则 $B$ 每位的数字为 $b_1,b_2,\cdots,b_n$。
 
-则：
+设每位的进制为 $x_1,x_2,\cdots,x_n$，则：
 
 $$
 \begin{aligned}
