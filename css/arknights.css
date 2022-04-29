@@ -116,34 +116,7 @@ aside nobr {
 html,
 body {
   height: 100%;
-  cursor: url("../cursor-inner.png") 3 3, default;
   position: static;
-}
-a,
-button {
-  cursor: url("../cursor-inner.png") 3 3, pointer;
-}
-#cursor-container #cursor-outer {
-  position: fixed;
-  z-index: 65536;
-  transform: translate3d(-50%, -50%, 0px);
-  height: 36px;
-  width: 36px;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  pointer-events: none;
-  transition: background-color 0.3s, width 0.3s, height 0.3s;
-}
-#cursor-container #cursor-effect {
-  position: fixed;
-  z-index: 65535;
-  transform: translate3d(-50%, -50%, 0px) scale(0);
-  height: 80px;
-  width: 80px;
-  border: 4px solid #ccc;
-  border-radius: 50%;
-  opacity: 0;
-  pointer-events: none;
 }
 html {
   -ms-scrollbar-base-color: rgba(255,238,34,0.267);
@@ -309,7 +282,6 @@ table td:hover {
   background-color: rgba(34,187,255,0.1);
 }
 input {
-  cursor: url("../cursor-inner.png") 3 3, text;
   user-select: none;
 }
 mjx-container {
@@ -1139,9 +1111,6 @@ nav .navContent .navItem .navItemTitle {
   }
   #Categories {
     margin: 10px;
-  }
-  #cursor-container {
-    display: none;
   }
   #Archives {
     margin: 0;
