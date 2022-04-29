@@ -9,5 +9,18 @@ post:
   word_count: true
   reading_time: true
 
+giscus:
+  enable: true
+  lang: zh-CN
+  repo: StableAgOH/stableagoh.github.io
+  repo-id: R_kgDOHHhRBQ
+  category: Announcements
+  category_id: DIC_kwDOHHhRBc4CO1AZ
+  mapping: pathname
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: top
+  theme: dark
+
 katex:
   enable: true
