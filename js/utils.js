@@ -20,3 +20,12 @@ function embedpdf(title, pdfs) {
         </table>
     `);
 }
+
+function embedcode(title, url) {
+    document.write(`
+        <details>
+            <summary>${title}</summary>
+            <script src="https://emgithub.com/embed.js?target=${url}&style=a11y-dark&showBorder=on&showLineNumbers=on&showCopy=on"></script>
+        </details>
+    `);
+}
