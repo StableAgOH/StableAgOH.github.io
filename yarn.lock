@@ -1028,9 +1028,9 @@ hexo-wordcount@^6.0.1:
   resolved "https://registry.npmjs.org/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz#5a60efc9d3c8e421956f2fd6683ca94a8a795264"
   integrity sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew==
 
-hexo@^6.0.0:
+hexo@^6.1.0:
   version "6.1.0"
-  resolved "https://registry.npmmirror.com/hexo/-/hexo-6.1.0.tgz"
+  resolved "https://registry.npmmirror.com/hexo/-/hexo-6.1.0.tgz#627d44997172235f22de13e05786281753fa2fe6"
   integrity sha512-TeV2cN61CD2C1GKczJRR3tdZhR3JUQi8wtS4eIgkDOeDYWTmovPoSCcc8jvh42D3fehOPp6E81fTeyjh39QWtA==
   dependencies:
     abbrev "^1.1.1"

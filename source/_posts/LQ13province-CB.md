@@ -11,10 +11,7 @@ category: 题解
 
 送分题，推荐使用 `std::stoi` 函数，自带进制转换
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FA.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/A.cpp") </script>
 
 ## 顺子日期
 
@@ -40,10 +37,7 @@ category: 题解
 
 按照题意模拟即可
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FC.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/C.cpp") </script>
 
 ## 修剪灌木
 
@@ -51,10 +45,7 @@ category: 题解
 
 故对于中点左侧的灌木来说，其最大高度为其右侧灌木数量乘 $2$；对于中点右侧的灌木来说，其最大高度为其左侧灌木数量乘 $2$。
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FD.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/D.cpp") </script>
 
 ## X 进制减法
 
@@ -91,10 +82,7 @@ $$
 
 注意题面的规定“最低为二进制”与“每一数位上的数字要小于其进制”，故每位的进制最小只能取到 $\max(2, a_i+1, b_i+1)$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FE.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/E.cpp") </script>
 
 ## 统计子矩阵
 
@@ -112,10 +100,7 @@ $$
 
 一个循环遍历两线的左边界，一个循环遍历两线的右边界，一个循环在限定的左右边界范围内在纵方向扫双指针，时间复杂度 $O(n^3)$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FF.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/F.cpp") </script>
 
 ## 积木画
 
@@ -264,10 +249,7 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
 
 每列状态只与上一列有关，故可以滚动数组优化
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FG.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/G.cpp") </script>
 
 ## 扫雷
 
@@ -275,10 +257,7 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
 
 但是注意到 $r$ 最大只有 $10$，故对于一个结点我们可以枚举 $r$ 来获取其能炸到的位置，所以直接搜索就是了。需要注意的是 $x,y \leq {10}^9$，我们不能用二维数组存地图，需要使用哈希表 `std::unordered_map`。另外，`std::pair` 没有哈希，需要我们自己写一个哈希函数，方法是特化仿函数 `std::hash`
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FH.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/H.cpp") </script>
 
 ## 李白打酒加强版
 
@@ -297,15 +276,9 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
   
   注意不是 $dp[n][m][0]$，因为这样就包含了最后一个单位是店的状态，与题目要求矛盾
 
-<details>
-<summary>递推</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FI1.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("递推", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/I1.cpp") </script>
 
-<details>
-<summary>记忆化搜索</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FI2.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("记忆化搜索", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/I2.cpp") </script>
 
 ## 砍竹子
 
@@ -327,7 +300,4 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
 
 故 $O(kn)$ 扫一遍即可，$k$ 为砍竹子的复杂度，高度最大为 ${10}^{18}$，最多砍 $6$ 刀就砍到 $1$ 了，故 $k$ 最大为 $6$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F13%2Fprovince%2FCB%2FJ.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/J.cpp") </script>

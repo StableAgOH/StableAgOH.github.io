@@ -23,10 +23,7 @@ $i$ 从 $1$ 开始递增，对于每个 $i$，遍历其所有数位的数字，�
 
 答案：$3181$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F2.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/2.cpp") </script>
 
 ## 直线
 
@@ -36,10 +33,7 @@ $i$ 从 $1$ 开始递增，对于每个 $i$，遍历其所有数位的数字，�
 
 答案：$40257$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F3.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/3.cpp") </script>
 
 ## 货物摆放
 
@@ -47,7 +41,7 @@ $i$ 从 $1$ 开始递增，对于每个 $i$，遍历其所有数位的数字，�
 
 直接暴力遍历 $L$ 和 $W$，$H$ 随之确定即可
 
-注意不是直接 $O(n^2)$ 暴力，$n=2021041820210418$，这属于作死
+注意不是直接 $O(n^3)$ 暴力，$n=2021041820210418$，这属于作死
 
 容易发现，其实 $L$、$W$、$H$ 的组合只需要得出一次即可，因为三个数的其他组合可以靠组合数学解决：
 
@@ -75,10 +69,7 @@ $$2,3,3,3,17,131,2857,5882353$$
 
 答案：$10266837$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F5.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/5.cpp") </script>
 
 ## 回路计数
 
@@ -93,10 +84,7 @@ $set$ 为可用一二进制数 $s$ 表示（状态压缩），$s$ 的第 $i$ 位
 
 答案：$881012367360$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F6.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/6.cpp") </script>
 
 ## 时间显示
 
@@ -108,20 +96,11 @@ $set$ 为可用一二进制数 $s$ 表示（状态压缩），$s$ 的第 $i$ 位
 
 当然不会调库的话也可以不调，因为只需要输出时分秒，所以把毫秒转换为秒后再对 $60 \times 60 \times 24=86400$ 取模，然后再转换出时分秒即可。
 
-<details>
-<summary>C++</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("C++", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/7.cpp") </script>
 
-<details>
-<summary>Java</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.java&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Java", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/7.java") </script>
 
-<details>
-<summary>Python</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F7.py&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Python", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/7.py") </script>
 
 ## 砝码称重
 
@@ -136,10 +115,7 @@ $set$ 为可用一二进制数 $s$ 表示（状态压缩），$s$ 的第 $i$ 位
 
 $$dp[j]=dp[j] \lor dp[j-w_i],~dp[j]=dp[j] \lor dp[j+w_i]$$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F8.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/8.cpp") </script>
 
 ## 杨辉三角形
 
@@ -159,10 +135,7 @@ $$dp[j]=dp[j] \lor dp[j-w_i],~dp[j]=dp[j] \lor dp[j+w_i]$$
 
 所以我们的解题步骤即：首先递推出前 $1819$ 层，若发现 $N$ 则直接输出其位置。若没发现则遍历第三斜列。若还是没发现则答案为 $\frac{N(N+1)}{2}+2$。
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F9.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/9.cpp") </script>
 
 ## 双向排序
 
@@ -191,10 +164,7 @@ $$dp[j]=dp[j] \lor dp[j-w_i],~dp[j]=dp[j] \lor dp[j+w_i]$$
 
 时间复杂度 $O(m\log{n})$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F10.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/10.cpp") </script>
 
 ## 异或数列
 
@@ -212,10 +182,7 @@ $$dp[j]=dp[j] \lor dp[j-w_i],~dp[j]=dp[j] \lor dp[j+w_i]$$
 
 为什么当 $0$ 的数量为奇数 $1$ 的数量为 $1$ 时同样是奇数却是先手必胜呢？因为后手方利用换手获胜的必要条件是换手后还有 $1$ 进行操作，而 $1$ 的数量为 $1$ 时先手方给自己异或上 $1$ 后导致没有剩余的 $1$ 进行操作了，后手方的换手就变成了无用之举
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F11.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/11.cpp") </script>
 
 ## 左孩子右兄弟
 
@@ -226,10 +193,7 @@ $$dp[j]=dp[j] \lor dp[j-w_i],~dp[j]=dp[j] \lor dp[j+w_i]$$
 * 状态转移：$$dp[u]=son[u].length + \max_{v \in son[u]}dp[v]$$
 * 所求答案：$dp[rt]$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F12.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/12.cpp") </script>
 
 ## 括号序列
 
@@ -244,10 +208,7 @@ $$dp[j]=dp[j] \lor dp[j-w_i],~dp[j]=dp[j] \lor dp[j+w_i]$$
 * 状态转移：$$dp[i][j]=\sum_{k=b}^{x}dp[i-1][k]$$
 * 所求结果：$dp[n][x]$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince1%2FC%2F13.cpp&style=a11y-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province1/C/13.cpp") </script>
 
 ## 分果果
 

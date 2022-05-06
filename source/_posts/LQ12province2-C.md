@@ -19,10 +19,7 @@ category: 题解
 
 答案：$59375$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F2.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/2.cpp") </script>
 
 ## 格点
 
@@ -30,10 +27,7 @@ category: 题解
 
 答案：$15698$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F3.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/3.cpp") </script>
 
 ## 整数分解
 
@@ -56,10 +50,7 @@ category: 题解
 
 答案：$691677274345$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F4.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/4.cpp") </script>
 
 ## 城邦
 
@@ -67,10 +58,7 @@ category: 题解
 
 答案：$4046$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F5.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/5.cpp") </script>
 
 ## 游戏
 
@@ -85,10 +73,7 @@ category: 题解
 
 答案：$1352184317599$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F6.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/6.cpp") </script>
 
 ## 特殊年份
 
@@ -96,19 +81,13 @@ category: 题解
 
 使用 `std::string` 可以非常简单地写出程序
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F7.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/7.cpp") </script>
 
 ## 小平方
 
 模拟……开个 `for` 循环即可
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F8.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/8.cpp") </script>
 
 ## 完全平方数
 
@@ -124,10 +103,7 @@ $$A={p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}$$
 
 即 $A$ 的所有质因数都一定出现偶数次，故我们只需要对 $n$ 进行质因数分解，然后将所有出现了奇数次方的质因数乘在一起即为答案（将奇数补成偶数）。时间复杂度：$O(\sqrt n)$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F9.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/9.cpp") </script>
 
 ## 负载均衡
 
@@ -135,10 +111,7 @@ $$A={p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}$$
 
 于是我们开一个堆来维护要还回去的算力，对于每次操作先把时间到了的需要还回去的算力还回去，再判断此次能否借来算力，若能借来算力，把计算机的算力扣除了借走的算力后，在堆中打一个欠条。重复此流程即可，时间复杂度：$O(n \log n)$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F10.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/10.cpp") </script>
 
 ## 国际象棋
 
@@ -153,10 +126,7 @@ $$A={p_1}^{2\alpha_1}{p_2}^{2\alpha_2} \cdots {p_s}^{2\alpha_s}$$
 
 注意数据范围 $n<=6,~m<=100$，即 $2^m >> 2^n$，故我们把 $m$ 当做行来处理可以极大地缩小空间时间复杂度，最终时间复杂度：$O(m \times 2^n \times 2^n \times 2^n \times k) = O(8^nmk)$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F11.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/11.cpp") </script>
 
 ## 完美序列
 
@@ -206,7 +176,4 @@ $$\cfrac{2^{len-1}-1 \times \frac{1}{2}}{1-\frac{1}{2}}=2^{len}-1$$
 
 若采用 $O(n \log n)$ 求逆元则总时间复杂度为 $O(n \log n + T)$；若采用 $O(n + \log p)$ 求逆元则总时间复杂度为 $O(n + \log p + T)$
 
-<details>
-<summary>Code</summary>
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FStableAgOH%2Fsolved-problems%2Fblob%2Fmain%2Flq%2F12%2Fprovince2%2FC%2F12.cpp&style=atom-one-dark&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-</details>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/12.cpp") </script>
