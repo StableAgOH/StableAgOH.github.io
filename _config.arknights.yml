@@ -24,3 +24,6 @@ giscus:
 
 katex:
   enable: true
+
+menu:
+  Links: links/
