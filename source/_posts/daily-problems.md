@@ -20,3 +20,11 @@ category: 打卡
 3. [CF Gym 381483E Quuns Segment Game](https://codeforces.com/gym/381483/problem/E)
 4. [CF Gym 381483J 湮灭反应](https://codeforces.com/gym/381483/problem/J)
 5. [P5550 Chino 的数列](https://www.luogu.com.cn/problem/P5550)
+
+## 2022-05-23
+
+1. [CF 1682A Palindromic Indices](https://codeforces.com/problemset/problem/1682/A)
+2. [CF 1682B AND Sorting](https://codeforces.com/problemset/problem/1682/B)
+3. [CF 1682C LIS or Reverse LIS?](https://codeforces.com/problemset/problem/1682/C)
+4. [CF Gym 381483C Xor Triple](https://codeforces.com/gym/381483/problem/C)
+5. [CF 1681A Game with Cards](https://codeforces.com/problemset/problem/1682/A)
