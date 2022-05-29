@@ -28,3 +28,26 @@ category: 打卡
 3. [CF 1682C LIS or Reverse LIS?](https://codeforces.com/problemset/problem/1682/C)
 4. [CF Gym 381483C Xor Triple](https://codeforces.com/gym/381483/problem/C)
 5. [CF 1681A Game with Cards](https://codeforces.com/problemset/problem/1682/A)
+
+## 2022-05-24
+
+1. [CF 1681B Card Trick](https://codeforces.com/problemset/problem/1682/B)
+2. [CF 1681C Double Sort](https://codeforces.com/problemset/problem/1682/C)
+
+## 2022-05-25
+
+## 2022-05-26
+
+1. [CF 1686A Everything Everywhere All But One](https://codeforces.com/contest/1686/problem/A)
+2. [CF 1686B Odd Subarrays](https://codeforces.com/contest/1686/problem/B)
+3. [CF 1686C Circular Local MiniMax](https://codeforces.com/contest/1686/problem/C)
+
+## 2022-05-27
+
+## 2022-05-28
+
+1. [CF Gym 103729B Potion(easy version)](https://codeforces.com/gym/103729/problem/B)
+2. [CF Gym 103729F Angel](https://codeforces.com/gym/103729/problem/F)
+3. [CF Gym 103729K PTT](https://codeforces.com/gym/103729/problem/K)
+4. [CF Gym 103729L Chtholly and the Broken Chronograph](https://codeforces.com/gym/103729/problem/L)
+5. [CF Gym 103729J Palindrome Reversion](https://codeforces.com/gym/103729/problem/J)
