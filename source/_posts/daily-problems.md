@@ -23,24 +23,24 @@ category: 打卡
 
 ## 2022-05-23
 
-1. [CF 1682A Palindromic Indices](https://codeforces.com/problemset/problem/1682/A)
-2. [CF 1682B AND Sorting](https://codeforces.com/problemset/problem/1682/B)
-3. [CF 1682C LIS or Reverse LIS?](https://codeforces.com/problemset/problem/1682/C)
+1. [CF 1682A Palindromic Indices](https://codeforces.com/contest/1682/problem/A)
+2. [CF 1682B AND Sorting](https://codeforces.com/contest/1682/problem/B)
+3. [CF 1682C LIS or Reverse LIS?](https://codeforces.com/contest/1682/problem/C)
 4. [CF Gym 381483C Xor Triple](https://codeforces.com/gym/381483/problem/C)
-5. [CF 1681A Game with Cards](https://codeforces.com/problemset/problem/1681/A)
+5. [CF 1681A Game with Cards](https://codeforces.com/contest/1681/problem/A)
 
 ## 2022-05-24
 
-1. [CF 1681B Card Trick](https://codeforces.com/problemset/problem/1681/B)
-2. [CF 1681C Double Sort](https://codeforces.com/problemset/problem/1681/C)
+1. [CF 1681B Card Trick](https://codeforces.com/contest/1681/problem/B)
+2. [CF 1681C Double Sort](https://codeforces.com/contest/1681/problem/C)
 
 ## 2022-05-25
 
 ## 2022-05-26
 
-1. [CF 1686A Everything Everywhere All But One](https://codeforces.com/problemset/problem/1686/A)
-2. [CF 1686B Odd Subarrays](https://codeforces.com/problemset/problem/1686/B)
-3. [CF 1685A Circular Local MiniMax](https://codeforces.com/problemset/problem/1685/A)
+1. [CF 1686A Everything Everywhere All But One](https://codeforces.com/contest/1686/problem/A)
+2. [CF 1686B Odd Subarrays](https://codeforces.com/contest/1686/problem/B)
+3. [CF 1686C Circular Local MiniMax](https://codeforces.com/contest/1686/problem/C)
 
 ## 2022-05-27
 
@@ -62,31 +62,43 @@ category: 打卡
 
 ## 2022-05-31
 
-1. [CF 1691A Beat The Odds](https://codeforces.com/problemset/problem/1691/A)
-2. [CF 1691B Shoe Shuffling](https://codeforces.com/problemset/problem/1691/B)
+1. [CF 1691A Beat The Odds](https://codeforces.com/contest/1691/problem/A)
+2. [CF 1691B Shoe Shuffling](https://codeforces.com/contest/1691/problem/B)
 3. [CF Gym 103389B 攻防演练](https://codeforces.com/gym/103389/problem/B)
 
 ## 2022-06-01
 
-1. [CF 1691C Sum of Substrings](https://codeforces.com/problemset/problem/1691/C)
+1. [CF 1691C Sum of Substrings](https://codeforces.com/contest/1691/problem/C)
 
 ## 2022-06-02
 
 ## 2022-06-03
 
-1. [CF 1691D Max GEQ Sum](https://codeforces.com/problemset/problem/1691/D)
-2. [CF 1691E Number of Groups](https://codeforces.com/problemset/problem/1691/E)
+1. [CF 1691D Max GEQ Sum](https://codeforces.com/contest/1691/problem/D)
+2. [CF 1691E Number of Groups](https://codeforces.com/contest/1691/problem/E)
 
 ## 2022-06-04
 
-1. [CF 1688A Cirno's Perfect Bitmasks Classroom](https://codeforces.com/problemset/problem/1688/A)
-2. [CF 1688B Patchouli's Magical Talisman](https://codeforces.com/problemset/problem/1688/B)
-3. [CF 1688C Manipulating History](https://codeforces.com/problemset/problem/1688/C)
-4. [CF 1687A The Enchanted Forest](https://codeforces.com/problemset/problem/1687/A)
-5. [CF 1687B Railway System](https://codeforces.com/problemset/problem/1687/B)
+1. [CF 1688A Cirno's Perfect Bitmasks Classroom](https://codeforces.com/contest/1688/problem/A)
+2. [CF 1688B Patchouli's Magical Talisman](https://codeforces.com/contest/1688/problem/B)
+3. [CF 1688C Manipulating History](https://codeforces.com/contest/1688/problem/C)
+4. [CF 1688D The Enchanted Forest](https://codeforces.com/contest/1688/problem/D)
+5. [CF 1687E Railway System](https://codeforces.com/contest/1688/problem/E)
 
 ## 2022-06-05
 
-1. [CF 1687C Sanae and Giant Robot](https://codeforces.com/problemset/problem/1687/C)
-2. [CF 1679D Toss a Coin to Your Graph...](https://codeforces.com/problemset/problem/1679/D)
-3. [CF 1681D Required Length](https://codeforces.com/problemset/problem/1681/D)
+1. [CF 1688F Sanae and Giant Robot](https://codeforces.com/contest/1688/problem/F)
+2. [CF 1679D Toss a Coin to Your Graph...](https://codeforces.com/contest/1679/problem/D)
+3. [CF 1681D Required Length](https://codeforces.com/contest/1681/problem/D)
+
+## 2022-06-06
+
+## 2022-06-07
+
+## 2022-06-08
+
+1. [CF 1690A Print a Pedestal (Codeforces logo?)](https://codeforces.com/contest/1690/problem/A)
+2. [CF 1690B Array Decrements](https://codeforces.com/contest/1690/problem/B)
+3. [CF 1690C Restoring the Duration of Tasks](https://codeforces.com/contest/1690/problem/C)
+4. [CF 1690D Black and White Stripe](https://codeforces.com/contest/1690/problem/D)
+5. [CF 1690F Shifting String](https://codeforces.com/contest/1690/problem/F)
