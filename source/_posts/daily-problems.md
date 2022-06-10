@@ -102,3 +102,17 @@ category: 打卡
 3. [CF 1690C Restoring the Duration of Tasks](https://codeforces.com/contest/1690/problem/C)
 4. [CF 1690D Black and White Stripe](https://codeforces.com/contest/1690/problem/D)
 5. [CF 1690F Shifting String](https://codeforces.com/contest/1690/problem/F)
+
+## 2022-06-09
+
+## 2022-06-10
+
+1. [NC 11251A 小红的小桃子](https://ac.nowcoder.com/acm/contest/11251/A)
+2. [NC 11251B 小红的子序列](https://ac.nowcoder.com/acm/contest/11251/B)
+3. [NC 11251C 小红的子序列](https://ac.nowcoder.com/acm/contest/11251/C)
+
+## 2022-06-11
+
+1. [CF 1689A Lex String](https://codeforces.com/contest/1689/problem/A)
+2. [CF 1689B Mystic Permutation](https://codeforces.com/contest/1689/problem/B)
+3. [CF 1689C Infected Tree](https://codeforces.com/contest/1689/problem/C)
