@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {string} title 
+ * @param {string[]} pdfs 
+ */
 function embedpdf(title, pdfs) {
     let tbody = [];
     if (screen.availWidth < 2560 || pdfs.length % 2) {
@@ -21,6 +26,11 @@ function embedpdf(title, pdfs) {
     `);
 }
 
+/**
+ * 
+ * @param {string} title 
+ * @param {string} url 
+ */
 function embedcode(title, url) {
     document.write(`
         <details>
@@ -28,4 +38,38 @@ function embedcode(title, url) {
             <script src="https://emgithub.com/embed.js?target=${url}&style=a11y-dark&showBorder=on&showLineNumbers=on&showCopy=on"></script>
         </details>
     `);
+}
+
+/**
+ * 
+ * @param {string} oj 
+ * @param {string} pid 
+ * @param {string} name 
+ */
+function embedproblem(oj, pid, title) {
+    let url = "", name = "";
+    switch (oj) {
+        case "cf":
+            [c, p] = pid.match(/(\d+)(.*)/).slice(1);
+            url = `https://codeforces.com/contest/${c}/problem/${p}`;
+            name = `Codeforces ${pid} ${title}`;
+            break;
+        case "gym":
+            [c, p] = pid.match(/(\d+)(.*)/).slice(1);
+            url = `https://codeforces.com/gym/${c}/problem/${p}`;
+            name = `Codeforces gym ${pid} ${title}`;
+            break;
+        case "lg":
+            url = `https://www.luogu.com.cn/problem/${pid}`;
+            name = `Luogu ${pid} ${title}`;
+            break;
+        case "nc":
+            [c, p] = pid.match(/(\d+)(.*)/).slice(1);
+            url = `https://ac.nowcoder.com/acm/contest/${c}/${p}`
+            name = `Nowcoder ${pid} ${title}`;
+            break;
+        default:
+            throw new Error(`${oj} is an unsupported OJ`);
+    }
+    document.write(`<a target="_blank" rel="noopener" href="${url}">${name}</a>`);
 }
