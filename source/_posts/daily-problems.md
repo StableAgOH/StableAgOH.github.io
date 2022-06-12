@@ -27,11 +27,27 @@ category: 打卡
 
 1. <script> embedproblem("cf", "1675C", "Detective Task") </script>
 
+## 2022-05-07
+
+1. <script> embedproblem("nc", "33616A", "倍速播放") </script>
+2. <script> embedproblem("nc", "33616B", "阶乘求导") </script>
+3. <script> embedproblem("nc", "33616C", "我来说，你来写") </script>
+4. <script> embedproblem("nc", "33616E", "讨厌的字符串") </script>
+5. <script> embedproblem("nc", "33616G", "带黄狗的礼物") </script>
+6. <script> embedproblem("nc", "33616I", "自习室的灯") </script>
+7. <script> embedproblem("nc", "33616J", "攻击力进阶测试") </script>
+
 ## 2022-05-14
 
-1. <script> embedproblem("cf", "1675A", "AvtoBus") </script>
-2. <script> embedproblem("cf", "1675B", "Stone Age Problem") </script>
-3. <script> embedproblem("cf", "1675C", "Rooks Defenders") </script>
+1. <script> embedproblem("nc", "33540B", "为欢几何") </script>
+2. <script> embedproblem("nc", "33540F", "青山隐隐，败叶萧萧") </script>
+3. <script> embedproblem("nc", "33540G", "几番烟雾，只有花难护") </script>
+4. <script> embedproblem("nc", "33540H", "岸风翻夕浪，舟雪洒寒灯") </script>
+5. <script> embedproblem("nc", "33540L", "夜暗方显万颗星，灯明始见一缕尘") </script>
+6. <script> embedproblem("nc", "33540M", "劝君终日酩酊醉，酒不到刘伶坟上土") </script>
+7. <script> embedproblem("cf", "1675A", "AvtoBus") </script>
+8. <script> embedproblem("cf", "1675B", "Stone Age Problem") </script>
+9. <script> embedproblem("cf", "1675C", "Rooks Defenders") </script>
 
 ## 2022-05-15
 
@@ -53,6 +69,7 @@ category: 打卡
 3. <script> embedproblem("lg", "P2051", "[AHOI2009] 中国象棋") </script>
 4. <script> embedproblem("lg", "P1627", "[CQOI2009] 中位数") </script>
 5. <script> embedproblem("lg", "P1103", "书本整理") </script>
+6. <script> embedproblem("nc", "34442K", "乐观的 R 家族") </script>
 
 ## 2022-05-22
 
