@@ -5,13 +5,13 @@ tags: 蓝桥杯
 category: 题解
 ---
 
-<script> embedpdf("题面", ["LQ13province_CB"]) </script>
+<script> embedpdf("题面", ["LQ13province1_CB"]) </script>
 
 ## 九进制转十进制
 
 送分题，推荐使用 `std::stoi` 函数，自带进制转换
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/A.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/A.cpp") </script>
 
 ## 顺子日期
 
@@ -37,7 +37,7 @@ category: 题解
 
 按照题意模拟即可
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/C.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/C.cpp") </script>
 
 ## 修剪灌木
 
@@ -45,7 +45,7 @@ category: 题解
 
 故对于中点左侧的灌木来说，其最大高度为其右侧灌木数量乘 $2$；对于中点右侧的灌木来说，其最大高度为其左侧灌木数量乘 $2$。
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/D.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/D.cpp") </script>
 
 ## X 进制减法
 
@@ -82,7 +82,7 @@ $$
 
 注意题面的规定“最低为二进制”与“每一数位上的数字要小于其进制”，故每位的进制最小只能取到 $\max(2, a_i+1, b_i+1)$
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/E.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/E.cpp") </script>
 
 ## 统计子矩阵
 
@@ -100,7 +100,7 @@ $$
 
 一个循环遍历两线的左边界，一个循环遍历两线的右边界，一个循环在限定的左右边界范围内在纵方向扫双指针，时间复杂度 $O(n^3)$
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/F.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/F.cpp") </script>
 
 ## 积木画
 
@@ -120,20 +120,20 @@ $$
   * 若最后一个放的是竖条
     * $dp[i-1]+$ 第 $i$ 列放一个竖条 $=dp[i]$
 
-      ![1-1](/images/LQ13province-CB/G-1-1.png)
+      ![1-1](/images/LQ13province1-CB/G-1-1.png)
     * $dp[i-2]+$ 第 $i-1$ 与 第 $i$ 列放两个横条 $=dp[i]$
 
-      ![1-2](/images/LQ13province-CB/G-1-2.png)
+      ![1-2](/images/LQ13province1-CB/G-1-2.png)
   * 若最后一个放的是 L 条，最后一个放的 L 条有两种放法，故答案乘 $2$
     * $dp[i-3]+$ 放两个 L 条 $=dp[i]$
 
-      ![1-3](/images/LQ13province-CB/G-1-3.png)
+      ![1-3](/images/LQ13province1-CB/G-1-3.png)
     * $dp[i-4]+$ 两个 L 条一个横条 $=dp[i]$
 
-      ![1-4](/images/LQ13province-CB/G-1-4.png)
+      ![1-4](/images/LQ13province1-CB/G-1-4.png)
     * $dp[i-5]+$ 两个 L 条两个横条 $=dp[i]$
 
-      ![1-5](/images/LQ13province-CB/G-1-5.png)
+      ![1-5](/images/LQ13province1-CB/G-1-5.png)
     * $\vdots$
 
   即：
@@ -220,36 +220,36 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
   若第 $i$ 列没被填满，我们**向第 $i$ 列上放置积木**将其填满，而在这个填充的过程中可能会影响到第 $i+1$ 列：
   * $dp[i][0][0] \rightarrow dp[i+1][0][0]$
 
-    ![2-1](/images/LQ13province-CB/G-2-1.png)
+    ![2-1](/images/LQ13province1-CB/G-2-1.png)
   * $dp[i][0][0] \rightarrow dp[i+1][1][1]$
 
-    ![2-2](/images/LQ13province-CB/G-2-2.png)
+    ![2-2](/images/LQ13province1-CB/G-2-2.png)
   * $dp[i][0][0] \rightarrow dp[i+1][0][1]$
 
-    ![2-3](/images/LQ13province-CB/G-2-3.png)
+    ![2-3](/images/LQ13province1-CB/G-2-3.png)
   * $dp[i][0][0] \rightarrow dp[i+1][1][0]$
 
-    ![2-4](/images/LQ13province-CB/G-2-4.png)
+    ![2-4](/images/LQ13province1-CB/G-2-4.png)
   * $dp[i][0][1] \rightarrow dp[i+1][1][0]$
 
-    ![2-5](/images/LQ13province-CB/G-2-5.png)
+    ![2-5](/images/LQ13province1-CB/G-2-5.png)
   * $dp[i][0][1] \rightarrow dp[i+1][1][1]$
 
-    ![2-6](/images/LQ13province-CB/G-2-6.png)
+    ![2-6](/images/LQ13province1-CB/G-2-6.png)
   * $dp[i][1][0] \rightarrow dp[i+1][0][1]$
 
-    ![2-7](/images/LQ13province-CB/G-2-7.png)
+    ![2-7](/images/LQ13province1-CB/G-2-7.png)
   * $dp[i][1][0] \rightarrow dp[i+1][1][1]$
 
-    ![2-8](/images/LQ13province-CB/G-2-8.png)
+    ![2-8](/images/LQ13province1-CB/G-2-8.png)
   * $dp[i][1][1] \rightarrow dp[i+1][0][0]$
 
-    ![2-9](/images/LQ13province-CB/G-2-9.png)
+    ![2-9](/images/LQ13province1-CB/G-2-9.png)
 * 所求结果：$dp[n+1][0][0]$
 
 每列状态只与上一列有关，故可以滚动数组优化
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/G.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/G.cpp") </script>
 
 ## 扫雷
 
@@ -257,7 +257,7 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
 
 但是注意到 $r$ 最大只有 $10$，故对于一个结点我们可以枚举 $r$ 来获取其能炸到的位置，所以直接搜索就是了。需要注意的是 $x,y \leq {10}^9$，我们不能用二维数组存地图，需要使用哈希表 `std::unordered_map`。另外，`std::pair` 没有哈希，需要我们自己写一个哈希函数，方法是特化仿函数 `std::hash`
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/H.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/H.cpp") </script>
 
 ## 李白打酒加强版
 
@@ -276,9 +276,9 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
   
   注意不是 $dp[n][m][0]$，因为这样就包含了最后一个单位是店的状态，与题目要求矛盾
 
-<script> embedcode("递推", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/I1.cpp") </script>
+<script> embedcode("递推", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/I1.cpp") </script>
 
-<script> embedcode("记忆化搜索", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/I2.cpp") </script>
+<script> embedcode("记忆化搜索", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/I2.cpp") </script>
 
 ## 砍竹子
 
@@ -300,4 +300,4 @@ $j=(0,1)$ 代表第一行是否被填充，$k=(0,1)$ 代表第二行是否被填
 
 故 $O(kn)$ 扫一遍即可，$k$ 为砍竹子的复杂度，高度最大为 ${10}^{18}$，最多砍 $6$ 刀就砍到 $1$ 了，故 $k$ 最大为 $6$
 
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/J.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/J.cpp") </script>
