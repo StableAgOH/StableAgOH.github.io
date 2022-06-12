@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>第十三届蓝桥杯省赛 C/C++ B 组题解 | AgOH's Coffeehouse</title><script>var config = {"hostname":"https://agoh.xyz","root":"/","preload":true,"path":"search.json"}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><link rel="stylesheet" href="/css/arknights.css"><link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"><style>@font-face {
  font-family: BenderLight;
  src: local('Bender'), url("/font/BenderLight.ttf");
-}</style><script src="/js/utils.js"> </script><meta name="generator" content="Hexo 6.2.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li><li class="navItem"><a href="/links/"><span class="navItemTitle">Links</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十三届蓝桥杯省赛 C/C++ B 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-22T06:04:53.000Z" id="date"> 2022-04-22</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-06-10T19:19:35.004Z" id="updated"> 2022-06-11</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.8k</span></span><br><span>Read Time:<span class="control">&nbsp;11min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ13province_CB"]) </script>
+}</style><script src="/js/utils.js"> </script><meta name="generator" content="Hexo 6.2.0"></head><body style="background-image:url(https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg);"><main><header><nav><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><ol class="navContent"><li class="navItem search-header"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></li><li class="navItem"><a href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a href="/archives/"><span class="navItemTitle">Archives</span></a></li><li class="navItem"><a href="/links/"><span class="navItemTitle">Links</span></a></li></ol></nav><div class="search-popup"><div id="search-result"></div></div></header><article><div id="post-bg"><div id="post-title"><h1>第十三届蓝桥杯省赛 C/C++ B 组题解</h1><div id="post-info"><span>First Post:<span class="control"><time datetime="2022-04-22T06:04:53.000Z" id="date"> 2022-04-22</time></span></span><br><span>Last Update:<span class="control"><time datetime="2022-06-12T10:51:22.614Z" id="updated"> 2022-06-12</time></span></span><br><span>Word Count:<span class="control">&nbsp;2.8k</span></span><br><span>Read Time:<span class="control">&nbsp;11min</span></span></div></div><hr><div id="post-content"><script> embedpdf("题面", ["LQ13province1_CB"]) </script>
 <h2 id="九进制转十进制">九进制转十进制</h2>
 <p>送分题，推荐使用 <code>std::stoi</code> 函数，自带进制转换</p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/A.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/A.cpp") </script>
 <h2 id="顺子日期">顺子日期</h2>
 <p>题面写的很差，对“顺子”没有一个准确的定义（逆序是否算顺子？包括 <span class="math inline">\(0\)</span> 的是否算顺子？）</p>
 <p>若顺子定义为：“从小到大连续三个大于等于 <span class="math inline">\(0\)</span> 的数字”，则本题做法如下：</p>
@@ -22,11 +22,11 @@
 <p>注意在以上过程中我们计算了 <span class="math inline">\(0123\)</span> 两次，故最终结果为 <span class="math inline">\(10+2+1+2-1=14\)</span></p>
 <h2 id="刷题统计">刷题统计</h2>
 <p>按照题意模拟即可</p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/C.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/C.cpp") </script>
 <h2 id="修剪灌木">修剪灌木</h2>
 <p>当一棵灌木被修剪后其高度会变为 <span class="math inline">\(0\)</span>，而下次再次碰到此灌木时其高度达到最高</p>
 <p>故对于中点左侧的灌木来说，其最大高度为其右侧灌木数量乘 <span class="math inline">\(2\)</span>；对于中点右侧的灌木来说，其最大高度为其左侧灌木数量乘 <span class="math inline">\(2\)</span>。</p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/D.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/D.cpp") </script>
 <h2 id="x-进制减法">X 进制减法</h2>
 <h3 id="题面解释">题面解释</h3>
 <p>首先我们解释一下题面里的 <span class="math inline">\(321\)</span> 转换后为什么是 <span class="math inline">\(65\)</span></p>
@@ -47,7 +47,7 @@
 \]</span></p>
 <p>在 <span class="math inline">\(a_i\)</span> 与 <span class="math inline">\(b_i\)</span> 都给定的情况下，可以发现当 <span class="math inline">\(\prod_{j=i+1}^{n}x_j\)</span> 越小时，<span class="math inline">\(A-B\)</span> 越小，也就是每位的进制都取到最小值时，<span class="math inline">\(A-B\)</span> 最小</p>
 <p>注意题面的规定“最低为二进制”与“每一数位上的数字要小于其进制”，故每位的进制最小只能取到 <span class="math inline">\(\max(2, a_i+1, b_i+1)\)</span></p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/E.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/E.cpp") </script>
 <h2 id="统计子矩阵">统计子矩阵</h2>
 <p>首先有一个很显然的二维前缀和暴力，但时间复杂度为 <span class="math inline">\(O(n^4)\)</span>，对于 <span class="math inline">\(500\)</span> 的数据范围显然无法接受</p>
 <p>我们发现，子矩阵是连续的，故本题其实即双指针算法维护区间信息的模板题的二维版本</p>
@@ -57,7 +57,7 @@
 <p>在一维数组中使用双指针时，两个指针指向的是零维的点，那么在二维数组中使用双指针时，双指针自然指向的就是一维的线</p>
 <p>于是我们只需要遍历这两根一维的线，扫双指针即可。而两线之间元素的和的维护可以使用前缀和轻松解决</p>
 <p>一个循环遍历两线的左边界，一个循环遍历两线的右边界，一个循环在限定的左右边界范围内在纵方向扫双指针，时间复杂度 <span class="math inline">\(O(n^3)\)</span></p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/F.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/F.cpp") </script>
 <h2 id="积木画">积木画</h2>
 <p>洛谷原题：<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1990">覆盖墙壁</a></p>
 <p>发现问题要求方案数，而求方案数的题目一般就是两种做法：组合数学或者动态规划。本题显然不像是可以用组合数学解决的，考虑动态规划</p>
@@ -72,18 +72,18 @@
 <li>若最后一个放的是竖条
 <ul>
 <li><p><span class="math inline">\(dp[i-1]+\)</span> 第 <span class="math inline">\(i\)</span> 列放一个竖条 <span class="math inline">\(=dp[i]\)</span></p>
-<img src="/images/LQ13province-CB/G-1-1.png" alt="1-1" /></li>
+<img src="/images/LQ13province1-CB/G-1-1.png" alt="1-1" /></li>
 <li><p><span class="math inline">\(dp[i-2]+\)</span> 第 <span class="math inline">\(i-1\)</span> 与 第 <span class="math inline">\(i\)</span> 列放两个横条 <span class="math inline">\(=dp[i]\)</span></p>
-<img src="/images/LQ13province-CB/G-1-2.png" alt="1-2" /></li>
+<img src="/images/LQ13province1-CB/G-1-2.png" alt="1-2" /></li>
 </ul></li>
 <li>若最后一个放的是 L 条，最后一个放的 L 条有两种放法，故答案乘 <span class="math inline">\(2\)</span>
 <ul>
 <li><p><span class="math inline">\(dp[i-3]+\)</span> 放两个 L 条 <span class="math inline">\(=dp[i]\)</span></p>
-<img src="/images/LQ13province-CB/G-1-3.png" alt="1-3" /></li>
+<img src="/images/LQ13province1-CB/G-1-3.png" alt="1-3" /></li>
 <li><p><span class="math inline">\(dp[i-4]+\)</span> 两个 L 条一个横条 <span class="math inline">\(=dp[i]\)</span></p>
-<img src="/images/LQ13province-CB/G-1-4.png" alt="1-4" /></li>
+<img src="/images/LQ13province1-CB/G-1-4.png" alt="1-4" /></li>
 <li><p><span class="math inline">\(dp[i-5]+\)</span> 两个 L 条两个横条 <span class="math inline">\(=dp[i]\)</span></p>
-<img src="/images/LQ13province-CB/G-1-5.png" alt="1-5" /></li>
+<img src="/images/LQ13province1-CB/G-1-5.png" alt="1-5" /></li>
 <li><p><span class="math inline">\(\vdots\)</span></p></li>
 </ul></li>
 </ul>
@@ -162,32 +162,32 @@
 <li>转移方程： 若第 <span class="math inline">\(i\)</span> 列没被填满，我们<strong>向第 <span class="math inline">\(i\)</span> 列上放置积木</strong>将其填满，而在这个填充的过程中可能会影响到第 <span class="math inline">\(i+1\)</span> 列：
 <ul>
 <li><p><span class="math inline">\(dp[i][0][0] \rightarrow dp[i+1][0][0]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-1.png" alt="2-1" /></li>
+<img src="/images/LQ13province1-CB/G-2-1.png" alt="2-1" /></li>
 <li><p><span class="math inline">\(dp[i][0][0] \rightarrow dp[i+1][1][1]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-2.png" alt="2-2" /></li>
+<img src="/images/LQ13province1-CB/G-2-2.png" alt="2-2" /></li>
 <li><p><span class="math inline">\(dp[i][0][0] \rightarrow dp[i+1][0][1]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-3.png" alt="2-3" /></li>
+<img src="/images/LQ13province1-CB/G-2-3.png" alt="2-3" /></li>
 <li><p><span class="math inline">\(dp[i][0][0] \rightarrow dp[i+1][1][0]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-4.png" alt="2-4" /></li>
+<img src="/images/LQ13province1-CB/G-2-4.png" alt="2-4" /></li>
 <li><p><span class="math inline">\(dp[i][0][1] \rightarrow dp[i+1][1][0]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-5.png" alt="2-5" /></li>
+<img src="/images/LQ13province1-CB/G-2-5.png" alt="2-5" /></li>
 <li><p><span class="math inline">\(dp[i][0][1] \rightarrow dp[i+1][1][1]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-6.png" alt="2-6" /></li>
+<img src="/images/LQ13province1-CB/G-2-6.png" alt="2-6" /></li>
 <li><p><span class="math inline">\(dp[i][1][0] \rightarrow dp[i+1][0][1]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-7.png" alt="2-7" /></li>
+<img src="/images/LQ13province1-CB/G-2-7.png" alt="2-7" /></li>
 <li><p><span class="math inline">\(dp[i][1][0] \rightarrow dp[i+1][1][1]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-8.png" alt="2-8" /></li>
+<img src="/images/LQ13province1-CB/G-2-8.png" alt="2-8" /></li>
 <li><p><span class="math inline">\(dp[i][1][1] \rightarrow dp[i+1][0][0]\)</span></p>
-<img src="/images/LQ13province-CB/G-2-9.png" alt="2-9" /></li>
+<img src="/images/LQ13province1-CB/G-2-9.png" alt="2-9" /></li>
 </ul></li>
 <li>所求结果：<span class="math inline">\(dp[n+1][0][0]\)</span></li>
 </ul>
 <p>每列状态只与上一列有关，故可以滚动数组优化</p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/G.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/G.cpp") </script>
 <h2 id="扫雷">扫雷</h2>
 <p>乍一看很像 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3958">[NOIP2017 提高组] 奶酪</a>，但一看数据范围发现 <span class="math inline">\(O(n^2)\)</span> 的时间复杂度过 <span class="math inline">\(5 \times {10}^4\)</span> 有点悬</p>
 <p>但是注意到 <span class="math inline">\(r\)</span> 最大只有 <span class="math inline">\(10\)</span>，故对于一个结点我们可以枚举 <span class="math inline">\(r\)</span> 来获取其能炸到的位置，所以直接搜索就是了。需要注意的是 <span class="math inline">\(x,y \leq {10}^9\)</span>，我们不能用二维数组存地图，需要使用哈希表 <code>std::unordered_map</code>。另外，<code>std::pair</code> 没有哈希，需要我们自己写一个哈希函数，方法是特化仿函数 <code>std::hash</code></p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/H.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/H.cpp") </script>
 <h2 id="李白打酒加强版">李白打酒加强版</h2>
 <p>又是求方案数，一看又不太可能是组合数学，于是 DP。总共就三个变量：店、花、酒的数量，状态设计很简单：</p>
 <ul>
@@ -203,8 +203,8 @@
 <li><p>所求结果：<span class="math inline">\(dp[n][m-1][1]\)</span></p>
 <p>注意不是 <span class="math inline">\(dp[n][m][0]\)</span>，因为这样就包含了最后一个单位是店的状态，与题目要求矛盾</p></li>
 </ul>
-<script> embedcode("递推", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/I1.cpp") </script>
-<script> embedcode("记忆化搜索", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/I2.cpp") </script>
+<script> embedcode("递推", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/I1.cpp") </script>
+<script> embedcode("记忆化搜索", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/I2.cpp") </script>
 <h2 id="砍竹子">砍竹子</h2>
 <p>其实就是 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P5019">[NOIP2018 提高组] 铺设道路</a> 的加强版而已</p>
 <p>回想一下铺设道路的做法：对于除了第一个坑的每一个坑来说，若坑深度大于前一个坑的深度，那么其对答案的贡献就是两坑高度之差，最终答案就是第一个坑的深度加上每个坑对于答案的贡献</p>
@@ -215,5 +215,5 @@
 <p>注意此时并没有类似“若坑深度大于前一个坑的深度”的限制，因为对于填坑来说，不满足这个条件的坑一定会被填前一个坑的过程中顺带填掉。但是砍竹子不是这样，高的竹子并不一定会有矮的竹子被砍的过程中的高度的后缀，也就是不满足前述条件的竹子不一定会被顺带砍掉</p>
 <p>故某根竹子对于答案的贡献即为其被砍过程中与前一根竹子的公共后缀之外的部分的高度的数量</p>
 <p>故 <span class="math inline">\(O(kn)\)</span> 扫一遍即可，<span class="math inline">\(k\)</span> 为砍竹子的复杂度，高度最大为 <span class="math inline">\({10}^{18}\)</span>，最多砍 <span class="math inline">\(6\)</span> 刀就砍到 <span class="math inline">\(1\)</span> 了，故 <span class="math inline">\(k\)</span> 最大为 <span class="math inline">\(6\)</span></p>
-<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province/CB/J.cpp") </script>
+<script> embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/13/province1/CB/J.cpp") </script>
 <div id="paginator"></div></div><div id="post-footer"><div id="pages"><div id="footer-link" style="right: calc(50% - 1px);order: 1;border-right: 1px solid #fe2;padding-left: unset;max-width: calc(50% - 4px);"><a href="/2022/05/23/daily-problems/">← Next 每日 5 题打卡</a></div><div id="footer-link" style="left: 50%;order: 0;border-left: 1px solid #fe2;padding-right: unset;max-width: calc(50% - 5px);"><a href="/2022/04/12/LQ12province1-C/">第十二届蓝桥杯省赛第一场 C/C++ 组题解 Prev →</a></div></div></div><details id="reward"><summary>打赏</summary><div id="alipay"><span>支付宝 | Alipay</span><br><img src="/img/Alipay.png"></div><div id="wechat"><span>微信 | WeChat</span><br><img src="/img/WeChat.png"></div></details><script src="https://giscus.app/client.js" data-repo="StableAgOH/stableagoh.github.io" data-repo-id="null" data-category="Announcements" data-category-id="DIC_kwDOHHhRBc4CO1AZ" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark" data-lang="zh-CN" crossorigin="anonymous" async></script></div><div id="bottom-btn"><a id="to-top" onClick="index.scrolltop();" title="to top" style="opacity: 0; display: none;">∧</a></div></article><div class="aside-box"><aside><div id="aside-top"><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a target="_blank" rel="noopener" href="https://space.bilibili.com/120174936">AgOH</a></h1><div id="description"><p>苛性银的咖啡屋</p></div><!--if page.published === undefined--><section id="total"><a id="total-archives" href="/archives"><span class="total-title">Archives Total:</span><span class="total-number">4</span></a><div id="total-tags"><span class="total-title">Tags:</span><span class="total-number">3</span></div><div id="total-categories"><span class="total-title">Categories:</span><span class="total-number">2</span></div></section></div><div id="aside-block"><div id="toc-div"><h1>INDEX</h1><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D%E8%BF%9B%E5%88%B6%E8%BD%AC%E5%8D%81%E8%BF%9B%E5%88%B6"><span class="toc-number">1.</span> <span class="toc-text">九进制转十进制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A1%BA%E5%AD%90%E6%97%A5%E6%9C%9F"><span class="toc-number">2.</span> <span class="toc-text">顺子日期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%B7%E9%A2%98%E7%BB%9F%E8%AE%A1"><span class="toc-number">3.</span> <span class="toc-text">刷题统计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E5%89%AA%E7%81%8C%E6%9C%A8"><span class="toc-number">4.</span> <span class="toc-text">修剪灌木</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#x-%E8%BF%9B%E5%88%B6%E5%87%8F%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">X 进制减法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E9%9D%A2%E8%A7%A3%E9%87%8A"><span class="toc-number">5.1.</span> <span class="toc-text">题面解释</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E9%A2%98"><span class="toc-number">5.2.</span> <span class="toc-text">解题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1%E5%AD%90%E7%9F%A9%E9%98%B5"><span class="toc-number">6.</span> <span class="toc-text">统计子矩阵</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A7%AF%E6%9C%A8%E7%94%BB"><span class="toc-number">7.</span> <span class="toc-text">积木画</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7-dp"><span class="toc-number">7.1.</span> <span class="toc-text">线性 DP</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%B4%E7%B4%A0%E9%80%92%E6%8E%A8"><span class="toc-number">7.1.1.</span> <span class="toc-text">朴素递推</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E5%8A%A0%E9%80%9F"><span class="toc-number">7.1.2.</span> <span class="toc-text">矩阵加速</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8A%B6%E5%8E%8B-dp"><span class="toc-number">7.2.</span> <span class="toc-text">状压 DP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%AB%E9%9B%B7"><span class="toc-number">8.</span> <span class="toc-text">扫雷</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%8E%E7%99%BD%E6%89%93%E9%85%92%E5%8A%A0%E5%BC%BA%E7%89%88"><span class="toc-number">9.</span> <span class="toc-text">李白打酒加强版</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%8D%E7%AB%B9%E5%AD%90"><span class="toc-number">10.</span> <span class="toc-text">砍竹子</span></a></li></ol></div></div></div><footer><nobr><span class="text-title">Dr.</span><span class="text-content">不分解的 AgOH</span></nobr><br><nobr><span class="text-title">官服ID</span><span class="text-content">951391786</span></nobr><br><nobr><span class="text-title">ICP</span><span class="text-content">辽ICP备2022005050号-2</span></nobr><br><text>published with <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></text><text> Theme <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknight</a></text><wbr><text>by <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></text></footer></aside></div></main><canvas id="canvas-dust"></canvas><script src="/js/search.js"></script><script>const reset=_=>{}</script><script src="//unpkg.com/@highlightjs/cdn-assets@11.4.0/highlight.min.js"></script><script src="/js/arknights.js"></script><script>document.addEventListener("load",reset())</script></body></html>
