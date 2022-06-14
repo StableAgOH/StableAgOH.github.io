@@ -162,3 +162,9 @@ category: 打卡
 1. <script> embedproblem("cf", "1689A", "Lex String") </script>
 2. <script> embedproblem("cf", "1689B", "Mystic Permutation") </script>
 3. <script> embedproblem("cf", "1689C", "Infected Tree") </script>
+
+## 2022-06-12
+
+1. <script> embedproblem("cf", "1697A", "Parkway Walk") </script>
+2. <script> embedproblem("cf", "1697B", "Promo") </script>
+3. <script> embedproblem("cf", "1697C", "awoo's Favorite Problem") </script>
