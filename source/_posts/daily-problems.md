@@ -168,3 +168,10 @@ category: 打卡
 1. <script> embedproblem("cf", "1697A", "Parkway Walk") </script>
 2. <script> embedproblem("cf", "1697B", "Promo") </script>
 3. <script> embedproblem("cf", "1697C", "awoo's Favorite Problem") </script>
+
+## 2022-07-18
+
+1. <script> embedproblem("nc", "33186A", "Villages: Landlines") </script>
+2. <script> embedproblem("nc", "33186D", "Mocha and Railgun") </script>
+3. <script> embedproblem("nc", "33186G", "Lexicographical Maximum") </script>
+4. <script> embedproblem("nc", "33186I", "Chiitoitsu") </script>
