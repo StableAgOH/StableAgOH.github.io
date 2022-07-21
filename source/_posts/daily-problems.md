@@ -175,3 +175,11 @@ category: 打卡
 2. <script> embedproblem("nc", "33186D", "Mocha and Railgun") </script>
 3. <script> embedproblem("nc", "33186G", "Lexicographical Maximum") </script>
 4. <script> embedproblem("nc", "33186I", "Chiitoitsu") </script>
+
+## 2022-07-21
+
+1. <script> embedproblem("nc", "33186C", "Grab the Seat!") </script>
+2. <script> embedproblem("nc", "33186J", "Serval and Essay") </script>
+3. <script> embedproblem("cf", "1706A", "Another String Minimization Problem") </script>
+4. <script> embedproblem("cf", "1706B", "Making Towers") </script>
+5. <script> embedproblem("cf", "1706C", "Qpwoeirut And The City") </script>
