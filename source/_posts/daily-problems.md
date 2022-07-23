@@ -183,3 +183,9 @@ category: 打卡
 3. <script> embedproblem("cf", "1706A", "Another String Minimization Problem") </script>
 4. <script> embedproblem("cf", "1706B", "Making Towers") </script>
 5. <script> embedproblem("cf", "1706C", "Qpwoeirut And The City") </script>
+
+## 2022-07-22
+
+1. <script> embedproblem("cf", "1709A", "Three Doors") </script>
+2. <script> embedproblem("cf", "1709B", "Also Try Minecraft") </script>
+3. <script> embedproblem("cf", "1709D", "Rorororobot") </script>
