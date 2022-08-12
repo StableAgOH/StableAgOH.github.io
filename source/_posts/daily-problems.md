@@ -189,3 +189,22 @@ category: 打卡
 1. <script> embedproblem("cf", "1709A", "Three Doors") </script>
 2. <script> embedproblem("cf", "1709B", "Also Try Minecraft") </script>
 3. <script> embedproblem("cf", "1709D", "Rorororobot") </script>
+
+## 2022-07-23
+
+1. <script> embedproblem("nc", "33187G", "Link with Monotonic Subsequence") </script>
+
+## 2022-07-25
+
+1. <script> embedproblem("nc", "33188A", "Ancestor") </script>
+2. <script> embedproblem("nc", "33188C", "Concatenation") </script>
+
+## 2022-08-06
+
+1. <script> embedproblem("nc", "33191B", "Eezie and Pie") </script>
+2. <script> embedproblem("nc", "33191G", "Icon Design") </script>
+
+## 2022-08-08
+
+1. <script> embedproblem("nc", "33192F", "Candies") </script>
+2. <script> embedproblem("nc", "33192G", "Eezie and Pie") </script>
