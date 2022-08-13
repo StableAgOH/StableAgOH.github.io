@@ -208,3 +208,14 @@ category: 打卡
 
 1. <script> embedproblem("nc", "33192F", "Candies") </script>
 2. <script> embedproblem("nc", "33192G", "Eezie and Pie") </script>
+
+## 2022-08-13
+
+1. <script> embedproblem("nc", "33193F", "Longest Common Subsequence") </script>
+
+## 2022-08-14
+
+1. <script> embedproblem("cf", "1712A", "Wonderful Permutation") </script>
+2. <script> embedproblem("cf", "1712B", "Woeful Permutation") </script>
+3. <script> embedproblem("cf", "1712C", "Sort Zero") </script>
+4. <script> embedproblem("cf", "1712D", "Empty Graph") </script>
