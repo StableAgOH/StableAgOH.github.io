@@ -219,3 +219,14 @@ category: 打卡
 2. <script> embedproblem("cf", "1712B", "Woeful Permutation") </script>
 3. <script> embedproblem("cf", "1712C", "Sort Zero") </script>
 4. <script> embedproblem("cf", "1712D", "Empty Graph") </script>
+
+## 2022-08-15
+
+1. <script> embedproblem("nc", "33194A", "Car Show") </script>
+
+## 2022-08-29
+
+1. <script> embedproblem("nc", "33197J", "Link with Arithmetic Progression") </script>
+2. <script> embedproblem("nc", "33197K", "Link with Bracket Sequence I") </script>
+3. <script> embedproblem("nc", "33197L", "Link with Level Editor I") </script>
+4. <script> embedproblem("lg", "P1077", "[NOIP2012 普及组] 摆花") </script>
