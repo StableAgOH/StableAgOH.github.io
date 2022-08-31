@@ -226,7 +226,16 @@ category: 打卡
 
 ## 2022-08-29
 
-1. <script> embedproblem("nc", "33197J", "Link with Arithmetic Progression") </script>
-2. <script> embedproblem("nc", "33197K", "Link with Bracket Sequence I") </script>
-3. <script> embedproblem("nc", "33197L", "Link with Level Editor I") </script>
+1. <script> embedproblem("nc", "33187J", "Link with Arithmetic Progression") </script>
+2. <script> embedproblem("nc", "33187K", "Link with Bracket Sequence I") </script>
+3. <script> embedproblem("nc", "33187L", "Link with Level Editor I") </script>
 4. <script> embedproblem("lg", "P1077", "[NOIP2012 普及组] 摆花") </script>
+
+## 2022-08-30
+
+1. <script> embedproblem("nc", "33187D", "Link with Game Glitch") </script>
+2. <script> embedproblem("nc", "33187H", "Take the Elevator") </script>
+
+## 2022-08-31
+
+1. <script> embedproblem("nc", "33188J", "Journey") </script>
