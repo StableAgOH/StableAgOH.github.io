@@ -7,6 +7,7 @@ category: 笔记
 
 ## 需要用到的定义
 
+* $T=(V,E)$：所讨论的树
 * $d(u)$：$u$ 结点的度数
 * $w(u,v)$：$u$ 结点与 $v$ 结点之间的边的边权
 * $p_u$：$u$ 结点的父结点
@@ -25,7 +26,8 @@ $$
 \begin{aligned}
     f(u) &= \cfrac{w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v) + f(u))}{d(u)} \\
             &= \cfrac{w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v)) + (d(u)-1)f(u)}{d(u)} \\
-            &= w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v))
+            &= w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v)) \\
+            &= \sum\limits_{(u,t) \in E}w(u,t) + \sum\limits_{v \in {son}_u}f(v)
 \end{aligned}
 $$
 
@@ -35,17 +37,7 @@ $$
 
 当树上所有边的边权都为 $1$ 时，上式可化为：
 
-$$f(u) = 1 + \sum\limits_{v \in {son}_u}(1 + f(v))$$
-
-化简如下：
-
-$$
-\begin{aligned}
-    f(u) &= 1 + \sum\limits_{v \in {son}_u}(1 + f(v)) \\
-            &= 1 + (d(u)-1) + \sum\limits_{v \in {son}_u}f(v) \\
-            &= d(u) + \sum\limits_{v \in {son}_u}f(v)
-\end{aligned}
-$$
+$$f(u) = d(u) + \sum\limits_{v \in {son}_u}f(v)$$
 
 即 $u$ 子树的所有结点的度数和，也即 $u$ 子树大小的两倍 $-1$（每个结点连向其父亲的边都有且只有一条，除 $u$ 与 $p_u$ 之间的边只有 $1$ 点度数的贡献外，每条边会产生 $2$ 点度数的贡献）。
 
@@ -62,8 +54,9 @@ $$g(u) = \cfrac{w(p_u,u) + \left(w(p_u,p_{p_u})+g(p_u)+g(u)\right) + \sum\limits
 $$
 \begin{aligned}
     g(u) &= \cfrac{w(p_u,u) + \left(w(p_u,p_{p_u})+g(p_u)+g(u)\right) + \sum\limits_{s \in {sibling}_u}(w(p_u,s)+f(s)+g(u))}{d(p_u)} \\
-         &= \cfrac{w(p_u,u) + w(p_u,p_{p_u}) + g(p_u) + \sum\limits_{s \in {sibling}_u}(w(p_u,s)+f(s))+(d(p_u)-1)g(u)}{d(p_u)} \\
-         &= w(p_u,u) + w(p_u,p_{p_u}) + g(p_u) + \sum\limits_{s \in {sibling}_u}(w(p_u,s)+f(s))
+         &= \cfrac{w(p_u,u) + w(p_u,p_{p_u}) + g(p_u) + \sum\limits_{s \in {sibling}_u}\left(w(p_u,s)+f(s)\right)+(d(p_u)-1)g(u)}{d(p_u)} \\
+         &= w(p_u,u) + w(p_u,p_{p_u}) + g(p_u) + \sum\limits_{s \in {sibling}_u}(w(p_u,s)+f(s)) \\
+         &= \sum\limits_{(p_u,t) \in E}w(p_u,t) + g(p_u) + \sum\limits_{s \in {sibling}_u}f(s)
 \end{aligned}
 $$
 
@@ -71,14 +64,4 @@ $$
 
 当树上所有边的边权都为 $1$ 时，上式可化为：
 
-$$g(u) = 1 + 1 + g(p_u) + \sum\limits_{s \in {sibling}_u}(1+f(s))$$
-
-化简如下：
-
-$$
-\begin{aligned}
-    g(u) &= 1 + 1 + g(p_u) + \sum\limits_{s \in {sibling}_u}(1+f(s)) \\
-         &= 2 + g(p_u) + (d(p_u)-2) + \sum\limits_{s \in {sibling}_u}f(s) \\
-         &= g(p_u) + d(p_u) + \sum\limits_{s \in {sibling}_u}f(s)
-\end{aligned}
-$$
+$$g(u) = d(p_u) + g(p_u) + \sum\limits_{s \in {sibling}_u}f(s)$$
