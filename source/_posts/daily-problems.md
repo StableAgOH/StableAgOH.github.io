@@ -239,3 +239,16 @@ category: 打卡
 ## 2022-08-31
 
 1. <script> embedproblem("nc", "33188J", "Journey") </script>
+
+## 2022-09-02
+
+1. <script> embedproblem("cf", "1717A", "Madoka and Strange Thoughts") </script>
+2. <script> embedproblem("cf", "1717B", "Madoka and Underground Competitions") </script>
+3. <script> embedproblem("cf", "1717C", "Madoka and Formal Statement") </script>
+4. <script> embedproblem("cf", "1717D", "Madoka and The Corruption Scheme") </script>
+
+## 2022-09-03
+
+1. <script> embedproblem("gym", "103688F", "342 and Xiangqi") </script>
+2. <script> embedproblem("gym", "103688H", "Kanbun") </script>
+3. <script> embedproblem("gym", "103688I", "Equal Sum Arrays") </script>
