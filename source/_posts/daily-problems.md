@@ -252,3 +252,9 @@ category: 打卡
 1. <script> embedproblem("gym", "103688F", "342 and Xiangqi") </script>
 2. <script> embedproblem("gym", "103688H", "Kanbun") </script>
 3. <script> embedproblem("gym", "103688I", "Equal Sum Arrays") </script>
+
+## 2022-09-05
+
+1. <script> embedproblem("gym", "103743A", "PENTA KILL!") </script>
+2. <script> embedproblem("gym", "103743I", "Cutting Suffix") </script>
+3. <script> embedproblem("gym", "103743J", "Balanced Tree") </script>
