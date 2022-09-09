@@ -265,3 +265,7 @@ category: 打卡
 2. <script> embedproblem("cf", "1728B", "Best Permutation") </script>
 3. <script> embedproblem("cf", "1728C", "Digital Logarithm") </script>
 4. <script> embedproblem("cf", "1717D", "Letter Picking") </script>
+
+## 2022-09-09
+
+1. <script> embedproblem("lg", "P5683", "[CSP-J2019 江西] 道路拆除") </script>
