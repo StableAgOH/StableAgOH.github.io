@@ -269,3 +269,4 @@ category: 打卡
 ## 2022-09-09
 
 1. <script> embedproblem("lg", "P5683", "[CSP-J2019 江西] 道路拆除") </script>
+2. <script> embedproblem("nc", "24872G", "Edge Groups") </script>
