@@ -258,3 +258,10 @@ category: 打卡
 1. <script> embedproblem("gym", "103743A", "PENTA KILL!") </script>
 2. <script> embedproblem("gym", "103743I", "Cutting Suffix") </script>
 3. <script> embedproblem("gym", "103743J", "Balanced Tree") </script>
+
+## 2022-09-08
+
+1. <script> embedproblem("cf", "1728A", "Colored Balls: Revisited") </script>
+2. <script> embedproblem("cf", "1728B", "Best Permutation") </script>
+3. <script> embedproblem("cf", "1728C", "Digital Logarithm") </script>
+4. <script> embedproblem("cf", "1717D", "Letter Picking") </script>
