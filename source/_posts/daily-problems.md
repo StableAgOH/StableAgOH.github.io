@@ -246,6 +246,7 @@ category: 打卡
 2. <script> embedproblem("cf", "1717B", "Madoka and Underground Competitions") </script>
 3. <script> embedproblem("cf", "1717C", "Madoka and Formal Statement") </script>
 4. <script> embedproblem("cf", "1717D", "Madoka and The Corruption Scheme") </script>
+5. <script> embedproblem("pta", "1459829212832296960", "Search For Mafuyu") </script>
 
 ## 2022-09-03
 
@@ -270,3 +271,12 @@ category: 打卡
 
 1. <script> embedproblem("lg", "P5683", "[CSP-J2019 江西] 道路拆除") </script>
 2. <script> embedproblem("nc", "24872G", "Edge Groups") </script>
+
+## 2022-09-10
+
+1. <script> embedproblem("lg", "P5683", "[NOI2018] 归程") </script>
+2. <script> embedproblem("nc", "24872H", "Life is a Game") </script>
+3. <script> embedproblem("nc", "24872I", "Steadily Growing Steam") </script>
+4. <script> embedproblem("pta", "1518150003758182400", "A") </script>
+5. <script> embedproblem("pta", "1518150003758182400", "B") </script>
+6. <script> embedproblem("pta", "1518150003758182400", "C") </script>
