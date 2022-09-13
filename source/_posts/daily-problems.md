@@ -280,3 +280,11 @@ category: 打卡
 4. <script> embedproblem("pta", "1518150003758182400", "A") </script>
 5. <script> embedproblem("pta", "1518150003758182400", "B") </script>
 6. <script> embedproblem("pta", "1518150003758182400", "C") </script>
+
+## 2022-09-12
+
+1. <script> embedproblem("cf", "1729A", "Two Elevators") </script>
+2. <script> embedproblem("cf", "1729B", "Decode String") </script>
+3. <script> embedproblem("cf", "1729C", "Jumping on Tiles") </script>
+4. <script> embedproblem("cf", "1729D", "Friends and the Restaurant") </script>
+5. <script> embedproblem("cf", "1729E", "Guess the Cycle Size") </script>
