@@ -288,3 +288,14 @@ category: 打卡
 3. <script> embedproblem("cf", "1729C", "Jumping on Tiles") </script>
 4. <script> embedproblem("cf", "1729D", "Friends and the Restaurant") </script>
 5. <script> embedproblem("cf", "1729E", "Guess the Cycle Size") </script>
+
+## 2022-09-17
+
+1. <script> embedproblem("pta", "1571150153619189760", "C") </script>
+2. <script> embedproblem("pta", "1571150153619189760", "H") </script>
+
+## 2022-09-18
+
+1. <script> embedproblem("pta", "1571150153619189760", "A") </script>
+2. <script> embedproblem("pta", "1571150153619189760", "D") </script>
+3. <script> embedproblem("lg", "P2758", "编辑距离") </script>
