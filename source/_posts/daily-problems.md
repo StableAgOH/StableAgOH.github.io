@@ -299,3 +299,8 @@ category: 打卡
 1. <script> embedproblem("pta", "1571150153619189760", "A") </script>
 2. <script> embedproblem("pta", "1571150153619189760", "D") </script>
 3. <script> embedproblem("lg", "P2758", "编辑距离") </script>
+
+## 2022-09-19
+
+1. <script> embedproblem("nc", "33189K", "A") </script>
+2. <script> embedproblem("nc", "33189N", "D") </script>
