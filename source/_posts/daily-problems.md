@@ -304,5 +304,8 @@ category: 打卡
 
 ## 2022-09-19
 
-1. <script> embedproblem("nc", "33189K", "A") </script>
-2. <script> embedproblem("nc", "33189N", "D") </script>
+1. <script> embedproblem("nc", "33189K", "NIO's Sword") </script>
+2. <script> embedproblem("nc", "33189N", "Particle Arts") </script>
+3. <script> embedproblem("cf", "1733A", "Consecutive Sum") </script>
+4. <script> embedproblem("cf", "1733B", "Rule of League") </script>
+5. <script> embedproblem("cf", "1733C", "Parity Shuffle Sorting") </script>
