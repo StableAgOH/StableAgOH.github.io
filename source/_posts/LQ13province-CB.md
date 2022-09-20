@@ -5,6 +5,8 @@ tags: 蓝桥杯
 category: 题解
 ---
 
+<script src="/js/embed.js"></script>
+
 <script> embedpdf("题面", ["LQ13province1_CB"]) </script>
 
 ## 九进制转十进制

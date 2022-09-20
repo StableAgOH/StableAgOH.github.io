@@ -5,6 +5,8 @@ tags: [每日, 打卡]
 category: 打卡
 ---
 
+<script src="/js/embed.js"></script>
+
 希望自己有时间的的话一天至少写 5 道题
 
 ## 2022-04-30

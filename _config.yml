@@ -5,7 +5,7 @@
 # Site
 title: AgOH's Coffeehouse
 subtitle: ''
-description: '苛性银的咖啡屋'
+description: ''
 keywords: compititive-programming
 author: AgOH
 language: zh-CN
@@ -48,7 +48,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: '    '
   wrap: true
   hljs: true
 prismjs:
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: arknights
+theme: archer
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -110,3 +110,22 @@ search:
   preload: true
   path: search.json
   format: striptags
+
+jsonContent:
+  meta: true
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: true
+    excerpt: false
+    categories: true
+    tags: true

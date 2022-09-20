@@ -5,6 +5,8 @@ tags: 蓝桥杯
 category: 题解
 ---
 
+<script src="/js/embed.js"></script>
+
 <script> embedpdf("题面", ["LQ12province1_CA", "LQ12province1_CB"]) </script>
 
 ## 空间
