@@ -309,3 +309,11 @@ category: 打卡
 3. <script> embedproblem("cf", "1733A", "Consecutive Sum") </script>
 4. <script> embedproblem("cf", "1733B", "Rule of League") </script>
 5. <script> embedproblem("cf", "1733C", "Parity Shuffle Sorting") </script>
+
+## 2022-09-22
+
+1. <script> embedproblem("nc", "33189A", "Task Computing") </script>
+2. <script> embedproblem("nc", "33189D", "Jobs (Easy Version)") </script>
+3. <script> embedproblem("nc", "33191A", "Array") </script>
+4. <script> embedproblem("nc", "33191J", "Number Game") </script>
+5. <script> embedproblem("nc", "33191M", "Z-Game on grid") </script>
