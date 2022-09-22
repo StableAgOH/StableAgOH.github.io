@@ -317,3 +317,4 @@ category: 打卡
 3. <script> embedproblem("nc", "33191A", "Array") </script>
 4. <script> embedproblem("nc", "33191J", "Number Game") </script>
 5. <script> embedproblem("nc", "33191M", "Z-Game on grid") </script>
+6. <script> embedproblem("nc", "33192K", "Great Party") </script>
