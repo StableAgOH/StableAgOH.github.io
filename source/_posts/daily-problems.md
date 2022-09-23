@@ -318,3 +318,8 @@ category: 打卡
 4. <script> embedproblem("nc", "33191J", "Number Game") </script>
 5. <script> embedproblem("nc", "33191M", "Z-Game on grid") </script>
 6. <script> embedproblem("nc", "33192K", "Great Party") </script>
+
+## 2022-09-23
+
+1. <script> embedproblem("nc", "33192J", "Melborp Elcissalc") </script>
+2. <script> embedproblem("nc", "33194B", "Two Frogs") </script>
