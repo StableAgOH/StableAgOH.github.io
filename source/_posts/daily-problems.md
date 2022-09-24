@@ -323,3 +323,12 @@ category: 打卡
 
 1. <script> embedproblem("nc", "33192J", "Melborp Elcissalc") </script>
 2. <script> embedproblem("nc", "33194B", "Two Frogs") </script>
+3. <script> embedproblem("cf", "1734A", "Select Three Sticks") </script>
+4. <script> embedproblem("cf", "1733B", "Bright, Nice, Brilliant") </script>
+
+## 2022-09-24
+
+1. <script> embedproblem("lg", "P5367", "【模板】康托展开") </script>
+2. <script> embedproblem("lg", "P8550", "冬之花") </script>
+3. <script> embedproblem("cf", "1734C", "Removing Smallest Multiples") </script>
+4. <script> embedproblem("cf", "1734E", "Rectangular Congruence") </script>
