@@ -332,3 +332,9 @@ category: 打卡
 2. <script> embedproblem("lg", "P8550", "冬之花") </script>
 3. <script> embedproblem("cf", "1734C", "Removing Smallest Multiples") </script>
 4. <script> embedproblem("cf", "1734E", "Rectangular Congruence") </script>
+
+## 2022-09-26
+
+1. <script> embedproblem("cf", "1730A", "Planets") </script>
+2. <script> embedproblem("cf", "1730B", "Meeting on the Line") </script>
+3. <script> embedproblem("cf", "1730C", "Minimum Notation") </script>
