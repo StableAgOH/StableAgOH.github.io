@@ -345,3 +345,4 @@ category: 打卡
 1. <script> embedproblem("cf", "1730A", "Planets") </script>
 2. <script> embedproblem("cf", "1730B", "Meeting on the Line") </script>
 3. <script> embedproblem("cf", "1730C", "Minimum Notation") </script>
+4. <script> embedproblem("lg", "P3382", "【模板】三分法") </script>
