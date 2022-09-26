@@ -248,7 +248,7 @@ category: 打卡
 2. <script> embedproblem("cf", "1717B", "Madoka and Underground Competitions") </script>
 3. <script> embedproblem("cf", "1717C", "Madoka and Formal Statement") </script>
 4. <script> embedproblem("cf", "1717D", "Madoka and The Corruption Scheme") </script>
-5. <script> embedproblem("pta", "1459829212832296960", "Search For Mafuyu") </script>
+5. <script> embedproblem("pta", "1459829212832296960K", "Search For Mafuyu") </script>
 
 ## 2022-09-03
 
@@ -279,9 +279,9 @@ category: 打卡
 1. <script> embedproblem("lg", "P5683", "[NOI2018] 归程") </script>
 2. <script> embedproblem("nc", "24872H", "Life is a Game") </script>
 3. <script> embedproblem("nc", "24872I", "Steadily Growing Steam") </script>
-4. <script> embedproblem("pta", "1518150003758182400", "A") </script>
-5. <script> embedproblem("pta", "1518150003758182400", "B") </script>
-6. <script> embedproblem("pta", "1518150003758182400", "C") </script>
+4. <script> embedproblem("pta", "1567079115067162624A", "[no title]") </script>
+5. <script> embedproblem("pta", "1567079115067162624B", "[no title]") </script>
+6. <script> embedproblem("pta", "1567079115067162624C", "[no title]") </script>
 
 ## 2022-09-12
 
@@ -293,13 +293,13 @@ category: 打卡
 
 ## 2022-09-17
 
-1. <script> embedproblem("pta", "1571150153619189760", "C") </script>
-2. <script> embedproblem("pta", "1571150153619189760", "H") </script>
+1. <script> embedproblem("pta", "1571150153619189760C", "Delete the Tree") </script>
+2. <script> embedproblem("pta", "1571150153619189760H", "Step Debugging") </script>
 
 ## 2022-09-18
 
-1. <script> embedproblem("pta", "1571150153619189760", "A") </script>
-2. <script> embedproblem("pta", "1571150153619189760", "D") </script>
+1. <script> embedproblem("pta", "1571150153619189760A", "01 Sequence") </script>
+2. <script> embedproblem("pta", "1571150153619189760D", "Find the Number") </script>
 3. <script> embedproblem("lg", "P2758", "编辑距离") </script>
 
 ## 2022-09-19
@@ -332,6 +332,13 @@ category: 打卡
 2. <script> embedproblem("lg", "P8550", "冬之花") </script>
 3. <script> embedproblem("cf", "1734C", "Removing Smallest Multiples") </script>
 4. <script> embedproblem("cf", "1734E", "Rectangular Congruence") </script>
+
+## 2022-09-25
+
+1. <script> embedproblem("pta", "1574060137151397888E", "An Interesting Sequence") </script>
+2. <script> embedproblem("pta", "1574060137151397888F", "Infinity Tree") </script>
+3. <script> embedproblem("pta", "1574060137151397888J", "A Game about Increasing Sequences") </script>
+4. <script> embedproblem("pta", "1574060137151397888K", "Black and White Painting") </script>
 
 ## 2022-09-26
 

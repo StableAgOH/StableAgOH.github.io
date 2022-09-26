@@ -59,8 +59,9 @@ function embedproblem(oj, pid, title) {
             name = `Nowcoder ${pid} ${title}`;
             break;
         case "pta":
-            url = `https://pintia.cn/problem-sets/${pid}`;
-            name = `PTA ${pid}`;
+            [c, p] = pid.match(/(\d+)(.*)/).slice(1)
+            url = `https://pintia.cn/problem-sets/${c}`;
+            name = `PTA ${pid} ${title}`;
             break;
         default:
             throw new Error(`${oj} is an unsupported OJ`);
