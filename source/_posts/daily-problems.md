@@ -339,10 +339,12 @@ category: 打卡
 2. <script> embedproblem("pta", "1574060137151397888F", "Infinity Tree") </script>
 3. <script> embedproblem("pta", "1574060137151397888J", "A Game about Increasing Sequences") </script>
 4. <script> embedproblem("pta", "1574060137151397888K", "Black and White Painting") </script>
+5. <script> embedproblem("cf", "1730A", "Planets") </script>
 
 ## 2022-09-26
 
-1. <script> embedproblem("cf", "1730A", "Planets") </script>
-2. <script> embedproblem("cf", "1730B", "Meeting on the Line") </script>
-3. <script> embedproblem("cf", "1730C", "Minimum Notation") </script>
+1. <script> embedproblem("cf", "1730B", "Meeting on the Line") </script>
+2. <script> embedproblem("cf", "1730C", "Minimum Notation") </script>
+3. <script> embedproblem("cf", "1730D", "Prefixes and Suffixes") </script>
 4. <script> embedproblem("lg", "P3382", "【模板】三分法") </script>
+5. <script> embedproblem("lg", "P1496", "火烧赤壁") </script>
