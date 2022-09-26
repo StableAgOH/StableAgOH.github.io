@@ -324,7 +324,7 @@ category: 打卡
 1. <script> embedproblem("nc", "33192J", "Melborp Elcissalc") </script>
 2. <script> embedproblem("nc", "33194B", "Two Frogs") </script>
 3. <script> embedproblem("cf", "1734A", "Select Three Sticks") </script>
-4. <script> embedproblem("cf", "1733B", "Bright, Nice, Brilliant") </script>
+4. <script> embedproblem("cf", "1734B", "Bright, Nice, Brilliant") </script>
 
 ## 2022-09-24
 
