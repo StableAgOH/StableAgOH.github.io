@@ -356,3 +356,9 @@ category: 打卡
 3. <script> embedproblem("nc", "33195I", "Yet Another FFT Problem?") </script>
 4. <script> embedproblem("nc", "21592A", "Mio visits ACGN Exhibition") </script>
 5. <script> embedproblem("nc", "21592H", "Hearthstone So Easy") </script>
+
+## 2022-09-30
+
+1. <script> embedproblem("cf", "1739A", "Immobile Knight") </script>
+2. <script> embedproblem("cf", "1739B", "Array Recovery") </script>
+3. <script> embedproblem("cf", "1739C", "Card Game") </script>
