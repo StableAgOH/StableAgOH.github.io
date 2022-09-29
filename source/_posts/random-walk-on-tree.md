@@ -9,12 +9,12 @@ category: 笔记
 
 ## 需要用到的定义
 
-* $T=(V,E)$：所讨论的树
-* $d(u)$：$u$ 结点的度数
-* $w(u,v)$：$u$ 结点与 $v$ 结点之间的边的边权
-* $p_u$：$u$ 结点的父结点
-* ${son}_u$：$u$ 结点的子结点集合
-* ${sibling}_u$：$u$ 结点的兄弟结点集合
+* $T=(V,E)$: 所讨论的树
+* $d(u)$: $u$ 结点的度数
+* $w(u,v)$: $u$ 结点与 $v$ 结点之间的边的边权
+* $p_u$: $u$ 结点的父结点
+* ${son}_u$: $u$ 结点的子结点集合
+* ${sibling}_u$: $u$ 结点的兄弟结点集合
 
 ## 向父结点走的期望距离
 
@@ -29,9 +29,9 @@ $$f(u) = \cfrac{w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v) + f(u))}{d(
 $$
 \begin{aligned}
     f(u) &= \cfrac{w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v) + f(u))}{d(u)} \\
-            &= \cfrac{w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v)) + (d(u)-1)f(u)}{d(u)} \\
-            &= w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v)) \\
-            &= \sum\limits_{(u,t) \in E}w(u,t) + \sum\limits_{v \in {son}_u}f(v)
+         &= \cfrac{w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v)) + (d(u)-1)f(u)}{d(u)} \\
+         &= w(u,p_u) + \sum\limits_{v \in {son}_u}(w(u,v) + f(v)) \\
+         &= \sum\limits_{(u,t) \in E}w(u,t) + \sum\limits_{v \in {son}_u}f(v)
 \end{aligned}
 $$
 
@@ -49,7 +49,7 @@ $$f(u) = d(u) + \sum\limits_{v \in {son}_u}f(v)$$
 
 $$g(u) = \cfrac{w(p_u,u) + \left(w(p_u,p_{p_u})+g(p_u)+g(u)\right) + \sum\limits_{s \in {sibling}_u}(w(p_u,s)+f(s)+g(u))}{d(p_u)}$$
 
-分子中的第一部分代表直接走向了子结点 $u$，第二部分代表先走向了父结点再由父结点走回来然后再向 $u$ 结点走，第三部分代表先走向 $u$ 结点的兄弟结点再由其走回来然后再向 $u$ 结点走；分母 $d(u)$ 代表从 $u$ 结点走向其任何邻接点的概率相同。
+分子中的第一部分代表直接走向了子结点 $u$，第二部分代表先走向了父结点再由父结点走回来然后再向 $u$ 结点走，第三部分代表先走向 $u$ 结点的兄弟结点再由其走回来然后再向 $u$ 结点走；分母 $d(p_u)$ 代表从 $p_u$ 结点走向其任何邻接点的概率相同。
 
 化简如下：
 
