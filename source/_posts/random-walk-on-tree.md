@@ -5,6 +5,8 @@ tags: [树, 概率 DP]
 category: 笔记
 ---
 
+给定一棵树，树的某个结点上有一个硬币，在某一时刻硬币会等概率地移动到邻接结点上，问硬币移动到邻接结点上的期望距离。
+
 ## 需要用到的定义
 
 * $T=(V,E)$：所讨论的树
@@ -56,12 +58,35 @@ $$
     g(u) &= \cfrac{w(p_u,u) + \left(w(p_u,p_{p_u})+g(p_u)+g(u)\right) + \sum\limits_{s \in {sibling}_u}(w(p_u,s)+f(s)+g(u))}{d(p_u)} \\
          &= \cfrac{w(p_u,u) + w(p_u,p_{p_u}) + g(p_u) + \sum\limits_{s \in {sibling}_u}\left(w(p_u,s)+f(s)\right)+(d(p_u)-1)g(u)}{d(p_u)} \\
          &= w(p_u,u) + w(p_u,p_{p_u}) + g(p_u) + \sum\limits_{s \in {sibling}_u}(w(p_u,s)+f(s)) \\
-         &= \sum\limits_{(p_u,t) \in E}w(p_u,t) + g(p_u) + \sum\limits_{s \in {sibling}_u}f(s)
+         &= \sum\limits_{(p_u,t) \in E}w(p_u,t) + g(p_u) + \sum\limits_{s \in {sibling}_u}f(s) \\
+         &= \sum\limits_{(p_u,t) \in E}w(p_u,t) + g(p_u) + \left(f(p_u)-\sum\limits_{(p_u,t) \in E}w(p_u,t)-f(u)\right) \\
+         &= g(p_u) + f(p_u) - f(u)
 \end{aligned}
 $$
 
 初始状态为 $g(root) = 0$。
 
-当树上所有边的边权都为 $1$ 时，上式可化为：
+## 代码实现（以无权树为例）
 
-$$g(u) = d(p_u) + g(p_u) + \sum\limits_{s \in {sibling}_u}f(s)$$
+```cpp
+vector<int> G[maxn];
+void dfs1(int u,int p)
+{
+    f[u] = G[u].size();
+    for(auto v : G[u])
+    {
+        if(v==p) continue;
+        dfs1(v,u);
+        f[u] += f[v];
+    }
+}
+void dfs2(int u,int p)
+{
+    if(u!=1) g[u] = g[p]+f[p]-f[u];
+    for(auto v : G[u])
+    {
+        if(v==p) continue;
+        dfs2(v,u);
+    }
+}
+```
