@@ -355,3 +355,4 @@ category: 打卡
 2. <script> embedproblem("nc", "33195H", "Wheel of Fortune") </script>
 3. <script> embedproblem("nc", "33195I", "Yet Another FFT Problem?") </script>
 4. <script> embedproblem("nc", "21592A", "Mio visits ACGN Exhibition") </script>
+5. <script> embedproblem("nc", "21592H", "Hearthstone So Easy") </script>
