@@ -348,3 +348,9 @@ category: 打卡
 3. <script> embedproblem("cf", "1730D", "Prefixes and Suffixes") </script>
 4. <script> embedproblem("lg", "P3382", "【模板】三分法") </script>
 5. <script> embedproblem("lg", "P1496", "火烧赤壁") </script>
+
+## 2022-09-29
+
+1. <script> embedproblem("nc", "33195F", "Shannon Switching Game?") </script>
+2. <script> embedproblem("nc", "33195H", "Wheel of Fortune") </script>
+3. <script> embedproblem("nc", "33195I", "Yet Another FFT Problem?") </script>
