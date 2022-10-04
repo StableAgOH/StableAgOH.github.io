@@ -262,6 +262,12 @@ category: 打卡
 2. <script> embedproblem("gym", "103743I", "Cutting Suffix") </script>
 3. <script> embedproblem("gym", "103743J", "Balanced Tree") </script>
 
+## 2022-09-06
+
+1. <script> embedproblem("cf", "1726A", "Mainak and Array") </script>
+2. <script> embedproblem("cf", "1726B", "Mainak and Interesting Sequence") </script>
+3. <script> embedproblem("cf", "1726C", "Jatayu's Balanced Bracket Sequence") </script>
+
 ## 2022-09-08
 
 1. <script> embedproblem("cf", "1728A", "Colored Balls: Revisited") </script>
