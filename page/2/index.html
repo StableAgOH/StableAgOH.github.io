@@ -444,6 +444,54 @@
             
         
         <article class="index-post">
+            <a class="abstract-title" href="/2022/09/18/enumerate-binary-subsets/">
+                
+                <span class="abstract-title-text">使用位运算枚举二进制子集的巧妙方法</span>
+            </a>
+            <div class="abstract-content">
+                今天发现了一个使用位运算枚举二进制子集的风骚方法，特记录一下：
+枚举子集
+设 \(s\) 为要被枚举的集合：
+12for(int i=s;i;i=(i-1)&amp;s)    cout&lt;&lt;bitset&lt;4&gt;(i)&lt;&lt;endl;
+当 \(s=7=(111)_2\) 时，上述代码的运行结果为：
+12345670111011001010100001100100001
+枚举出的结果是递减的。
+枚举固定大小的子集
+设 \(n\) 为集合大小，\(m\) 为要枚举的子集大小：
+12for(int i=(1&lt;&lt;m)-1,x,y;i&lt;(1&lt;&...
+            </div>
+            <!-- read more -->
+            
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2022/10/04">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/09/18</span>
+                </div>
+                <!-- tags -->
+                
+                    <div class= abstract-tags >
+    
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="二进制">二进制</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="位运算">位运算</a>
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="枚举子集">枚举子集</a>
+    
+</div>
+
+                
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+    
+        
+        
+        
+        
+            
+        
+        <article class="index-post">
             <a class="abstract-title" href="/2022/08/31/random-walk-on-tree/">
                 
                 <span class="abstract-title-text">树上随机游走问题</span>
@@ -953,7 +1001,20 @@
         
         
         
+        
+        
+        
+        
+        
     
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -1044,7 +1105,7 @@
     
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 15
+        Total : 16
         </div>
         <!-- search  -->
         
@@ -1058,6 +1119,12 @@
             <div class="archive-year"> 2022 </div>
             <ul class="year-list">
             
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/04</span>
+            <a class="archive-post-title" href="/2022/10/04/codeforces/1717/">Codeforces Round #818 (Div. 2) 题解</a>
+        </li>
+    
         
         <li class="archive-post-item">
             <span class="archive-post-date">10/04</span>
