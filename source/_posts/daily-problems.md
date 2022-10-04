@@ -374,3 +374,7 @@ category: 打卡
 1. <script> embedproblem("cf", "1735A", "Working Week") </script>
 2. <script> embedproblem("cf", "1735B", "Tea with Tangerines") </script>
 3. <script> embedproblem("cf", "1735C", "Phase Shift") </script>
+
+## 2022-10-04
+
+1. <script> embedproblem("cf", "1735D", "Meta-set") </script>
