@@ -21,7 +21,7 @@
     <meta name="description" content="">
     <meta property="og:type" content="website">
 <meta property="og:title" content="AgOH&#39;s Coffeehouse">
-<meta property="og:url" content="https://stagoh.com/tags/%E6%A0%91/">
+<meta property="og:url" content="https://stagoh.com/categories/%E9%A2%98%E8%A7%A3/page/2/">
 <meta property="og:site_name" content="AgOH&#39;s Coffeehouse">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="AgOH">
@@ -429,40 +429,38 @@
             
         
         <article class="index-post">
-            <a class="abstract-title" href="/2022/08/31/random-walk-on-tree/">
+            <a class="abstract-title" href="/2022/04/11/LQ12province2-C/">
                 
-                <span class="abstract-title-text">树上随机游走问题</span>
+                <span class="abstract-title-text">第十二届蓝桥杯省赛第二场 C/C++ 组题解</span>
             </a>
             <div class="abstract-content">
-                给定一棵树，树的某个结点上有一个硬币，在某一时刻硬币会等概率地移动到邻接结点上，问硬币移动到邻接结点上的期望距离。
-需要用到的定义
-
-\(T=(V,E)\): 所讨论的树
-\(d(u)\): \(u\) 结点的度数
-\(w(u,v)\): \(u\) 结点与 \(v\) 结点之间的边的边权
-\(p_u\): \(u\) 结点的父结点
-\({son}_u\): \(u\) 结点的子结点集合
-\({sibling}_u\): \(u\) 结点的兄弟结点集合
-
-向父结点走的期望距离
-设 \(f(u)\) 代表 \(u\) 结点走到其父结点 \(p_u\) 的期望距离，则有：
-\[f(u) = ...
+                
+ embedpdf("题面", ["LQ12province2_CA", "LQ12province2_CB"]) 
+求余
+送分题
+答案：\(1\)
+双阶乘
+只需要维护最后 \(5\) 位即可，于是一个 for 搞定，边乘边对 \({10}^5\) 取模
+答案：\(59375\)
+ embedcode("Code", "https://github.com/StableAgOH/solved-problems/blob/main/lq/12/province2/C/2.cpp") 
+格点
+两重 for 遍历 \(x,y\) 值然后加一个判断计数即可
+答案：\(15698\)
+ embe...
             </div>
             <!-- read more -->
             
             <div class="abstract-post-meta">
                 <!-- date -->
                 <div class="abstract-date" title="Last updated: 2022/10/04">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/08/31</span>
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/04/11</span>
                 </div>
                 <!-- tags -->
                 
                     <div class= abstract-tags >
     
     
-        <a class="post-tag" href="javascript:void(0);" data-tags="树">树</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="概率 DP">概率 DP</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="蓝桥杯">蓝桥杯</a>
     
 </div>
 
@@ -472,6 +470,10 @@
         <div class="index-post-divider"></div>
     
     <!-- paginator  -->
+    
+        <nav class="page-nav">
+            <a class="extend prev" rel="prev" href="/categories/%E9%A2%98%E8%A7%A3/">&lt; PREV</a><a class="page-number" href="/categories/%E9%A2%98%E8%A7%A3/">1</a><span class="page-number current">2</span>
+        </nav>
     
 </main>
 
