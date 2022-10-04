@@ -362,3 +362,15 @@ category: 打卡
 1. <script> embedproblem("cf", "1739A", "Immobile Knight") </script>
 2. <script> embedproblem("cf", "1739B", "Array Recovery") </script>
 3. <script> embedproblem("cf", "1739C", "Card Game") </script>
+
+## 2022-10-01
+
+1. <script> embedproblem("cf", "1738A", "Glory Addicts") </script>
+2. <script> embedproblem("cf", "1738B", "Prefix Sum Addicts") </script>
+3. <script> embedproblem("cf", "1738C", "Even Number Addicts") </script>
+
+## 2022-10-02
+
+1. <script> embedproblem("cf", "1735A", "Working Week") </script>
+2. <script> embedproblem("cf", "1735B", "Tea with Tangerines") </script>
+3. <script> embedproblem("cf", "1735C", "Phase Shift") </script>
