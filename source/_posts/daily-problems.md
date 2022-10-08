@@ -403,3 +403,10 @@ category: 打卡
 5. <script> embedproblem("nc", "41772C", "graph") </script>
 6. <script> embedproblem("nc", "41772G", "Permutation") </script>
 7. <script> embedproblem("nc", "41772L", "Suspension") </script>
+
+## 2022-10-08
+
+1. <script> embedproblem("nc", "41745A", "别恶心啊") </script>
+2. <script> embedproblem("nc", "41745B", "瓜瓜的字符串(easy)") </script>
+3. <script> embedproblem("nc", "41745D", "瓜瓜爱数数") </script>
+4. <script> embedproblem("nc", "41745E", "瓜瓜的中国剩余定理") </script>
