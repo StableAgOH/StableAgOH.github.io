@@ -384,3 +384,22 @@ category: 打卡
 ## 2022-10-04
 
 1. <script> embedproblem("cf", "1735D", "Meta-set") </script>
+
+## 2022-10-05
+
+1. <script> embedproblem("gym", "103940C", "Correcting School Enrollment Errors") </script>
+2. <script> embedproblem("gym", "103940E", "Express Warehouse Migration") </script>
+3. <script> embedproblem("gym", "103940F", "Famous Paintings") </script>
+4. <script> embedproblem("gym", "103940G", "Guadalajara trains") </script>
+5. <script> embedproblem("gym", "103940H", "How Many Laughs") </script>
+6. <script> embedproblem("gym", "103940K", "Krystalova's Trivial Problem") </script>
+
+## 2022-10-07
+
+1. <script> embedproblem("cf", "1737A", "Ela Sorting Books") </script>
+2. <script> embedproblem("cf", "1737B", "Ela's Fitness and the Luxury Number") </script>
+3. <script> embedproblem("cf", "1737C", "Ela and Crickets") </script>
+4. <script> embedproblem("nc", "41772A", "Goldbach Conjecture") </script>
+5. <script> embedproblem("nc", "41772C", "graph") </script>
+6. <script> embedproblem("nc", "41772G", "Permutation") </script>
+7. <script> embedproblem("nc", "41772L", "Suspension") </script>
