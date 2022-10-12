@@ -410,3 +410,23 @@ category: 打卡
 2. <script> embedproblem("nc", "41745B", "瓜瓜的字符串(easy)") </script>
 3. <script> embedproblem("nc", "41745D", "瓜瓜爱数数") </script>
 4. <script> embedproblem("nc", "41745E", "瓜瓜的中国剩余定理") </script>
+
+## 2022-10-10
+
+1. <script> embedproblem("gym", "103941A", "Mocha 上小班啦") </script>
+2. <script> embedproblem("gym", "103941E", "Serval 的俳句") </script>
+3. <script> embedproblem("gym", "103941F", "Mocha 上大班啦") </script>
+4. <script> embedproblem("gym", "103941G", "Mocha 上小班啦") </script>
+5. <script> embedproblem("gym", "103941H", "旋转水管") </script>
+6. <script> embedproblem("gym", "103941J", "Mex Tree") </script>
+7. <script> embedproblem("cf", "1736A", "Make A Equal to B") </script>
+8. <script> embedproblem("cf", "1736B", "Playing with GCD") </script>
+
+## 2022-10-11
+
+1. <script> embedproblem("cf", "1736C1", "Good Subarrays (Easy Version)") </script>
+2. <script> embedproblem("cf", "1741A", "Compare T-Shirt Sizes") </script>
+3. <script> embedproblem("cf", "1741B", "Funny Permutation") </script>
+4. <script> embedproblem("cf", "1741C", "Minimize the Thickness") </script>
+5. <script> embedproblem("cf", "1741D", "Masha and a Beautiful Tree") </script>
+6. <script> embedproblem("cf", "1741E", "Sending a Sequence Over the Network") </script>
