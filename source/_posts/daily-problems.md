@@ -430,3 +430,19 @@ category: 打卡
 4. <script> embedproblem("cf", "1741C", "Minimize the Thickness") </script>
 5. <script> embedproblem("cf", "1741D", "Masha and a Beautiful Tree") </script>
 6. <script> embedproblem("cf", "1741E", "Sending a Sequence Over the Network") </script>
+
+## 2022-10-15
+
+1. <script> embedproblem("cf", "1746A", "Maxmina") </script>
+2. <script> embedproblem("cf", "1746B", "Rebellion") </script>
+3. <script> embedproblem("cf", "1746C", "Permutation Operations") </script>
+4. <script> embedproblem("cf", "1746D", "Paths on the Tree") </script>
+
+## 2022-10-16
+
+1. <script> embedproblem("cf", "1744A", "Number Replacement") </script>
+2. <script> embedproblem("cf", "1744B", "Even-Odd Increments") </script>
+3. <script> embedproblem("cf", "1744C", "Traffic Light") </script>
+4. <script> embedproblem("cf", "1744D", "Divisibility by 2^n") </script>
+5. <script> embedproblem("cf", "1744E1", "Divisible Numbers (easy version)") </script>
+6. <script> embedproblem("cf", "1744F", "MEX vs MED") </script>
