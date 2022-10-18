@@ -444,5 +444,16 @@ category: 打卡
 2. <script> embedproblem("cf", "1744B", "Even-Odd Increments") </script>
 3. <script> embedproblem("cf", "1744C", "Traffic Light") </script>
 4. <script> embedproblem("cf", "1744D", "Divisibility by 2^n") </script>
-5. <script> embedproblem("cf", "1744E1", "Divisible Numbers (easy version)") </script>
-6. <script> embedproblem("cf", "1744F", "MEX vs MED") </script>
+5. <script> embedproblem("cf", "1744F", "MEX vs MED") </script>
+
+## 2022-10-17
+
+1. <script> embedproblem("cf", "1743A", "Password") </script>
+2. <script> embedproblem("cf", "1743B", "Permutation Value") </script>
+3. <script> embedproblem("cf", "1743C", "Save the Magazines") </script>
+4. <script> embedproblem("cf", "1743D", "Problem with Random Tests") </script>
+
+## 2022-10-18
+
+1. <script> embedproblem("cf", "1744E1", "Divisible Numbers (easy version)") </script>
+2. <script> embedproblem("cf", "1744E2", "Divisible Numbers (hard version)") </script>
