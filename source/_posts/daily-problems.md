@@ -457,3 +457,14 @@ category: 打卡
 
 1. <script> embedproblem("cf", "1744E1", "Divisible Numbers (easy version)") </script>
 2. <script> embedproblem("cf", "1744E2", "Divisible Numbers (hard version)") </script>
+
+## 2022-10-20
+
+1. <script> embedproblem("cf", "1749A", "Cowardly Rooks") </script>
+2. <script> embedproblem("cf", "1749B", "Death's Blessing") </script>
+3. <script> embedproblem("cf", "1749C", "Number Game") </script>
+
+## 2022-10-21
+
+1. <script> embedproblem("cf", "1749D", "Counting Arrays") </script>
+2. <script> embedproblem("cf", "1749E", "Cactus Wall") </script>
