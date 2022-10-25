@@ -468,3 +468,21 @@ category: 打卡
 
 1. <script> embedproblem("cf", "1749D", "Counting Arrays") </script>
 2. <script> embedproblem("cf", "1749E", "Cactus Wall") </script>
+
+## 2022-10-23
+
+1. <script> embedproblem("nc", "43898A", "Special Adjustment Method") </script>
+2. <script> embedproblem("nc", "43898B", "01string") </script>
+3. <script> embedproblem("nc", "43898L", "Thunder God's Hammer") </script>
+4. <script> embedproblem("cf", "1754A", "Technical Support") </script>
+5. <script> embedproblem("cf", "1754D", "Factorial Divisibility") </script>
+
+## 2022-10-24
+
+1. <script> embedproblem("cf", "1754B", "Kevin and Permutation") </script>
+
+## 2022-10-25
+
+1. <script> embedproblem("cf", "1754C1", "Make Nonzero Sum (easy version)") </script>
+2. <script> embedproblem("cf", "1754C2", "Make Nonzero Sum (hard version)") </script>
+3. <script> embedproblem("cf", "1754E", "Wish I Knew How to Sort") </script>
