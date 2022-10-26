@@ -486,3 +486,8 @@ category: 打卡
 1. <script> embedproblem("cf", "1754C1", "Make Nonzero Sum (easy version)") </script>
 2. <script> embedproblem("cf", "1754C2", "Make Nonzero Sum (hard version)") </script>
 3. <script> embedproblem("cf", "1754E", "Wish I Knew How to Sort") </script>
+4. <script> embedproblem("nc", "43898C", "Graphic Game") </script>
+
+## 2022-10-26
+
+1. <script> embedproblem("nc", "43898G", "A Game of Taking Numbers") </script>
