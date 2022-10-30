@@ -491,3 +491,30 @@ category: 打卡
 ## 2022-10-26
 
 1. <script> embedproblem("nc", "43898G", "A Game of Taking Numbers") </script>
+
+## 2022-10-27
+
+1. <script> embedproblem("gym", "103931A", "Another A+B Problem") </script>
+2. <script> embedproblem("gym", "103931E", "Expenditure Reduction") </script>
+3. <script> embedproblem("gym", "103931G", "Gua!") </script>
+4. <script> embedproblem("gym", "103931H", "Heirloom Painting") </script>
+5. <script> embedproblem("gym", "103931N", "Nine Is Greater Than Ten") </script>
+
+## 2022-10-28
+
+1. <script> embedproblem("gym", "103428A", "Goodbye, Ziyin!") </script>
+2. <script> embedproblem("gym", "103428D", "Period") </script>
+3. <script> embedproblem("gym", "103428G", "Shinyruo and KFC") </script>
+4. <script> embedproblem("gym", "103428J", "Circular Billiard Table") </script>
+
+## 2022-10-29
+
+1. <script> embedproblem("cf", "1740A", "Factorise N+M") </script>
+2. <script> embedproblem("cf", "1740B", "Jumbo Extra Cheese 2") </script>
+3. <script> embedproblem("cf", "1740C", "Bricks and Bags") </script>
+4. <script> embedproblem("cf", "1740D", "Knowledge Cards") </script>
+
+## 2022-10-30
+
+1. <script> embedproblem("gym", "103415F", "Cactus") </script>
+2. <script> embedproblem("gym", "103415I", "Pudding Store") </script>
