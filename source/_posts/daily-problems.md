@@ -518,3 +518,13 @@ category: 打卡
 
 1. <script> embedproblem("gym", "103415F", "Cactus") </script>
 2. <script> embedproblem("gym", "103415I", "Pudding Store") </script>
+
+## 2022-10-31
+
+1. <script> embedproblem("luogu", "P2341", "[USACO03FALL / HAOI2006] 受欢迎的牛 G") </script>
+2. <script> embedproblem("luogu", "P3387", "【模板】缩点") </script>
+3. <script> embedproblem("luogu", "P2863", "[USACO06JAN] The Cow Prom S") </script>
+4. <script> embedproblem("luogu", "P2746", "[USACO5.3] 校园网 Network of Schools") </script>
+5. <script> embedproblem("luogu", "P1407", "[国家集训队] 稳定婚姻") </script>
+6. <script> embedproblem("luogu", "P2272", "[ZJOI2007] 最大半连通子图") </script>
+7. <script> embedproblem("gym", "103931M", "My University Is Better Than Yours") </script>
