@@ -559,3 +559,7 @@ category: 打卡
 6. <script> embedproblem("cf", "1750A", "Indirect Sort") </script>
 7. <script> embedproblem("cf", "1750B", "Maximum Substring") </script>
 8. <script> embedproblem("cf", "1750C", "Complementary XOR") </script>
+
+## 2022-11-10
+
+1. <script> embedproblem("cf", "1750D", "Count GCD") </script>
