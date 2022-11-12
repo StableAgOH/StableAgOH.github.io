@@ -563,3 +563,9 @@ category: 打卡
 ## 2022-11-10
 
 1. <script> embedproblem("cf", "1750D", "Count GCD") </script>
+
+## 2022-11-12
+
+1. <script> embedproblem("cf", "1748A", "The Ultimate Square") </script>
+2. <script> embedproblem("cf", "1748B", "Diverse Substrings") </script>
+3. <script> embedproblem("cf", "1748C", "Zero-Sum Prefixes") </script>
