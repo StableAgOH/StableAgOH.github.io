@@ -569,3 +569,18 @@ category: 打卡
 1. <script> embedproblem("cf", "1748A", "The Ultimate Square") </script>
 2. <script> embedproblem("cf", "1748B", "Diverse Substrings") </script>
 3. <script> embedproblem("cf", "1748C", "Zero-Sum Prefixes") </script>
+
+## 2022-11-14
+
+1. <script> embedproblem("pta", "1584477476428324864A", "CCPC") </script>
+2. <script> embedproblem("pta", "1584477476428324864B", "道路") </script>
+3. <script> embedproblem("pta", "1584477476428324864D", "函数") </script>
+4. <script> embedproblem("pta", "1584477476428324864E", "二进制") </script>
+5. <script> embedproblem("pta", "1584477476428324864H", "修复括号序列") </script>
+6. <script> embedproblem("pta", "1584477476428324864I", "石子游戏") </script>
+7. <script> embedproblem("pta", "1584477476428324864J", "密码") </script>
+8. <script> embedproblem("pta", "1584477476428324864K", "游乐场选址") </script>
+
+## 2022-11-15
+
+1. <script> embedproblem("gym", "104023D", "Sternhalma") </script>
