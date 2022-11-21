@@ -570,6 +570,11 @@ category: 打卡
 2. <script> embedproblem("cf", "1748B", "Diverse Substrings") </script>
 3. <script> embedproblem("cf", "1748C", "Zero-Sum Prefixes") </script>
 
+## 2022-11-13
+
+1. <script> embedproblem("luogu", "P8813", "[CSP-J 2022] 乘方") </script>
+2. <script> embedproblem("luogu", "P8814", "[CSP-J 2022] 解密") </script>
+
 ## 2022-11-14
 
 1. <script> embedproblem("pta", "1584477476428324864A", "CCPC") </script>
@@ -584,3 +589,38 @@ category: 打卡
 ## 2022-11-15
 
 1. <script> embedproblem("gym", "104023D", "Sternhalma") </script>
+2. <script> embedproblem("cf", "263A", "Beautiful Matrix") </script>
+3. <script> embedproblem("cf", "112A", "Petya and Strings") </script>
+4. <script> embedproblem("cf", "584A", "Olesya and Rodion") </script>
+5. <script> embedproblem("cf", "476A", "Dreamoon and Stairs") </script>
+6. <script> embedproblem("cf", "1352B", "Same Parity Summands") </script>
+7. <script> embedproblem("cf", "1328C", "Ternary XOR") </script>
+8. <script> embedproblem("cf", "479C", "Exams") </script>
+9. <script> embedproblem("cf", "1324D", "Pair of Topics") </script>
+
+## 2022-11-18
+
+1. <script> embedproblem("cf", "644A", "Parliament of Berland") </script>
+2. <script> embedproblem("cf", "632A", "Grandma Laura and Apples") </script>
+3. <script> embedproblem("cf", "959B", "Mahmoud and Ehab and the message") </script>
+4. <script> embedproblem("cf", "1422B", "Nice Matrix") </script>
+5. <script> embedproblem("cf", "1759A", "Yes-Yes?") </script>
+6. <script> embedproblem("cf", "1759B", "Lost Permutation") </script>
+7. <script> embedproblem("cf", "1759C", "Thermostat") </script>
+8. <script> embedproblem("cf", "1759D", "Make It Round") </script>
+9. <script> embedproblem("cf", "1759E", "The Humanoid") </script>
+
+## 2022-11-20
+
+1. <script> embedproblem("cf", "1553C", "Penalty") </script>
+2. <script> embedproblem("cf", "129B", "Students and Shoelaces") </script>
+3. <script> embedproblem("cf", "717C", "Potions Homework") </script>
+4. <script> embedproblem("cf", "807B", "T-Shirt Hunt") </script>
+5. <script> embedproblem("cf", "922B", "Magic Forest") </script>
+
+## 2022-11-21
+
+1. <script> embedproblem("cf", "1761A", "Two Permutations") </script>
+2. <script> embedproblem("cf", "1761B", "Elimination of a Ring") </script>
+3. <script> embedproblem("cf", "1761C", "Set Construction") </script>
+4. <script> embedproblem("cf", "1761E", "Make It Connected") </script>
