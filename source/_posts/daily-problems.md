@@ -629,4 +629,5 @@ category: 打卡
 1. <script> embedproblem("cf", "1761A", "Two Permutations") </script>
 2. <script> embedproblem("cf", "1761B", "Elimination of a Ring") </script>
 3. <script> embedproblem("cf", "1761C", "Set Construction") </script>
-4. <script> embedproblem("cf", "1761E", "Make It Connected") </script>
+4. <script> embedproblem("cf", "1761D", "Carry Bit") </script>
+5. <script> embedproblem("cf", "1761E", "Make It Connected") </script>
