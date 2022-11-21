@@ -574,6 +574,12 @@ category: 打卡
 
 1. <script> embedproblem("luogu", "P8813", "[CSP-J 2022] 乘方") </script>
 2. <script> embedproblem("luogu", "P8814", "[CSP-J 2022] 解密") </script>
+3. <script> embedproblem("cf", "1476A", "K-divisible Sum") </script>
+4. <script> embedproblem("cf", "514A", "Chewbaсca and Number") </script>
+5. <script> embedproblem("cf", "1354B", "Ternary String") </script>
+6. <script> embedproblem("cf", "1537C", "Challenging Cliffs") </script>
+7. <script> embedproblem("cf", "279B", "Books") </script>
+8. <script> embedproblem("cf", "371C", "Hamburgers") </script>
 
 ## 2022-11-14
 
