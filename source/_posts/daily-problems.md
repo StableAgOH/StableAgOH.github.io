@@ -499,6 +499,10 @@ category: 打卡
 3. <script> embedproblem("gym", "103931G", "Gua!") </script>
 4. <script> embedproblem("gym", "103931H", "Heirloom Painting") </script>
 5. <script> embedproblem("gym", "103931N", "Nine Is Greater Than Ten") </script>
+6. <script> embedproblem("cf", "1692A", "Marathon") </script>
+7. <script> embedproblem("cf", "1703A", "YES or YES?") </script>
+8. <script> embedproblem("cf", "1669A", "Division?") </script>
+9. <script> embedproblem("cf", "1722A", "Spell Check") </script>
 
 ## 2022-10-28
 
@@ -536,6 +540,11 @@ category: 打卡
 ## 2022-11-02
 
 1. <script> embedproblem("luogu", "P3388", "【模板】割点（割顶）") </script>
+2. <script> embedproblem("cf", "50A", "Domino piling") </script>
+3. <script> embedproblem("cf", "282A", "Bit++") </script>
+4. <script> embedproblem("cf", "231A", "Team") </script>
+5. <script> embedproblem("cf", "96A", "Football") </script>
+6. <script> embedproblem("cf", "160A", "Twins") </script>
 
 ## 2022-11-03
 
@@ -556,9 +565,23 @@ category: 打卡
 3. <script> embedproblem("gym", "104023E", "Python Will be Faster than C++") </script>
 4. <script> embedproblem("gym", "104023G", "Grade 2") </script>
 5. <script> embedproblem("gym", "104023J", "Eat, Sleep, Repeat") </script>
-6. <script> embedproblem("cf", "1750A", "Indirect Sort") </script>
-7. <script> embedproblem("cf", "1750B", "Maximum Substring") </script>
-8. <script> embedproblem("cf", "1750C", "Complementary XOR") </script>
+6. <script> embedproblem("cf", "118A", "String Task") </script>
+7. <script> embedproblem("cf", "69A", "Young Physicist") </script>
+8. <script> embedproblem("cf", "58A", "Chat room") </script>
+9. <script> embedproblem("cf", "1352C", "K-th Not Divisible by n") </script>
+10. <script> embedproblem("cf", "459A", "Pashmak and Garden") </script>
+11. <script> embedproblem("cf", "977C", "Less or Equal") </script>
+12. <script> embedproblem("cf", "1750A", "Indirect Sort") </script>
+13. <script> embedproblem("cf", "1750B", "Maximum Substring") </script>
+14. <script> embedproblem("cf", "1750C", "Complementary XOR") </script>
+
+## 2022-11-09
+
+1. <script> embedproblem("cf", "131A", "cAPS lOCK") </script>
+2. <script> embedproblem("cf", "230A", "Dragons") </script>
+3. <script> embedproblem("cf", "579A", "Raising Bacteria") </script>
+4. <script> embedproblem("cf", "379A", "New Year Candles") </script>
+5. <script> embedproblem("cf", "43A", "Football") </script>
 
 ## 2022-11-10
 
