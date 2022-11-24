@@ -654,3 +654,10 @@ category: 打卡
 3. <script> embedproblem("cf", "1761C", "Set Construction") </script>
 4. <script> embedproblem("cf", "1761D", "Carry Bit") </script>
 5. <script> embedproblem("cf", "1761E", "Make It Connected") </script>
+
+## 2022-11-24
+
+1. <script> embedproblem("luogu", "P2014", "[CTSC1997] 选课") </script>
+2. <script> embedproblem("luogu", "P1106", "删数问题") </script>
+3. <script> embedproblem("luogu", "P1219", "[USACO1.5]八皇后 Checker Challenge") </script>
+4. <script> embedproblem("luogu", "P2617", "Dynamic Rankings") </script>
