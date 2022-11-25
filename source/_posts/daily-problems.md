@@ -661,3 +661,14 @@ category: 打卡
 2. <script> embedproblem("luogu", "P1106", "删数问题") </script>
 3. <script> embedproblem("luogu", "P1219", "[USACO1.5]八皇后 Checker Challenge") </script>
 4. <script> embedproblem("luogu", "P2617", "Dynamic Rankings") </script>
+
+## 2022-11-25
+
+1. <script> embedproblem("gym", "104023B", "Recruitment") </script>
+2. <script> embedproblem("gym", "104023I", "Dragon Bloodline") </script>
+3. <script> embedproblem("cf", "1515A", "Phoenix and Gold") </script>
+4. <script> embedproblem("cf", "1040A", "Palindrome Dance") </script>
+5. <script> embedproblem("cf", "27A", "Next Test") </script>
+6. <script> embedproblem("cf", "1082A", "Vasya and Book") </script>
+7. <script> embedproblem("cf", "15A", "Cottage Village") </script>
+8. <script> embedproblem("cf", "39F", "Pacifist frogs") </script>
