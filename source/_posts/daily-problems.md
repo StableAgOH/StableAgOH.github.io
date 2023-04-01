@@ -525,21 +525,21 @@ category: 打卡
 
 ## 2022-10-31
 
-1. <script> embedproblem("luogu", "P2341", "[USACO03FALL / HAOI2006] 受欢迎的牛 G") </script>
-2. <script> embedproblem("luogu", "P3387", "【模板】缩点") </script>
-3. <script> embedproblem("luogu", "P2863", "[USACO06JAN] The Cow Prom S") </script>
-4. <script> embedproblem("luogu", "P2746", "[USACO5.3] 校园网 Network of Schools") </script>
-5. <script> embedproblem("luogu", "P1407", "[国家集训队] 稳定婚姻") </script>
-6. <script> embedproblem("luogu", "P2272", "[ZJOI2007] 最大半连通子图") </script>
+1. <script> embedproblem("lg", "P2341", "[USACO03FALL / HAOI2006] 受欢迎的牛 G") </script>
+2. <script> embedproblem("lg", "P3387", "【模板】缩点") </script>
+3. <script> embedproblem("lg", "P2863", "[USACO06JAN] The Cow Prom S") </script>
+4. <script> embedproblem("lg", "P2746", "[USACO5.3] 校园网 Network of Schools") </script>
+5. <script> embedproblem("lg", "P1407", "[国家集训队] 稳定婚姻") </script>
+6. <script> embedproblem("lg", "P2272", "[ZJOI2007] 最大半连通子图") </script>
 7. <script> embedproblem("gym", "103931M", "My University Is Better Than Yours") </script>
 
 ## 2022-11-01
 
-1. <script> embedproblem("luogu", "P2515", "[HAOI2010] 软件安装") </script>
+1. <script> embedproblem("lg", "P2515", "[HAOI2010] 软件安装") </script>
 
 ## 2022-11-02
 
-1. <script> embedproblem("luogu", "P3388", "【模板】割点（割顶）") </script>
+1. <script> embedproblem("lg", "P3388", "【模板】割点（割顶）") </script>
 2. <script> embedproblem("cf", "50A", "Domino piling") </script>
 3. <script> embedproblem("cf", "282A", "Bit++") </script>
 4. <script> embedproblem("cf", "231A", "Team") </script>
@@ -548,15 +548,15 @@ category: 打卡
 
 ## 2022-11-03
 
-1. <script> embedproblem("luogu", "P8435", "【模板】点双连通分量") </script>
-2. <script> embedproblem("luogu", "P8436", "【模板】边双连通分量") </script>
-3. <script> embedproblem("luogu", "T103481", "【模板】割边") </script>
-4. <script> embedproblem("luogu", "P3225", "[HNOI2012] 矿场搭建") </script>
+1. <script> embedproblem("lg", "P8435", "【模板】点双连通分量") </script>
+2. <script> embedproblem("lg", "P8436", "【模板】边双连通分量") </script>
+3. <script> embedproblem("lg", "T103481", "【模板】割边") </script>
+4. <script> embedproblem("lg", "P3225", "[HNOI2012] 矿场搭建") </script>
 
 ## 2022-11-04
 
-1. <script> embedproblem("luogu", "P6136", "【模板】普通平衡树（数据加强版）") </script>
-2. <script> embedproblem("luogu", "P2580", "于是他错误的点名开始了") </script>
+1. <script> embedproblem("lg", "P6136", "【模板】普通平衡树（数据加强版）") </script>
+2. <script> embedproblem("lg", "P2580", "于是他错误的点名开始了") </script>
 
 ## 2022-11-06
 
@@ -595,8 +595,8 @@ category: 打卡
 
 ## 2022-11-13
 
-1. <script> embedproblem("luogu", "P8813", "[CSP-J 2022] 乘方") </script>
-2. <script> embedproblem("luogu", "P8814", "[CSP-J 2022] 解密") </script>
+1. <script> embedproblem("lg", "P8813", "[CSP-J 2022] 乘方") </script>
+2. <script> embedproblem("lg", "P8814", "[CSP-J 2022] 解密") </script>
 3. <script> embedproblem("cf", "1476A", "K-divisible Sum") </script>
 4. <script> embedproblem("cf", "514A", "Chewbaсca and Number") </script>
 5. <script> embedproblem("cf", "1354B", "Ternary String") </script>
@@ -657,10 +657,10 @@ category: 打卡
 
 ## 2022-11-24
 
-1. <script> embedproblem("luogu", "P2014", "[CTSC1997] 选课") </script>
-2. <script> embedproblem("luogu", "P1106", "删数问题") </script>
-3. <script> embedproblem("luogu", "P1219", "[USACO1.5]八皇后 Checker Challenge") </script>
-4. <script> embedproblem("luogu", "P2617", "Dynamic Rankings") </script>
+1. <script> embedproblem("lg", "P2014", "[CTSC1997] 选课") </script>
+2. <script> embedproblem("lg", "P1106", "删数问题") </script>
+3. <script> embedproblem("lg", "P1219", "[USACO1.5]八皇后 Checker Challenge") </script>
+4. <script> embedproblem("lg", "P2617", "Dynamic Rankings") </script>
 
 ## 2022-11-25
 
