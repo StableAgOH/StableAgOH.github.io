@@ -953,10 +953,10 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-pandoc@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-pandoc/-/hexo-renderer-pandoc-0.3.1.tgz#62d0ec7bed307bfdd626f36914e7f9d93d0cdf58"
-  integrity sha512-ZTUzLkJHFA6OCzk37xR9PWYydLwuv4qV7iJMe5p88gxiIo3d1M/dOwsIXEra/olcA/y9UKw57qASCby1NseNsw==
+hexo-renderer-pandoc@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-pandoc/-/hexo-renderer-pandoc-0.4.0.tgz#59000f65a4f75315a8e1d696c3b6d5fe84156191"
+  integrity sha512-e913A2EZbhwbIfg+QvYUalEPHtK5qs9Rqj3ZrsQ3cYTbbiETMWhUQ7bzSlgUeh639eL0UDuBmv2vrEqj5RBchg==
 
 hexo-renderer-pug@^3.0.0:
   version "3.0.0"
