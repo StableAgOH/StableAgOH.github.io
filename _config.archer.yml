@@ -133,8 +133,8 @@ comment:
   # Youyan  site: http://www.uyan.cc/
   youyan_uid: 
   # Valine  site: https://valine.js.org/
-  valine_appId: B5Q4xeHKNTKibAhLlwHoV0rw-gzGzoHsz
-  valine_appKey: qzEYuT5wXWeIXwzBvbIsGyov
+  valine_appId: 
+  valine_appKey: 
   valine_placeHolder: 
   # Waline  site: https://waline.js.org/
   waline_serverURL: 
